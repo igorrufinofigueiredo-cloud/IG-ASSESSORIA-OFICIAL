@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://igorrufinofigueiredo-cloud.github.io/IG-ASSESSORIA-OFICIAL/sitemap.xml
