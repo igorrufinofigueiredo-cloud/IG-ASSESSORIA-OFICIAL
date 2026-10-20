@@ -2115,6 +2115,11 @@ body { font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
 .rodape__base { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; padding-top: 22px; border-top: 1px solid rgba(255,255,255,.1); }
 .rodape__direitos { margin: 0; padding-bottom: 10px; color: rgba(255,255,255,.36); font-size: .78rem; }
 .rodape .footer-credit { display: flex; align-items: flex-end; gap: .6em; margin: 0; color: var(--ig-credito-label); font-size: .9rem; font-weight: 700; line-height: 1; }
+/* assinatura do rodapé: IG na altura das minúsculas de "assessoria", mesma linha de base, só a pena sobe */
+.rodape .footer-credit { align-items: baseline; }
+.rodape .footer-credit__label { padding-bottom: 0; }
+.rodape .footer-credit__brand { align-items: baseline; gap: .26em; padding-block: 0; }
+.rodape .footer-credit__brand .ig-brand__logo { width: auto; height: 1.44em; margin-bottom: 0; position: relative; top: .088em; }
 @media (max-width: 900px) {
   .rodape { padding: 64px 24px 24px; }
   .rodape__topo { grid-template-columns: 1fr 1fr; gap: 40px 28px; }
