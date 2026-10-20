@@ -291,7 +291,7 @@ img { display: block; max-width: 100%; }
 .hero__title {
   margin: 14px 0 0 42px;
   max-width: 560px;
-  font-size: clamp(2.75rem, 5vw, 4.7rem);
+  font-size: clamp(2.5rem, 4.3vw, 4.05rem);
   line-height: .96;
   letter-spacing: -.05em;
   font-weight: 300;
@@ -1120,76 +1120,57 @@ img { display: block; max-width: 100%; }
   align-self: flex-start;
 }
 
-/* ============ MAINTENANCE PLAN OPTIONS (accordion-style radio cards) ============ */
-.quote-form__maintenance-note {
-  margin: 2px 0 0;
-  color: rgba(255,255,255,.5);
-  font-size: .86rem;
-  line-height: 1.65;
+/* ============ ABAS DO FORMULÁRIO (marca / site / sistema) ============ */
+.quote-tabs {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  padding: 6px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.04);
 }
-
-.maintenance-options {
+.quote-tab {
+  font-family: inherit;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-top: 12px;
-}
-
-.maintenance-option {
-  display: block;
-  border: 1px solid rgba(255,255,255,.14);
-  border-radius: 14px;
-  background: rgba(255,255,255,.03);
-  padding: 14px 18px;
-  cursor: pointer;
-  transition: border-color 200ms ease, background 200ms ease;
-}
-.maintenance-option:hover { border-color: rgba(255,255,255,.28); }
-.maintenance-option input { position: absolute; opacity: 0; width: 0; height: 0; }
-
-.maintenance-option__head {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+  gap: 4px;
+  padding: 14px 10px;
+  border: 0;
+  border-radius: 13px;
+  background: transparent;
+  color: rgba(255,255,255,.66);
+  cursor: pointer;
+  transition: background 240ms ease, color 240ms ease;
 }
-.maintenance-option__name {
-  font-size: .94rem;
-  color: rgba(255,255,255,.86);
+.quote-tab:hover { color: #f3f3f1; background: rgba(255,255,255,.05); }
+.quote-tab:focus-visible { outline: 2px solid rgba(255,255,255,.6); outline-offset: 2px; }
+.quote-tab__name {
+  font-size: .88rem;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
 }
-.maintenance-option__toggle {
-  font-size: 1.1rem;
-  color: rgba(255,255,255,.4);
-  transition: transform 250ms ease;
-  flex-shrink: 0;
+.quote-tab__hint { font-size: .72rem; color: rgba(255,255,255,.42); transition: color 240ms ease; }
+.quote-tab[aria-selected="true"] {
+  background: linear-gradient(180deg, #ffffff 0%, #e9e9e4 100%);
+  color: #0d0d0d;
 }
-
-.maintenance-option__details {
-  display: block;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  color: rgba(255,255,255,.6);
-  font-size: .86rem;
-  line-height: 1.7;
-  transition: max-height 300ms ease, opacity 250ms ease, margin-top 250ms ease;
+.quote-tab[aria-selected="true"] .quote-tab__hint { color: rgba(13,13,13,.56); }
+.quote-tabs + .quote-form { margin-top: 26px; }
+.quote-form[hidden] { display: none; }
+.quote-form:not([hidden]) { animation: quoteFormIn 360ms ease both; }
+@keyframes quoteFormIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.quote-form__field em { font-style: normal; color: rgba(255,255,255,.4); }
+.quote-form-panel .quote-form ~ .quote-form { margin-top: 26px; }
+@media (max-width: 520px) {
+  .quote-tab { padding: 12px 6px; }
+  .quote-tab__name { font-size: .8rem; letter-spacing: .1em; }
+  .quote-tab__hint { display: none; }
 }
-.maintenance-option__details strong { color: rgba(255,255,255,.92); }
-
-.maintenance-option:has(input:checked) {
-  border-color: rgba(223,193,154,.6);
-  background: rgba(223,193,154,.06);
-}
-.maintenance-option:has(input:checked) .maintenance-option__toggle {
-  transform: rotate(45deg);
-  color: #dfc19a;
-}
-.maintenance-option:has(input:checked) .maintenance-option__details {
-  max-height: 200px;
-  opacity: 1;
-  margin-top: 10px;
-}
-.maintenance-option--none .maintenance-option__toggle { display: none; }
+@media (prefers-reduced-motion: reduce) { .quote-form:not([hidden]) { animation: none; } }
 
 /* ============ SECTION 8: DOBRA FINAL: CONFIANÇA ============ */
 .trust-block { padding: 0 48px 132px; }
@@ -2240,12 +2221,14 @@ body { font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
     </script>
     <div class="hero__grid">
       <h1 class="hero__title">
-        <span>MARCA E SITE PARA</span>
-        <span>NEGÓCIOS QUE JÁ</span>
-        <span>SÃO BONS E AINDA</span>
+        <span>MARCAS, SITES E</span>
+        <span>SISTEMAS PARA</span>
+        <span>NEGÓCIOS E</span>
+        <span>PROFISSIONAIS QUE</span>
+        <span>JÁ SÃO BONS E QUE</span>
         <span>PARECEM PEQUENOS.</span>
       </h1>
-      <p class="hero__subhead">Para o mercado ver o tamanho que você já tem.</p>
+      <p class="hero__subhead">Quem te pesquisa antes de comprar precisa ver o mesmo nível que você entrega.</p>
       <div class="hero__actions">
         <a class="button button--primary" href="https://wa.me/558396243847?text=Ol%C3%A1%2C%20Igor.%20Quero%20criar%20um%20projeto%20para%20o%20meu%20neg%C3%B3cio." target="_blank" rel="noopener">Quero Criar Meu Projeto</a>
       </div>
@@ -2505,102 +2488,179 @@ body { font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
   <section class="section-dark quote-form-block" id="orcamento">
     <div class="quote-form-panel reveal-up">
       <span class="offer-card__eyebrow">Vamos Entender o Seu Projeto</span>
-      <h2 class="offer-card__title">RESPONDA ALGUMAS PERGUNTAS RÁPIDAS</h2>
-      <p class="quote-form-panel__intro">Com essas informações, consigo entender o tipo de site que você precisa e direcionar o próximo passo.</p>
-      <form class="quote-form" id="quote-form">
+      <h2 class="offer-card__title">ESCOLHA O QUE VOCÊ PRECISA</h2>
+      <p class="quote-form-panel__intro">Responda o básico e a mensagem chega pronta no meu WhatsApp. Eu te respondo por lá.</p>
+
+      <div class="quote-tabs" role="tablist" aria-label="Tipo de projeto">
+        <button type="button" class="quote-tab" role="tab" id="tab-marca" aria-controls="form-marca" aria-selected="true">
+          <span class="quote-tab__name">Marca</span>
+          <span class="quote-tab__hint">logo e identidade</span>
+        </button>
+        <button type="button" class="quote-tab" role="tab" id="tab-site" aria-controls="form-site" aria-selected="false" tabindex="-1">
+          <span class="quote-tab__name">Site</span>
+          <span class="quote-tab__hint">página ou site completo</span>
+        </button>
+        <button type="button" class="quote-tab" role="tab" id="tab-sistema" aria-controls="form-sistema" aria-selected="false" tabindex="-1">
+          <span class="quote-tab__name">Sistema</span>
+          <span class="quote-tab__hint">agenda, clientes, financeiro</span>
+        </button>
+      </div>
+
+      <!-- ABA MARCA -->
+      <form class="quote-form" id="form-marca" role="tabpanel" aria-labelledby="tab-marca" data-intro="Olá, Igor. Quero criar uma marca.">
         <div class="quote-form__row">
           <label class="quote-form__field">
-            <span>Qual é o seu nome?</span>
-            <input type="text" name="nome" maxlength="80" autocomplete="name" required>
+            <span>Seu nome</span>
+            <input type="text" name="nome" data-label="Nome" maxlength="80" autocomplete="name" required>
           </label>
           <label class="quote-form__field">
-            <span>Qual é o seu nicho?</span>
-            <input type="text" name="nicho" maxlength="80" placeholder="Ex.: advocacia, odontologia, estética, restaurante, consultoria, loja, profissional autônomo..." required>
+            <span>Seu negócio</span>
+            <input type="text" name="negocio" data-label="Negócio" maxlength="100" placeholder="Ex.: clínica de estética em João Pessoa" required>
+          </label>
+        </div>
+        <div class="quote-form__row">
+          <label class="quote-form__field">
+            <span>Como está sua marca hoje?</span>
+            <select name="situacao" data-label="Marca hoje" required>
+              <option value="" disabled selected>Selecione</option>
+              <option>Ainda não tenho marca</option>
+              <option>Tenho um rabisco ou uma ideia</option>
+              <option>Tenho uma marca e quero refazer</option>
+            </select>
+          </label>
+          <label class="quote-form__field">
+            <span>Qual plano te interessa?</span>
+            <select name="plano" data-label="Plano" required>
+              <option value="" disabled selected>Selecione</option>
+              <option>Essencial · R$300</option>
+              <option>Identidade · R$800</option>
+              <option>Sistema Completo · R$1.000</option>
+              <option>Ainda não sei, quero entender</option>
+            </select>
+          </label>
+        </div>
+        <label class="quote-form__field">
+          <span>Algo que eu precise saber? <em>(opcional)</em></span>
+          <textarea name="detalhes" data-label="Detalhes" rows="2" maxlength="800" placeholder="Referências de marcas que você gosta, cores que não quer, o que a marca precisa passar."></textarea>
+        </label>
+        <button type="submit" class="button button--offer quote-form__submit">Quero Minha Marca</button>
+      </form>
+
+      <!-- ABA SITE -->
+      <form class="quote-form" id="form-site" role="tabpanel" aria-labelledby="tab-site" data-intro="Olá, Igor. Quero um site." hidden>
+        <div class="quote-form__row">
+          <label class="quote-form__field">
+            <span>Seu nome</span>
+            <input type="text" name="nome" data-label="Nome" maxlength="80" autocomplete="name" required>
+          </label>
+          <label class="quote-form__field">
+            <span>Seu negócio</span>
+            <input type="text" name="negocio" data-label="Negócio" maxlength="100" placeholder="Ex.: escritório de advocacia em Patos" required>
           </label>
         </div>
         <div class="quote-form__row">
           <label class="quote-form__field">
             <span>O que você precisa?</span>
-            <select name="necessidade" required>
-              <option value="" disabled selected>Selecione uma opção</option>
-              <option>Ainda não tenho um site</option>
-              <option>Quero criar um novo site</option>
-              <option>Já tenho um site e quero reformular</option>
-              <option>Quero melhorar um site existente</option>
+            <select name="necessidade" data-label="Necessidade" required>
+              <option value="" disabled selected>Selecione</option>
+              <option>Ainda não tenho site</option>
+              <option>Quero refazer o meu site</option>
+              <option>Quero melhorar o site que tenho</option>
             </select>
           </label>
           <label class="quote-form__field">
-            <span>Que tipo de site você imagina?</span>
-            <select name="tipo" required>
-              <option value="" disabled selected>Selecione uma opção</option>
-              <option value="Mais simples">Mais simples: presença digital objetiva, profissional e direta</option>
-              <option value="Mais elaborado">Mais elaborado: estrutura mais completa, com mais páginas e elementos personalizados</option>
+            <span>Que tipo de site?</span>
+            <select name="tipo" data-label="Tipo de site" required>
+              <option value="" disabled selected>Selecione</option>
+              <option value="Mais simples">Mais simples: uma página objetiva e direta</option>
+              <option value="Mais elaborado">Mais elaborado: mais páginas e recursos sob medida</option>
+            </select>
+          </label>
+        </div>
+        <div class="quote-form__row">
+          <label class="quote-form__field">
+            <span>Quanto pretende investir?</span>
+            <select name="investimento" data-label="Investimento" required>
+              <option value="" disabled selected>Selecione</option>
+              <option>R$600</option>
+              <option>R$1.000</option>
+              <option>R$1.500</option>
+              <option>R$2.000</option>
+              <option>R$2.500</option>
+              <option>R$3.000</option>
+            </select>
+          </label>
+          <label class="quote-form__field">
+            <span>Manutenção mensal depois do site no ar</span>
+            <select name="manutencao" data-label="Manutenção mensal">
+              <option value="" disabled selected>Selecione</option>
+              <option>Básica · R$47 a R$67/mês</option>
+              <option>Intermediária · R$97 a R$147/mês</option>
+              <option>Completa · R$197 a R$297/mês</option>
+              <option>Não tenho interesse agora</option>
             </select>
           </label>
         </div>
         <label class="quote-form__field">
-          <span>Qual faixa de investimento você pretende destinar ao projeto?</span>
-          <select name="investimento" required>
-            <option value="" disabled selected>Selecione uma opção</option>
-            <option>R$600</option>
-            <option>R$1.000</option>
-            <option>R$1.500</option>
-            <option>R$2.000</option>
-            <option>R$2.500</option>
-            <option>R$3.000</option>
+          <span>Algo que eu precise saber? <em>(opcional)</em></span>
+          <textarea name="detalhes" data-label="Detalhes" rows="2" maxlength="800" placeholder="O que sua empresa faz, o que precisa aparecer no site e links de sites que você gosta."></textarea>
+        </label>
+        <button type="submit" class="button button--offer quote-form__submit">Quero Meu Site</button>
+      </form>
+
+      <!-- ABA SISTEMA -->
+      <form class="quote-form" id="form-sistema" role="tabpanel" aria-labelledby="tab-sistema" data-intro="Olá, Igor. Quero um sistema." hidden>
+        <div class="quote-form__row">
+          <label class="quote-form__field">
+            <span>Seu nome</span>
+            <input type="text" name="nome" data-label="Nome" maxlength="80" autocomplete="name" required>
+          </label>
+          <label class="quote-form__field">
+            <span>Seu negócio</span>
+            <input type="text" name="negocio" data-label="Negócio" maxlength="100" placeholder="Ex.: consultório de nutrição" required>
+          </label>
+        </div>
+        <div class="quote-form__row">
+          <label class="quote-form__field">
+            <span>O que o sistema precisa organizar?</span>
+            <select name="organizar" data-label="Precisa organizar" required>
+              <option value="" disabled selected>Selecione</option>
+              <option>Agenda e atendimentos</option>
+              <option>Clientes e vendas</option>
+              <option>Financeiro</option>
+              <option>Pedidos e estoque</option>
+              <option>Outra coisa</option>
+            </select>
+          </label>
+          <label class="quote-form__field">
+            <span>Como você controla isso hoje?</span>
+            <select name="hoje" data-label="Controle hoje" required>
+              <option value="" disabled selected>Selecione</option>
+              <option>No caderno ou de cabeça</option>
+              <option>Em planilha</option>
+              <option>Pelo WhatsApp</option>
+              <option>Em outro sistema que não resolve</option>
+            </select>
+          </label>
+        </div>
+        <label class="quote-form__field">
+          <span>Quantas pessoas vão usar?</span>
+          <select name="pessoas" data-label="Pessoas que vão usar" required>
+            <option value="" disabled selected>Selecione</option>
+            <option>Só eu</option>
+            <option>De 2 a 5 pessoas</option>
+            <option>Mais de 5 pessoas</option>
           </select>
         </label>
-
-        <div class="quote-form__field">
-          <span>Manutenção do site</span>
-          <p class="quote-form__maintenance-note">Depois que o site vai para o ar, ele continua exigindo cuidado: backups, atualizações e ajustes pontuais. Essa parte fica comigo, através de uma recorrência mensal. Clique em cada opção para ver o que está incluído.</p>
-          <div class="maintenance-options">
-            <label class="maintenance-option">
-              <input type="radio" name="manutencao" value="Manutenção Básica">
-              <span class="maintenance-option__head">
-                <span class="maintenance-option__name">Manutenção Básica</span>
-                <span class="maintenance-option__toggle" aria-hidden="true">+</span>
-              </span>
-              <span class="maintenance-option__details">
-                <strong>R$47 a R$67/mês.</strong> Monitoramento do site no ar, backup mensal e até 2 alterações pontuais de texto.
-              </span>
-            </label>
-            <label class="maintenance-option">
-              <input type="radio" name="manutencao" value="Manutenção Intermediária">
-              <span class="maintenance-option__head">
-                <span class="maintenance-option__name">Manutenção Intermediária</span>
-                <span class="maintenance-option__toggle" aria-hidden="true">+</span>
-              </span>
-              <span class="maintenance-option__details">
-                <strong>R$97 a R$147/mês.</strong> Inclui a manutenção básica, mais até 5 alterações de texto ou imagem e atendimento prioritário no WhatsApp.
-              </span>
-            </label>
-            <label class="maintenance-option">
-              <input type="radio" name="manutencao" value="Manutenção Completa">
-              <span class="maintenance-option__head">
-                <span class="maintenance-option__name">Manutenção Completa</span>
-                <span class="maintenance-option__toggle" aria-hidden="true">+</span>
-              </span>
-              <span class="maintenance-option__details">
-                <strong>R$197 a R$297/mês.</strong> Alterações ilimitadas dentro do escopo do site, ajustes pontuais de design, relatório mensal e prioridade máxima no atendimento.
-              </span>
-            </label>
-            <label class="maintenance-option maintenance-option--none">
-              <input type="radio" name="manutencao" value="Não tenho interesse agora">
-              <span class="maintenance-option__head">
-                <span class="maintenance-option__name">Não tenho interesse agora</span>
-              </span>
-            </label>
-          </div>
-        </div>
-
         <label class="quote-form__field">
-          <span>Conte um pouco sobre o que você precisa.</span>
-          <textarea name="detalhes" rows="3" maxlength="1000" placeholder="Explique brevemente o que sua empresa faz, o que você gostaria de apresentar no site e, se já tiver, envie referências de sites que você gosta."></textarea>
+          <span>O que mais te dá trabalho hoje? <em>(opcional)</em></span>
+          <textarea name="detalhes" data-label="Detalhes" rows="2" maxlength="800" placeholder="Ex.: cliente que some sem pagar, horário marcado duas vezes, não sei quanto entrou no mês."></textarea>
         </label>
-        <button type="submit" class="button button--offer quote-form__submit">Quero Solicitar Meu Orçamento</button>
-        <p class="quote-form__privacy">Suas respostas vão direto para o meu WhatsApp e não ficam salvas no site.</p>
+        <button type="submit" class="button button--offer quote-form__submit">Quero Meu Sistema</button>
       </form>
+
+      <p class="quote-form__privacy">Suas respostas vão direto para o meu WhatsApp e não ficam salvas no site.</p>
+
     </div>
   </section>
 
@@ -2954,40 +3014,48 @@ body { font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
 })();
 
 
-/* ============ ORÇAMENTO FORM (dobra visível) → WHATSAPP ============ */
+/* ============ ORÇAMENTO: ABAS MARCA / SITE / SISTEMA → WHATSAPP ============ */
 (function () {
   "use strict";
-
   var WHATSAPP_NUMBER = "558396243847";
-  var form = document.getElementById("quote-form");
-  if (!form) return;
+  var tabs = Array.prototype.slice.call(document.querySelectorAll(".quote-tab"));
+  if (!tabs.length) return;
 
-  form.addEventListener("submit", function (e) {
-    e.preventDefault();
-    var data = new FormData(form);
-    var nome = (data.get("nome") || "").toString().trim();
-    var nicho = (data.get("nicho") || "").toString().trim();
-    var necessidade = (data.get("necessidade") || "").toString().trim();
-    var tipo = (data.get("tipo") || "").toString().trim();
-    var investimento = (data.get("investimento") || "").toString().trim();
-    var manutencao = (data.get("manutencao") || "").toString().trim();
-    var detalhes = (data.get("detalhes") || "").toString().trim();
+  function ativar(tab, focar) {
+    tabs.forEach(function (t) {
+      var on = t === tab;
+      t.setAttribute("aria-selected", on ? "true" : "false");
+      t.tabIndex = on ? 0 : -1;
+      var painel = document.getElementById(t.getAttribute("aria-controls"));
+      if (painel) painel.hidden = !on;
+    });
+    if (focar) tab.focus();
+  }
 
-    var lines = [
-      "Olá, Igor. Tenho interesse em criar um site.",
-      "",
-      "Nome: " + nome,
-      "Nicho: " + nicho,
-      "Tipo de site: " + tipo,
-      "Necessidade: " + necessidade,
-      "Investimento pretendido: " + investimento
-    ];
-    if (manutencao) lines.push("Manutenção mensal: " + manutencao);
-    if (detalhes) lines.push("Detalhes: " + detalhes);
+  tabs.forEach(function (tab, i) {
+    tab.addEventListener("click", function () { ativar(tab, false); });
+    tab.addEventListener("keydown", function (e) {
+      var alvo = null;
+      if (e.key === "ArrowRight") alvo = tabs[(i + 1) % tabs.length];
+      if (e.key === "ArrowLeft") alvo = tabs[(i - 1 + tabs.length) % tabs.length];
+      if (e.key === "Home") alvo = tabs[0];
+      if (e.key === "End") alvo = tabs[tabs.length - 1];
+      if (alvo) { e.preventDefault(); ativar(alvo, true); }
+    });
+  });
 
-    var message = lines.join("\n");
-    var url = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(message);
-    window.open(url, "_blank", "noopener");
+  document.querySelectorAll(".quote-form").forEach(function (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var linhas = [form.getAttribute("data-intro") || "Olá, Igor.", ""];
+      Array.prototype.forEach.call(form.elements, function (el) {
+        var rotulo = el.getAttribute && el.getAttribute("data-label");
+        var valor = (el.value || "").toString().trim();
+        if (rotulo && valor) linhas.push(rotulo + ": " + valor);
+      });
+      var url = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(linhas.join("\n"));
+      window.open(url, "_blank", "noopener");
+    });
   });
 })();
 
