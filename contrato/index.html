@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#000000">
+<title>Contrato | IG Assessoria</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --preto:#000;--quase:#0a0a0a;--painel:#121212;--painel2:#1a1a1a;--branco:#fff;--off:#e9e9e9;
+  --cinza:#8f8f8f;--cinza2:#5c5c5c;--linha:rgba(255,255,255,.10);--linha-forte:rgba(255,255,255,.24);
+  --ff-d:'Space Grotesk',system-ui,sans-serif;--ff:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--preto);-webkit-text-size-adjust:100%}
+body{background:var(--preto);color:var(--branco);font:15px/1.6 var(--ff);-webkit-font-smoothing:antialiased;min-height:100vh}
+::selection{background:var(--branco);color:var(--preto)}
+button,input,textarea{font:inherit;color:inherit}
+button{cursor:pointer;border:0;background:none}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--branco);outline-offset:3px;border-radius:6px}
+.wrap{width:min(720px,100%);margin:0 auto;padding:0 20px}
+
+header.topo{position:sticky;top:0;z-index:20;background:rgba(0,0,0,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--linha)}
+.topo .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;height:60px}
+.marca{display:flex;align-items:center;gap:10px;text-decoration:none}
+.marca img{height:26px;width:auto;display:block}
+.marca span{font-family:var(--ff-d);font-size:11px;letter-spacing:.32em;text-transform:uppercase}
+.passo-atual{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--cinza)}
+.barra{height:2px;background:var(--linha)}
+.barra i{display:block;height:100%;width:0;background:var(--branco);transition:width .25s ease}
+
+.rotulo{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--cinza);font-weight:500}
+h1,h2,h3{font-family:var(--ff-d);font-weight:500;letter-spacing:-.015em}
+h1{font-size:clamp(30px,8vw,46px);line-height:1.08;margin:14px 0 14px}
+h2{font-size:24px;line-height:1.2;margin:10px 0 18px}
+.lead{color:var(--off);font-size:16px;max-width:52ch}
+section{padding:44px 0;border-bottom:1px solid var(--linha)}
+section:last-of-type{border-bottom:0}
+.abre{padding-top:48px}
+
+.quadro{width:100%;border-collapse:collapse;border:1px solid var(--linha);border-radius:16px;overflow:hidden;display:table}
+.quadro th,.quadro td{padding:13px 16px;border-bottom:1px solid var(--linha);vertical-align:top;text-align:left}
+.quadro tr:last-child th,.quadro tr:last-child td{border-bottom:0}
+.quadro th{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--cinza);font-weight:500;width:38%}
+.quadro td{font-size:14px;text-align:right}
+.quadro tr.total th{color:var(--branco)}
+.quadro tr.total td{font-family:var(--ff-d);font-size:24px;letter-spacing:-.02em}
+.quadro tr.total th,.quadro tr.total td{border-top:1px solid var(--linha-forte);background:var(--painel)}
+
+.blocos .bloco{background:var(--painel);border:1px solid var(--linha);border-radius:16px;padding:18px 18px 14px;margin-top:12px}
+.bloco h4{font-family:var(--ff-d);font-weight:500;font-size:16px;margin-bottom:10px}
+ul.inc,ul.fora{list-style:none}
+ul.inc li,ul.fora li{position:relative;padding:5px 0 5px 24px;font-size:14px;color:var(--off)}
+ul.inc li::before{content:'';position:absolute;left:2px;top:11px;width:10px;height:6px;border-left:1.6px solid var(--branco);border-bottom:1.6px solid var(--branco);transform:rotate(-45deg)}
+ul.fora li{color:var(--cinza)}
+ul.fora li::before{content:'';position:absolute;left:2px;top:14px;width:11px;height:1.6px;background:var(--cinza2)}
+.fora-r{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--cinza);margin:12px 0 2px}
+
+.etapas{width:100%;border-collapse:collapse;margin-top:4px}
+.etapas td,.etapas th{padding:12px 0;border-bottom:1px solid var(--linha);text-align:left;font-weight:400;font-size:14px}
+.etapas td:first-child{width:34px;font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--cinza)}
+.etapas td:last-child{text-align:right;white-space:nowrap;color:var(--off)}
+
+.clausulas .cl{padding:18px 0;border-top:1px solid var(--linha)}
+.clausulas .cl:first-child{border-top:0}
+.cl .n{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--cinza)}
+.cl h3{font-size:17px;margin:4px 0 8px}
+.cl p{font-size:14px;color:var(--off)}
+.cl p+p{margin-top:8px}
+.cl .bloco,.cl table.etapas{display:none}
+.partes p{font-size:14px;color:var(--off);margin-bottom:8px}
+details.todas{border:1px solid var(--linha);border-radius:16px;padding:0 18px;margin-top:8px}
+details.todas>summary{cursor:pointer;list-style:none;padding:16px 0;display:flex;justify-content:space-between;align-items:center;font-size:14px}
+details.todas>summary::-webkit-details-marker{display:none}
+details.todas>summary::after{content:'Abrir';font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--cinza)}
+details.todas[open]>summary::after{content:'Fechar'}
+details.todas[open]>summary{border-bottom:1px solid var(--linha)}
+
+.campo{margin-bottom:16px}
+.campo label{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--cinza);margin-bottom:7px;font-weight:500}
+.campo input{width:100%;background:var(--painel);border:1px solid var(--linha);border-radius:12px;padding:13px 14px;font-size:16px;outline:none;transition:border-color .2s}
+.campo input:focus{border-color:var(--linha-forte)}
+.campo input[aria-invalid="true"]{border-color:#fff;box-shadow:0 0 0 1px #fff}
+.duas{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}
+.ajuda{font-size:12.5px;color:var(--cinza);margin-top:6px}
+.erro{display:none;font-size:13px;color:var(--branco);background:var(--painel2);border:1px solid var(--linha-forte);border-radius:10px;padding:10px 12px;margin-top:10px}
+.erro.on{display:block}
+.aceite{display:flex;gap:12px;align-items:flex-start;padding:16px;border:1px solid var(--linha);border-radius:14px;margin:6px 0 18px;cursor:pointer}
+.aceite input{width:20px;height:20px;flex:none;margin-top:2px;accent-color:#fff}
+.aceite span{font-size:14px;color:var(--off)}
+.papel{background:#fff;border-radius:14px;position:relative;touch-action:none}
+.papel canvas{display:block;width:100%;height:190px;border-radius:14px;cursor:crosshair}
+.papel .guia{position:absolute;left:18px;right:18px;bottom:44px;border-bottom:1px solid #c8c8c8;pointer-events:none}
+.papel .dica{position:absolute;left:18px;bottom:14px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#888;pointer-events:none}
+.papel-acoes{display:flex;justify-content:flex-end;margin-top:8px}
+.link-btn{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--cinza);padding:8px 0}
+.link-btn:hover{color:var(--branco)}
+.cta{display:flex;align-items:center;justify-content:center;width:100%;background:var(--branco);color:var(--preto);border-radius:999px;padding:17px 22px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;text-decoration:none;transition:transform .15s,background .15s;margin-top:18px}
+.cta:hover{background:var(--off)}
+.cta:active{transform:scale(.99)}
+.cta[disabled]{opacity:.55;cursor:wait}
+.cta.fantasma{background:transparent;color:var(--branco);border:1px solid var(--linha-forte)}
+.miudo{font-size:12.5px;color:var(--cinza);margin-top:14px}
+.estado{min-height:70vh;display:flex;flex-direction:column;justify-content:center;padding:60px 20px}
+.selo{border:1px solid var(--linha-forte);border-radius:16px;padding:18px;margin-top:22px;font-size:13px;color:var(--off)}
+.selo b{display:block;font-family:ui-monospace,Menlo,monospace;font-weight:400;color:var(--branco);word-break:break-all;font-size:12.5px;margin-top:2px}
+.selo div+div{margin-top:12px}
+.carrega{width:22px;height:22px;border:2px solid var(--linha-forte);border-top-color:var(--branco);border-radius:50%;animation:gira .8s linear infinite;margin-bottom:18px}
+@keyframes gira{to{transform:rotate(360deg)}}
+footer{padding:30px 0 60px;color:var(--cinza2);font-size:12px}
+[hidden]{display:none!important}
+@media(max-width:560px){
+  .duas{grid-template-columns:1fr}
+  .quadro,.quadro tbody,.quadro tr{display:block;width:100%}
+  .quadro th,.quadro td{display:block;width:100%;text-align:left;border-bottom:0;padding:0 16px}
+  .quadro th{padding-top:12px}
+  .quadro td{padding-bottom:12px;border-bottom:1px solid var(--linha)}
+  .quadro tr:last-child td{border-bottom:0}
+  .quadro tr.total td{padding-bottom:16px}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<header class="topo">
+  <div class="wrap">
+    <span class="marca"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAO8AAAEsCAYAAAAre+QXAABF+0lEQVR4nO2d53cc15nmf9UIBEiCUYyKFBWtnCXLsi0nyZY8jpOPd3b3zKf9p3bO2d0z45lZe+2RxrKsZFmSLQdlSiQtUhRFimIAIzLQfffDc1/U7UI10I2uDmjc55w+DVR3V1dX1XPf/L6wCuGcS+wRbuvkMUVENIp4w2YQkjhJEtfJY4mIWAylTh9AtyESNmKlYNVLXudcCZ0HB7hI3oiVglVLXq8e2wOkhRhxy5HEEd2OVUleL21dkiTOOTcMXIvOxUngHFD2/1dJYrOHI7EjugGr1eY14paAEeBq4GvA3cB6YA3+3DjnSv59JEkS1eqIrsFqJS/OuVKSJBXgEnAGuBz4a+AxYAtQ8mSt6O0xlBTRXejv9AF0Al7qWpx3CjjuH98ErgL6gBedc+eAmSRJKv79RviIiI5jVZLXk9ZUZyPwEeAz4GFgEJgGfgtcAMbto+0/2oiIfKxWtTnJ/D0O7Af2+W33AP8IPAQMOucGSW3gqqysqE5HdAqrUvLmqL6zwAzyNp9CqvMXgUlgDPgTcN5/1gX7iZI4omNYleQNYfYsIul+4ACwG1gLPI5IWwb+mCTJ+Q4dZkTEAqxa8jrnEpOc3vY9C3wCfIokcR8wBDyC7N5J59zbwITtIkreiE5i1ZIXSJxzoerrEDHPofDRGr/9GuAJ4CKyjd8nTeIot/OAIyJCrFaHFSyUnCVk974NnCDNd+5HSRzfAj4PXOG3WaZWRERHsGpvvhyVt4KcVe+hsJFDBK6g0NGtwN8DXwF2IrU6Jm9EdAyrWW3OooScVpeA0yj2O0wa2x0C7kPq8yTwnH9fVJ8jOoJI3hRz6HwMAKOIoGuD151/7R4UUjoN/B6ROSKi7Vi1anMWXo22kNEh/1z1Fv+8AXgQFTJcRzXBIyLahih5PbzzqYxI+zGpRDW12RxYA6iE8CsorHTBOXc4SZKy5T6HJYdt/RERqwpR8qZwSZKUUbhoFKnFWZj0HUAOrO8DtwEjzrkBPNGTJKlE4ka0GpG8KYyYs8jDfBrZwSUW5kI7FAd+APgOcAeqCy75+t++GEaKaDWi2rwQlvc8ipIyNpKGjQieHQohPYbKCc8AE0mSTJna3LYjjliViNIhRZhpVUb27OQi7zcSbweeRBVIW31bnWjvRrQckbwpQtV4GkneKf//UkS8Bfg2igOvB/pi8kZEqxHJmyIk6CQqRpit43MJOo93AF8AdgF9JnmtA4f9XegRR6xqRJvXI1OgMI0KFObs5SU+7lAPrMdRauVF59zRoG44CauYIiKKQCSvR0YqziLJO1PnxxN0Lm8EvoocWGPOuXM+/htDRxGFI6rNHgG5LFd5gsZzlvuB+1H10W5gKJS4UW2OKBKRvB4ZtXYShYmmFvlI7m6QzftFlLyxEa8yB2NVIiIKQSRvPsooCeMiaeF9vagAnwMeRWmUg9b/ObaNjSgSkbweGYfVILAV2b31hosMDliH2uc8COxwzg3EjKuIohFvKI9wpAlpWuQEacbVkrsgdVwlqPvGA8BeVAscEVEoInlThFMUHCkZ65W4oWpt0vtO1MT9cuK5jigY8YbyyHibG3Us5RHcpO/9yPZdv+BD0fsc0QQieT0Cb3No+84t8pEQWRKGtb+3oemDO02y+8ojy8yKiFgW4s2zOEIyLxe7UM7zdcDabLJGdGRFLBfxxlkcfSz/HJn0HQRu949dzrm+oFi/QiwdjFgmInlro4S8xH1N7MPU6StQ5409wGZI1fSYNhmxXETy1sYYslmbPUfWuP0eROAhy7aKDquIZhDJ62GzegOn1SmU3mhjT5ZLNPvc1Sh0tBVYE/tcRTSLSN58mMq8iXRqQjOwnlf3IufVBudcv3OuGZU8YpUjktfDpK5XZQdRP2bLjCpTjGNpN+q6sY3mnGEREfHmMQQqbAmRd4S03tlSHpcL2/cwcBMqXBhKkmQ22r0Ry0Uk70KYirsgI6oJhO1ib0UEXheJG9EMInk9fNZTyZftDaGQzmBBuw9TLncBO5BkXx+dVhHLRSRvCoeKE0xt3oBCRUViDtm6D6KGdcNR+kYsF5G8AYJhY4PIubSuRV91OUrciE6riGUj3jgLYWGhkLxFSUdzgI0ANyD1eU3tt0dE1EYkb4Cgz9Qsqc1btE3qUBjqTpQuOeS/O6rPEQ0hkjeFeYRHkDq7xT+3yqF0nf8O55M15tMlI5Ej6kEkb4rQ3t2OsqtaibVINd+KYr6VTIpmRMSiiOStRgl5mFth72bRB1wPXIMPSXmJG6VuRF2I5K2GQ1lQ11BskkYII6dNWNgGC/pGR0QsiUjehRhEoZyRFn6HQ+d+N2ks2SYLRgJH1IVI3hSmMl9E0nc91UO1W4GtSMpvBUzyxmsSURfijZKihAh7FXJYtRoVZPduBy4jjQHHqQoRdSFOCUxRQR7gG1HyRCthjqkSUtF3EK9FRIOIktcjSZIyUpevR5KwHehHkncDXj2PTquIehHJ6+ETJYZR1c+Gdnylf96Ivw4xOSOiEaxK8gaZTH3BiJONiLjbaF1BQh62I3V9EOgPGrJHRCyKVUneQDWtBJVEw8hZtRcRqV2OozVITd8I9MfGdBH1YlWS1xD0rOpH5+IK5ECCYqYl1IMSSsWM6nNEQ4geTsGK768kTc5oV2fHBKnp6/CTCmlsOmHEKsWqJK8RxLe8Mcm7xT/CVq/t0Ez6UHx5GOZV+kjciCXRc+Q1lTOs0MmqoUYQX79rNm+JdCqgbW/LISPiDiL7d6JN3xuxwtGTNq85fLLP6PcmwftCCVv1Gu2t7hkg6JcVJwdG1IOekrxZCetJMIAkaiVJknINZ5A1nbNuka3OaYbq6qJ1SH0ut/g7I3oIPUXeUEUOiLsWeXLHnXOj/rUEcEGYyMabFN0tcinYELJ1qPXObKwsiqgXPaeeZcI/A8iD/DBwF7DOq8ohOcy7O0j7yWvfvwaYBmbowWsS0Rr03I3iiVtCKugG4GbgC8BOVDNrISDLZKog4q6nc50ch4AZn18dZ/ZG1IWeIm/QjcIcUUMoY+oO/7yDNH6bJckW/ODrDmAGNaCLc3sj6kZPkZdqJ1MJqc570GCve1DFUMlPpK8EUnoW2Z1bOnC8DphE4aJhouSNqBO9Rt4wQ2kISdptyGl1JUp/HPZvDG3ddcip1aq+VYthDtm7a4DBIHwVEbEoeo28YebUBjSRby9yRF3hH7udc+aYcojkV6J+UkPBfloNk66zwFjVC1FtjqgDvUZey5zqR1J0L3Ctf209cDdpixv77X1o9MgNpIRqp9qaoL5Zk8QWOBENoGfIG9ivVpt7A3AbUpkdkr7bkJpq7+vzzxtQNVE70yJDXEJpkUbeKHkjlkTPkDeAQ/Wx9wG3BNsSJHV3IHJbNc8VyKG1lTTm207ylJHaPLbUGyMiQvQMeb0HuYzs1j2IuBv9yybR1qGC+63+/xJwNWo61097pa591xxwAanOlosd1eeIJdEz5AXwjqhdSF0OVWaTpCUkldcjL/MwGvh1VbsPlWqH1UngLGlVU0TEklix5M1O1PPPIyiWey9Sh40klphh0/+GUWjmehT/3eZfb5e6HH7PeWTvTgAz0dMcUS9WLHlzYFL1PiR1h0lL/UJ12CSupU5eT/u6ZhhsMoJDUncGoroc0Rh6ibxDKFb7MLJjYaEktfauI8guvhepza2cw5sHc4rNAZ8ilTkioiGsyJLAsPjAVxGtIa0eyrN1DVb6txMR/A7k1OpUOmIZOAKcINbyRjSIFUleT9gKgHNuEEnSW4EfIumbJW5Y+L7ev3cXigWXSetq2wU7vgngQ+AzUmdV4pyLkxMilsSKIm/Yn8oTuA/9huuAryJS5jl8jCwzKJ66CzmqNqAwUrPmgxGtXmeTFSScQN7mOcAKJeYLE7L9uHJ3FEm+arGiyAsLbuQEOakeAb5MGqvN3ujh/+tRNtUu/38n7f5DyNtcChvmhW8Ifm/ssBFRhRVBXrupMze2TTm4B3iMNId5Mek3jGzirXSOtLa4zAF/Bt5HVUVZouLLFvuQh3yWaBdHBFjJ3uZh4E5E3HvQDb6UZCpRXZBfBCYQsRqNz55BkvcUMJXzuvP2/C7UJKAvqsgRIVYEecOb1mdRDaIkjK8gdXkTvhtFvbss4LAcIt0oKfkaIdfHKExUSZJkLmjPY/HePqQh7EWe8U616InoUnQ9ef0Uv/A4HcpRvgM5qa5s9yEFz8eQ5Bys/fYqmNo7C3zgPz+vChuB/QJlqZ5X+fe3O5EkosvR9eT1cAGJ1yLi/hC4n1Qi1Uugpo8FEW4OeBc4h2LH9fZ6TvxnDqLsqlnnXCnTfM7i1vciNf8MMA6ppz3HBxCxytD15M30VrbC+e8ilXkN7ZdIdhwfAG/T2CDuPlJH1RFUSTQLaS9pL30vA74OPICIPpskyUxBxx/RI+h68npYHvBW4EEUGtrUgeMwSTcBPOuf9zT42bPAm8BhYMqa4ZE2B9gA3IRytG2RGPXdQSIi5tH15PUSqQ95XL+GpO6NdMYGtD7PvwX+4I+j3ooki9OeBA4gZ5ULHVUoBn0T8H2UcHIYOcTmiGGiiAy6irxhFlEmEWMDUiG/DzyE7N52wyp+LgE/QWS6y2+r1/YsI5X5HZScUSadVjiMnFPfBZ5ApH0RkR267FpFdB5deUMENbo2u/Z64C9IidtuR01YOP8qkro3o7TMRj5/HhH3EGlOddhz60ngrxCR3wY+QWGosndoRUTMo6vIG3hPLU1wCN3UX0cVQ9tpzwS/EOEY0EPAj/1x3Ufa57kelbmMCPknfKdI/xuH0W/8IfAPwDXAR8AfkUOrHL3KEXnoOieIpQf67KIrgUeRunwDIpA5d9oFs1WPAb9Cau/d/hEO514KnyJCHkKkrDjnRki95/+A4rrnUQjqEDCWJMlscT8lopfQdeQNqoV2o9THv0HOG9MS2qkthKV7v0cq727gS/4Z6iNu2X/2VWTL2hC0m4DvAX+NiDuL4r+/BU4ThJGi9I3IoqPktZsyfEbktJDQD5GEs15U7e7vZOWC+4FnUBHB3cjete4btY4pLBM8C7yHpPY48lDfB3wbOaeuQIQeRyrzeyi+GxFRE90ieRPn1PUUJSg8hKTRA+F7OnFcSH19GhF3EyqG2F37Iwsw5z/7PpKkV6HMqa+h9M7tiLh9wFEknY8ju7iqvjciIkTXkBdJuBHgduBbSDLVqs9tNew7K8ALwOvI67sX+Dxpgshix2WvjSNSXkKpjvcjG/d20r7SJUTWD4B9KB1y3lEV1eaIPHSMvJkCcys2uA34BiLIDjo79mMOeAX4TyQJrUfWHhqzuw8Cb6AGAN9E2sRNVJcwWsrk71FbnPFI1oil0DHy+pvTnFMjyI78LrIDr+nksaHi+HeBf0Xq7hBSde8lJd1iC4u9fh7ZrxuQ8+1O0jj1DFKV+5D3+XVE8nOZEsjYxzkiF20jSJ7q54m7FkmzbwCP0x7i5vWtsm0VVDTwH4hQfWiW0WP+OOuZZWQaxQwKBX0epVLa91gj+D7//0HgN/55IuxdFewrIqIK7ZRuoVPKbNw1yIHzLeAHSJ3slKQx8p4Bfo1s3c+QtPwOUukbUZcT5DXfTHU82H674QLwO2TrjiVJUg4XutiIPaIW2tru1IeDQDfyGhQi+Qbw96TzcdtB3iwJrfXrJUTcXyAv8xpk534R2eSNdJq0qQjZAorw982grKuXURHCRFSTI+pFW+1KrybbDb0TEfdHpBK3U+qhtYX9LfC/gddQCOdBFNK5nMYXltAZV+tzx5C6vB9J4NglMqJutIW8OZ7l7Sg54R+ROmroVBLGHCo2+ClSYUsolPNX/rnRvsyGxYg4hmK6LwEnzYHX4P4jVjHakmoYOKoGkRT7FvDfEHHNgQPtvXlNrZ1BOcf/gkrw5lCp31dRu50h0nzq5RDMCO/8fsyGPYyIuw+p6/P9uqLqHFEPCpe8vjY18Y4X86YO+O/agZw/f4scQVC9gLTyps0bgTKDco5/htTX0/4YH0SVTDupHhHa6PGFEtt6NZcQWZ9H4aiJJElmAydVlL4RdaFVanNWklonxMeRqnxj3odadBwmYZPMtikUmvkl8ix/guKx3wT+krQrZTMLSvaz/Uhdfg0lgHzo/49jSyIaRuHktdCGl8DmnNqCSvv+FhG3XZVBeTHZBOUY/xn1ofpPROKNyKv8XeAWUhV3uccaSvpQAn8CPIe8zBeXue+IiJY6rOzm3YE6RPxXlKEExQz3Wu4xhcT9OVJdN6Kmdt8jdVCZxF4usip6BQ0WewbvpApei1I3omG0wuYN27RuRbWvf4dsXJsE0KkG4uPIUfQMiuXuQ50sHkEq/f2IyHP+GJtRmW3xKvvncdQ18leoAGESYhJGxPLRFHmNqDn9lQaQ/fhl4L8jUnQqV9lINIO6Nj6D7NwPEEHvRvHmR1EIC4rRCoy45vB6H3gK2bmTfohYEiuGIpaLpghlQ64zJO5D0utBRNwvNPs9TSAk7lsoX/lZRKBppA08SepZNklbBHlNovajNMt/R2r6WU/cMGUykjeiYTRNqqADht2sm5DE/RukjvaTFpu3G+ac+h0izy9RpwobDfqXqCvlbhZmRC03MSP87hIi7v9DKZCjwFw4RNuni0ZENIwiJWLJObcJJTg8Qdrxv1nHz3JRRu1nXgH+L8pZPoW0gr2oxc5fUD2oLOtkagbOf//LiLx/9tsqUU2OKAKFkNdLkAEkwb6CnFQ7qI6vtgOhk+gQiqf+GJX2XURawV5E2m8j4maTN8JWr82gTKqqvw9cCJ1TmbK/iIiG0TR5/QydBBH3UVT3urOIfTdyGFTX436AvMkvIA/vJEpzvAnFcf+Kahs3RDOktePoQ86xn6PuGGfI2LWRtBHNoghvcwXZkLcgqXst8jZD83ZjI+hDjqk/Idv2JZQIcQklidyGiPs9RNxW2OBm5x4B/g0tIMeQcywiolAU4bCqOOc2owQMi5O2A2EixRxpUfvPkbr8MZK425DH+wmUQXVFZj9WdFDUAnMU+D9IXf4UpWFGRBSOZslrTqp7EDF2+u3tkrgWbjmIyuueQ2rqZ377HrSgPImqhC5joY1bhDPNfu9plG5p8dzpsANkAd8TETGPZslbQYkN9yC11NRoI1Ur4dAkg3eQtH0V2brnUAeMncgG/44/vu05nzdCNSt9E7RgPIea1u1H1UJl51yfj38nzrlo60YUhrrJawX1QeFBgrKotqFpeSP+rUnmeTnI8/iGnuQplBv8GyTl3kV5w2OIuNuRR9mK6ddk9p31gjdDXIfity8g4h7wx2G/wZ5j8/SIQtGo5HUZ9W8TylK6CzmpiupBFZI2JLJDntt9qAb3LUSWcP7PbqQm/xfSCqZwf3lq8nKO2Wzu8yhf+SdIZR9NkmRufsdpI7lI3IhC0RB5g2yqxH92DVKXr6OYNL9QfTUJaWQro6KC55GK/Cckbcf9e7cgT/cPkMTdU+M7ilpgrLzvWST93wLOWPdHiISNaC3qJm/mRnRITd5F2me5CFIYUbMpiuOIHC8gu/I9ZO/O+s9sQ9L/ayhz6uqc4ymKSCZxj6OQ1I/RQjKOxnZGx1REW9Cwwyrwno4gtfTyog/Kvso/H0Ohn18gG/ckCgFZu9bdKIf6qyhBZGvw+bzWN0Uc1yco5fLfkKf7YlBsEMv8ItqCRh1W4fzcEkov3MHyiuvzwknWvcISLt5DJXyvIE/ycd/vaQBlTO1C5XzfQ+r7NmpL2HqIm/1sWI+bIEfZR4i0zyCv8hipLyA6pSLahuWGigb8YzNSn4tSFc3GPYU6Ov4UFRScJiXJAHKUXYe6UH4PNWy3rK7lStpaC5BlYo2iBeRpf1xHURw3StmIjqBhm9dL3TVIPd1J6mVuFGF/J5NwF1Fm1PNI2r6LbMtpf6wltGA8iNTkb5A2s2vW5l7Mw30aqe5PI4/yUaQZ4JwrRQJHdALLkbwO5TJfwcLEh0b3A6lt+jFqfP6yfxxFiQ5zML9obEGk/TuUjrmR4tMboZrIx5Gj7FdICziRJMlcppg+IqLtaNjmJZ0ztBNN+GsWF5CE/SUaN3IYZSvN6GtdH7AeebW/jIr870ALSLZ4vlkilUml7Rhylj2P6nHfR/W5Fgoq+YUl2rgRHUEjktcK663sbQTlCjfaJcPCO30ocf95JNFeRdJ3Fjl+yt6+3Q5cj1rVfBuV9WWn7hWBsL/zSRSa+i0KTb2DQlP9yExYi87BxehhjugUGiGvSRirmR1AErFe8kz7zw6QDq9+FqmjB5BdGSbyW/z2XlQR9Aiyb2t9X7OdHq2J3mmkJv8cDbs+gxaUPrRYXeb/PuecmyGW+0V0CI2Q12zLQf+5tf6xmO1nYZZS8F0nUa3tSyi54QBKcHCoSskcYlejSqXH0XDq0L4tqmA+tLutSd1TyOb+EKU+JshJtgdpAGuRhnAeYhZVROfQaHpkxTk3iG7gERRrhdpSz9RQKyY4iMIszyECnENSzWKkZV9ieDsi7veBW6muUmpWTU5IiWv7ssKCF/2xfYo0hD1Iu7gZzel1KPZ8Gk32m4pqc0Sn0Ah5zSnUj5xFa6kuqauV8H8JEfV15JR6CzmkxjM9ndb6ov5bUVfHRxB58pxRRTinLH/6Q6Qi/wqRto/Uk70XhaV2Icfay6jgf3+SJDYIO0reiI5gOaGiErqxh4NtIZHCaQNnEGlfQzf9uyiWG4Z/QAvBHkSUH6AC+k3+tbyFoQgnlZUU/h5J0o1Iym5CnTduQ+GwzciZ9hSSzkdsqh+pxhAJHNF2LMdh5UjtXkNIpn6kCu9HiRZPIW/teRS3teR9I+5WJG2/iJIuHgy+p1n7Nu83mDf5Z8jLPUhqz16OpOxVyO6eQLb5PyGSfxoQ1/YXEdERLDc90kJGBouPziFivEHaAO59VCo355zrC4g7jMJA96OCgi8j0oROrqJhau5F4CH/nRvQeTAn3CBpXvVrKMb7OiLyTKwaiugWNNsGxyRZH7q530Lhn18jyXsRH7cN1MwEEfc2ZNd+AzVoHyGd69NqXIEka94CMY284P+BVP0PkN1uc4einRvRFWhG8hrmkG37IlKRD6LWpxeBOa8m2/cMIkl3Byoo+AJyCg2RSvOQIK1IQUxIiRt+X9n/jj+hrhgvo2L/aaDsq6nMex7JG9FxNFSYEEjPsNLmDeTQeZk0E2nGPhaomRuRTfkQCgHdh5xDfaRZWkXX3taCJZqEZNyPHFJPo980RpA0AjEcFNFdWE5us/VItlzfZ5FtOwqcz0zAMzV4Hep08ah/3Ed1U7jFVOVWkNiSPSqo8GA/Iu0f0UwhU/cjIroWdRPDSt+cc0MofHI1Iv9B5EkuE5TSBbnJV6Kki28ix9QupD53oiIn/M7ziKgvIZX/DbQYzUHMnIrofjRC3iSw+yxUZJlT2ll1XvIaVCT/ELJvHyJtD9tuZBvbHUeq/q8QaT9GrXUWNEmPJI7oVjQk+TIEdqETxzcWxzk3jLzJN6IqoC8iB9V62i9tw5TKCsqgeo+UtB8gFXk6fH8kbMRKwHJsXoJEi3knjs+W6kOx0vtQF8evorBMPwszpVpF5JCwtv8TaOTnS0jivoPs9snwN/jf0Y5pDxERTaNh8gQeZ/C5zj7raBDZwfeh3OTHSQsX2gGH7FUbOTqDnGgfouyoN5FD6jMkaWcDbSGJ0jZipaFhtXn+g1KZ+0k9xXvRpIJvIs/yRtqjJme/w7K83kQS9l3kTT6GnFQVMvnIkbwRKxGNJmkkmVinqcI3I2n7BMoT3mDvb/oI82FhqHDm0BjyFr+F0hrfQX2wPvOvzYbqfiwsiFjpaMjbjCev/3sNIulNiLhPojDQAK3JS86r550ltWePoBzk/aQZXlNJkkyGdmyeNzlK3oiViEUlb+Bdtmd7yVrCfA45pr7n/y8CIYnyMq4ccjR9guzZN1GSyHH//yQitUnafqCSJWfm/5jyGLHiUFPyZiWT32xq6g5Sx9QTFGffWi+pbKqkQ2mXZ1FixUdIyr6L7NhTyHtsnylHSRrR61hU8objKQMCb0fVQD/wz8shbt5YEXu2euA5RMzP/OMUIu2byPl0ATmmpklLEhc4oyIiehV1OaysTzEqnL8PSduvI5t3ORI37/0ziJDH/eMMIuch1KTuEnI8jaKGdWV8KqNHlLYRqwo1yZtx7PQhCXs7UpUf8//XgyyhHCLqRSRZRxFJz5JK16N+2zhKvzyPiJtNqKgKXdV5PBERPYFc8mbm7yQol/k6VDj/KHJOhc3TF+wi+NsINoPIeQw5mE4haXrUP06R5iCPAmO+uKEf5rO6Shn7u2IqfSRyxGrDUt5my1a6AqU6fheFg8qkmUx5CLePoXDOB0j9fRdlPE36fUwgCTtpc4n8dxshy4HtHcaYrUl6JGvEqkQueYOa3AoqmL8F+BIiLlQ3LM/DNJKqx1HCxLvIS/wJ6tU8iWKwVTWzYeLE8n5ORMTqQS212Ug0gDo7PokcVetZejbReUTWP6CEibdQNc+Yf4SqblXyRCaWHBERsQhqqc2JtzfNu3w/qWd5sckFH6Kqnd+hOOwJRNjxsNbXJ31UiBI2ImLZqEXePt8F4ypURH8tacpjKHXD5m0HUOO251B64mmkPlfQDKIkOxIzpiVGRCwf/TUIVEFOqgeAe0hHWmZzli0jaj/wP1G97EfAhUzNb65zKY+4kcwREfVhgeT1hBtEU+gfRhlVeYkYpkL/EfhX1IjuCHJGZVXrSMiIiILRn61rRdJ1LemgrVpSF1R298+oQfkxgvTEbKeNiIiIYpGVvCYptyFH1Y7MdsMcck79K/AL4Fg4w8e3xHGRuBERrUMt8vYje3cn1QPGLAb7MfDvwDMoO6rinOsPkizmbdzYhTEiojWYJ69zrs+Hh4ZRPvEOVHBvcV2r3JlCHRhfBQ4jVXlBvawhknZlIW+QWiuuYbu+p5cR2rHmHV6HWtls9dvDXOJZNCnhFZQxNUWs5omI6AjmyRsQcC3yNA8E7zOVeRrYh7KnjiZJMlOryiciIqK16IcFyRI27SAvBfIkqgg6QU74p5YEbgWpo7RvH+Ki3J0Ibd5Qhc5mUZnk3Y8mDZwknbkLLEmmsNdzEQjTNCOKRZJ5bhVc5u/EORcX5QbQHxDQRoJUkC2bnTxwCXW1OI9ylcvkIDMKZT1qxL4h7711wmp8B1CIqgJ84pw7myTJlA9L1XSY9QqyXvuwOaC9J+//nP30Ie0qO5/YnkuoWf4wStYZ8M/2ub7g73BRDqvBXM7fDp8H4J/LyIcyje63SWDCV6bYcZDz2fk8guy5yJ4rFrYq7ilHWX9wwe0HzOLHgHhYf+SPUIXQWZSrPE/ScIfB+JMh1M/5i6iQv5lB3nYhK/7YXgJedc4ZmXs+T7rGzbnU+4xoRobQr7EZkXQQOSnNxxEm6az3f28gHS5nz2GL3zCTLiQtpCQ1Ahpxp0hLRydQC6RRUsfotH9M+MeY/98qz5xzrpwkyVzOuQmHyvVsqWkoee2HTaMTNRNsd6gW9yAib6WOBIxhlKH1ZeBeZEcv5+TZibdRJqeRzb0PXfiprMTpVYSjZuz8Z6q17BybZBxCJBxBJBzwrw2jbig7ETE3o+jCOuSsXItIusY/7NxmpW6YNpu9j7LPRtyQ4GV0n80gMl9A7ZFOox5m4/7/M37bJb+PWf/3WefceHAcsyj6kXdv9lyqrknDsJm6qTEngetJu11cpFq1zkUgAa0x+yZ0YwzU+swyYJJiVXSKzGnD67xU7adaCm5HZNyICLoJZcvZ81b/vBkR2j43QCqFw6Hn7cYcqUS2ec9T6P47R9qE8EN0P55A0noGaWTnEKEnSBeJSTJzqdr4e1oKa2UT3hxz6MSdQiduGJ280+hkzlmnjUVWuNCOmiVtm2OvN4K8BnahCoYde4P7XTEIpKtJPke6MF6NyDoAXIPKOPciku5AZDZ112zYpZB3LrOqcStU0X6kqq+v8XqFVJ02E+o08sMcQtrhEUTisn9tFBHaxrhO9oqm1p+J01om1QSqz30EkXeadOZPVh2qBbNVs3ZRowhvGrthysHfKyoFs9axZm4mI4WpqGtIJex2RMqtSILegjSkvYjMa9A1s88uOIRFDq8eT3M2ctAKEtQ6xhL6bcPBtsv98+cRmSfRvXrYP2zA3DjSJj/2qvY43jT02YVzOYQuJV08STLrRLKDO4OcUyfQzVJGJ2UmeE/POQA6AbNjA7PFSjIH0HkfRvOgrvV/X4daE5l0XePfG0rUMvnhtKJDdq3CUseY97tMs9iIFreb/PZzSAJbW+EjpPOtjiL1e9I5t8CP45yrGGm7jbiwOHmP+WdIHQuzLGLvRiyOcGXPhHSMuKFD6VrgSqQGX4ck7M3ImbSehVLVQmpQPT2xF1Hrt4WCxWZD7/QPkAY5isi7H+Xof4pSfU96iXwhSZIpqA69daN2V9VJwz8774ufQY6Bh0g9juHK3TU/YqUhuCkS1HJoA6nX10h7C3AHyjM3B102eWZ+l7RmMuNKQ0jqPOm8BtiNyHwDUrXPo7r0Q0hg/dk5dxwR/Tww56XyHF2Gmg3o0Ir0LOrXbCu9DdPOTdCIWByB42kQndMRJCGuR9MorgLuRITdTKoKh4kO0Jj6G35mNaHW77XGEiP+AVKxLyKH1weIxPtQl5gLwIxz7ny31af311ADZpF6cQTlMt9DGpwv94KnrhUIkwG8dO0D+pIkmfFJLUNIwq5HPcLuQQ6Xa9ENtI3UOwzVnt3lStZ4raoRZm4ZzAm2HS2kF5Gz6wHkuD0AnHDOnUU29Kwvn63K8iI41+0g+mJN1yvI5n0F3WCWLtd1XrcuQ+jcqKBSywHkRLkMuBG4G802vg55jTeRX8W1UhxMKxF5KnaCFs8RNGDgLuSh3ofU6rcRkU86504hQTYb5DW0te3TYimLFid7DcUPLSlgPqOHVZIksRRCj3H4P1rsNiE1+F5E3M8hb/FWakvTSNj2Ihv6Mk3HfBGXI030PtRFZj/wJ0To0z4pZA7meVFqh41cc2KCV/tmkDv9BaTaWeywDN3leesw5knoiTuEVGBTh+9Atuz1iMyWaGEe4kjWziJM8wz/D3PB1yIS34ts49tRXfs+pGKfwI/wcW2a+lFT8vqbsII8bh8gXf9jUuJ2lfHeSZj94x1RW1HW0y1o0sT9/v/1VDugImm7F3nJKpZ0tBYtwpeja/s28BuUF/GZc+5IkiQT7TjIeip9phFpT/m/V81c3LzYngs6Y7p0dnE/spN2Iyn7ILJrr0aJ/oP2cSJpuxH1XI9QEpdI0zh3IHPoIPAicMA5dwgN2ZsBCLK3qlKHm+VOXWV63ls6nxbZy4TNQWI/3WfaWLqcFQX0owt4J0onvRvFEDeT5o5H0vYG8pxca9H13oOy3g6g5oyvIUJPeudvqIrPe6ib4VJd5PWrxoK6yV4ncSaZwk74AGne8Q4U8vkK8DXgNkTaLMKQT0RvILyWVjByKyLy55Bq/f+QTXwRpRfP+4qKqDGuu0A+J55lBQI9jcCDXAq6UKxFHvhHgW8gVfkyUm+82UdVu2rTIUd0BkbCQZTGejnye7yE1Ol9qBhiKnBotV5tDpGkM3R7WurmwFbXXSi54puo0cDVpGmL5j2OxF19CK9xGdnDD6GsuSvQgIL3gCNJkky6YDb1clErSWPRnfaiuhyEx6ri14FTaj0K/XwJEfdupCJbWxdrN9ONRG1GZc/LEYZU66on8yurHtbKj+/Gc7cc2GJeQhraD5BJ9TPgKefcAd9/ranfu9y+Uj2HGvW1fUgN2oZU428hVflafKoo1cUC3XrzLXZcS+U+522vkN8auN5jyDrwagmDXsjLdqhM8VYUD34VGA6aAywbkbweYS+vQAIPohTGLyCn1COkmVGW4N7tN1he/XU2o2ixzzqUnD9B2hBuGmUUWaua8BnSkkRrxhD2vnLovttE2l8rG0pb7NjyJHg3w87hWZTw9ClyXtk9tGxE8qYo4VvI+jDQFuR0eAz4PvIgriX/5uo2MyJ7PFlJZy2ESigWOYZurlHUJ8qaEF4i7U4xQ0peaxpXRiS2R5a8liI6SLUvwBrjDSLybiFNYrF65fUoNdGmd4SdQfIkf7cuoiW0+L0OvAwcD1Tm9nibVwMCibsTeQq/DXydVE0OCw6gOobbSWRv3DwVFdKmbZ8isp5DifeXEBmtc6N1bbyISGz7DO3d8FzUKlkMu0ySs80SXNaRNs6zVrObSOvIdyKNZ71/73bk3bcEmDzvfjeQ2c79fuCnKBtr2qVD/Zra+aonb6gue4l7GfImfws5Gmzgmk1JhOWX5xWFkCjZrhnW8O8iSm09FTyOIWKeRyT9DJF4OtiHfX7WP+aSJJltyY9IG+qZb2GQVNUOU0m3kHbB3OD/Xos8/3v8s22z0tXwGnVqgXWo9c4LwO/RNbDFrmmsSvLmdL5MUMnjLpTa+CRyTG0lvfC1HDStvinCzJzQQWY3p6mrFxA5P0MdUE4iYp4l7Xt8gpQUZrfOAjOZ1qhV6lyNNNElf3fGYz+/zf9v9u8cqo+dzHmf1UCfRSm6ltFm5N6KvLk2jvYa5KO4Ai3Cm6g2dUKNqZXXza7ZGHJQ/YaUuIVFa1YleQ3BzWK5yV8E/hZVjmyiO1RiSIkUXq/ziKBnkFr2DlKHref2KSR9jdwuSZJwEka6cxVVZCXVojdZIzdgzlQNW4jC71+QL+/zxyfzvstL7TPIg5sgMl+OWghtR9L6bmTyXE5KZEPY82v+q+v9TYvA7plpVKzwDGlHjtwFbblYreQNbUPLTf4G8CPUPcHsqE4R127usHWuteQ97h8foFnJ55FUOoxsV0hvnrxRIPNezkz/Ypf5v20Ib+gaRMde93+a1J4IPrsGnZ8PSRfj3yF1eg+Ks96AyL2N1MMNCx1ty4UjXRQOA8+jssFz+inFVuKtSvJaCR/6/buBx4H/gTzKVmvbKRsJ0kWlgmzUUyjM8AbplMbzqK50klT9nAmLwH1KZ3jTJAThiTx1No8sbUzKmS8CYRFPfpIZcufNoGnn3EywAFmv8QEkhV9BDrFrgYdRnfVV/rWwvnq5BLbP96Fr8wLqAXeCDHGLqgvoefJm0tCsP7Jt24VCQT9CQfRQIrfKWxkuDOEFD7+rTNqS9COkdh1CavARUg/wVN6NHBy7y0i1JW+gPMnbriKUjGSq69jsc6ZV+E6PzjlnJoJN/xhF9r0Nh7c2N/egkr4dSLUOv3+pa58Xly4DbyJ1eR9aXJPFjn+56HnyGjIqYYIu3kOoGuh6WmP/5B6Kf85WGs0hu+goUrneRBf/jN82SrWDJ1fVrKWaLaaOLratm1CHDV7OeW8Z9ZoyE2QUOe+s6frvUSGBtSe6FtnM4XXKu2a1nF77UDXRW0hrgoIdVYbVQl5zyNgKPYJ69v4QZU9tafPxWDaSzRw+hW6mg6gO9H3kYT2J7LoFqXRG2m4nXJehAkz7BW7aOXcJ2chvo1jyTSja8BBpy6K8Rd1InM2wOwb8HCVjnPGvtUxrWQ3kDUMtILvnTpTu+CBSl9pJgDBefAI5nt5FqvFh5Iwa9e+zG61KwpoGsRpqqotCDY0kHONjfZv3I0fXzSjqcBsi8ToWmlUhiafRwvuK38+sva9VvoOeJ2+SToFIUCzwSuA7yNbdSXXsrx3oQ+Gcd1EHwleRpP2Y1Jadw6dqwnxYJNuZMrSPI+pEcP6A+XZGUD0j+BiKzf4OaWg3+uddVDu1LOFiBi2+P8UX3ydBX+cgDBfJ2wiC8EgJEfdhlD11DekFaGXGlA0FB90cJ9BN8Sxa5Y8gSbtkq9BA0kZpWwdqxI7nOzqF8WRSk6qCD+0gx9bHKNT0Pql/5DL7CrQYf4yK7t9F13d+aJxzrmXNGnuKvIt48xIUoL8L+At0MUydbhVxbQyplQ6eRKR9EUncj9AqPx14S9MDrnZCRem6DNRSU+vYbg3jzpAOJnsf+SQeQVJ4D1Klp4BfA78ATniJaxl8LV1ke4q8eQjUlr3oxN9HWjhvaDaum/d5WxjGUQeFl0lX5/PI1qoQ2EQRXYcEqdZnnSYIPkc68/dLqHjlEPAfwJtJkkxkQ3KtRM+T1xcbXINylb9AqvLMv6WAr8lLKCghx8VzSEV+B3mVx5Azw9HBrKaIxRGaJ/762PyuKZTJth8JhJMocWY69E20Az1NXk+MDai7/WPIg2jqbKsK6e1C/wF4CqlU76ML7pLqkSiFB+4jikFYoGF2cqL+yxeRU+pDVOGUIPOnKuW0HVGAniavU5tWK/G7DXmb52htAsZx5Kn8GSLwSdIUxsKS0iNaizocg9OItOUk01S9XeG7niJvJi+3hJIv7kFeQovnhr+5SBJNI/vneeCXSE0eRSmMVdI2xmZXHkJvdbB5OvN6W69rT5E3U3ViJWJfJT/9sbCvRar4+8BPUEL6fhT0r2SJGxFRFHqKvKTlbglqmXIzyqba0ILvCu3ld5HH8SmUMWUzamqWukVENIueIm9Q6teHksvvp3VS1wL6B4B/QV7lA740zUrMImEjWoaeIq8njRUe3IRiuhtYfhw373O2bQ4R938hqXsCjbKY70JpH4hSN0W0+5ePrAbXM+QN0t4S1PfoNlRs3QzyyGtxvE9QVs2L/u8pWtAtoRcQEjaSdnkI8qTn78eeIa//UY7qXkbN2rp5HQj7UDjoBZQxdQC1X4kDxxeHVdiUUFrhmg4fz0rDlHPOhnY76CHyeiToxrgRFVavD7YXsW9QAsYbwNOokPsiLOy1FCXMAjif7XYFynhbRxuzkVY4+lCSz0HgXJIkU9B75HVoRb8KSV+TxkWQ1xxQH6AWJ79FieuQSpVoz9WAV/lGUI3sN9E1sprXiMWRoPDjz1HjgJ4jb4I6Am5GTeU2Fbx/h0rF3iJNwJgvyo5x3HyEmUeoN/Z1qMXudZ08rhWIEaTxHQCd15VM3vlQTGDIr0PJ4nvQjQLFrewO5bS+gOo3rZC7aiRoRDVyCi+sBVC2h1dEPsKeWWHt+Yombx4SlBK5A9kJRRban0VN4d4DTlmL1eikWjaSzHNEbeSeo07P3GkGDnUqSALVLEENtXcH7ynquz5B5A07JcS0x4iOYSWTN4s+FBq6DDWZg+JW9WlUhH0UOJ8kyWygJvdFAkd0Ar1AXiPOAJK6m6kex9kMbB9TqNfUWWDGS3trlF6O9m5EJ7CSbd5s94pB0hmv2Q6LzeIC8vKdI+3DW4YYFopoGxzV40FdL0heI5A1e8v2pyoCFxBxLxJbrUZ0CVay5M1DH8WaArbKjaFuGFPRuxzRLegJyRugTPEpdzOkozNrDdiOiGg7eoK8QVHCLCrVK8pZVUILgg2pjl7liK7BSlabE4IhTs65OdK5M0VKSHN8lYn2brOIi9/yMYeiHvPjTHtC8gYwghXZi7mE6oOHiGpzROcwR0ar7CXyOrQyTVGshOxHpYVrqB72FRHRTkyhuvHeIq8nk9mm46TkbVYC2yCpbShzayTW6kZ0CFP4e9vazPYEeT0cWpmmqGPiXoOwtMutrGw/QcTKxTTVWuWKJ2+2AXY/+oGfFbh/h0h7E0q9nD9nPk1ypZ/DdsCuUwlpMnmdNevdRpdtaxXCkslJNOfqFL4Qnx4qCUx8be0kKpK/YNub3S86gUOodcsOYL1zroxvqG6zXiPy4Rc3M2tmSYesWX3qgo+swG2tai0cJglNoYVvxnwuvSY1ZoHTiLxFeZxtKNk1wA1Ihe4j9TyXogOrNmxwtf+3DxWQmNAwYq/0R6tg9/A5JJQs7yCB3rHfXJCocRKpF7OoWKFZ2MXZhvpA/wH1rrJOfpXowFoavgqrhM7bOSRN8iRwWHASdpHoxLbweCrB/+G2EopEDFA8kW1/51A56mzwmusV8hqmUbH8CXST9FOMdmGq8x3Ag6j16yH8KujHP0YC14aNUx1FM51eQg3VsgiJFNq77dgWHmd2G1QvMLatjMKI16LWSxspVputIG3lNL6pv/+/nCRJz5F3Bv3g00gCb6T6QjS6MoY3Uxl1PPwSugHPOOfOESVvPXCoz9eEc+4tJEnWUl8Pq3b1ucr7nuy27OJSQV1Kb0cdMe8s+HhKyFl1gtSXM18/3lPk9c3OLgB/RmrG9RS3Epb84zY0MnQU9W2eDm3eSOSF8I49O0dngLPBXKmVhqzavAOpzd8iJXVRvysBzqMWTJN44lquQU+R19tV51Bv5SNIWpoqFNo0yzm59pktwAPohB5FYanZJEnK/hhiEkcO/E03r4IGnUhWEsKOoX2oW+nlaAb09S36zo9Q77Qx29CTktfDodX9Q+S42r342xdFHskH0ejQx5Bq/gxw2jlXCmfxRgILmUb04cK5EuuiS4Fj1KG4/6PA1xGRi5C6tu8SMgOPovv4UjgyFnqIvH5lryByTSDyvotGfSYU91sdstceQCf3PJqeME5a9xvhkTMtcSUvaqbq96N74HY0vH2Pfz3rhV4OQpv6U3QfXyRNzphHz5DXIyGtvjiKVOeLSNUN39Psd4Cauj9EOrLjVefcDDVKB+MolJWFzFQ+SwKybWuRc+q7KPowRH54adlf7x8fA78mHaujnfeo2uwC1fUkGg/xIEpvbAVG0OiOSbQSv45OOM65cmDn2YWNxF05SND9ZKNjAfqdcwNoAuXn0eK9iYXqchECYgxJ3XPARN6i32vkBeal3ChKqHgL+BxSp1sRdhgBngR2oUSO55DUv+QvugPiZIUVhkAI9JN2bexH4cKvA99G6nLR95Ttz6IZ55B5tgA9Q17rLkCqss4gQ/+PaJW8oRVfi070EPI4DqD0yRfRXKNLSZLMOOdKXgLHmPAKgr+nLId9DbATeBipy/ei612heIEwh8Z5vo3s3tyFv2fIC2DhGlISjyFn0r1oLuwwxc4vCsNPQ8DdSBJvA54C9jvnrBIkknYFIRggV/E27vWIuD8E7idt7F90fUCCohi/Bc4kSTIVSP8q9BR5A1S8rTKGUhlfA25BucnZkEURao/Zs/1Iwm9HKtVTwMsoVjeFT6UEqqbnZQdzZ7dFtBYW5gu0Nzv3JS9xr0Nq8nfR0PY1pAUCRUld+84K0tpeQZmCtm0BepK8duP7CzKG5un+BtkrO2guZbLm1/rnEnKQPeq/6zIUC/4YqfJjKElhnsChZzOStqMwJ5UlkWwA7kIx/a+hmm4rdmlFRV6CTL0XUZaghYdy74meJG8GE8h+eAmd/MepXl2LSmkL814rpHbwFchh9ktkw3wIjOXMra0pjSNai0z6ZuKc24CIezvwl4i4l2c+VrSjKkG5Aq+Shocq/vhWLXnN7b4fqbC3IAmcfU+RsMWhjKTv91BW1rPA88AR59ynwGSSJHM5Ob4xrNQZlEgHtD8IPAF8ARE5771FIHR4fYRMvGP4Nq+LfXA1kNds3GPA0yik83dItS0F7ynK7g0D9SV0AdagVXy3f/4TUuM/dM6dRWGlSuBwi8RtI7xzahMycfaiUNBXkP9iOPt28iuNmkGCcuSfRY6q89SRPtrz5LW0ySRJJp1zHyH7cweyYzZTLFGWKh/bhm6KvagG9A2U2HEYuOicmwLmcpwnlixQlfARVev6EQxgdxkH4TokbW9GCTf3I6l7GQudm3lohLjZfZnUnUJm3dNIQxyr59r2PHktkdw/z6CT83O00j6MQjutQDbjxhqvDSDv5Q7kDLkFVY28gwr8z/leXBVSr3livyPMD44OroUIbVcWZrbZeetD2tAI8kncj8KJD6EowVCwjyyakbK1zKP3kXf5MDBe7zXtefJC6ghKkmTWOXccZa5sRQR+gOLrMGseSvD3CFLLdqGb53XgdyhMcAZl1pwJJEYFvwgF2VrRNs4gx+kXSlmbfrEOXf87kU37JUTijbSn8B/S++0E8J/I1j2VJMnsop8K0PPkDVaxJEPg15AauxG40b8nVHXbcnjIGbIB2cN3II/0AWQXf0La82k8J8UyEtcjLMk00jrn+nzRfwlpPFsQeW8DHkGa1620TvtaDJYC+Qtkyh0AJhvRpnqevIagiBqkPh8Afoz6Xv0jUpfmSDsatgu2YGxEkuBaJHm/hNSoj5CmcMrbxKP+mCtJkhTdXH4lI6x1tceAc24rIu0ICtndhbStm5DmFU6bb+d1vwD8CvgJUpunye+hVRM9T95QhQokl0uSZNw5dwCtfFuBHyEnRe5u/HMrLm4202ujf+xFUncU2ekHkGr9LiL3lG/5U87sB6odXCWC9imQdrXIxDcJXluWLV2rrU12X/W0DcrGu/OOM/s1pNdpCDkjB1F89j5k096BFum1wefa1f44vIcmkFf5Z6hw5hJBgki9O+x58ubdHKEqjZxE/+L/foK0gKHI+sx6EJLYntf6x5XImfI1ROL9qNXPx2gFP4nCC3P4joPOOWtuXkXcAK4WiVrtBFts/6FX2P9flVATVPtYK5p5M8c5N4KKB65CTsHbUb/t65BNa613OiFp7fvGEWGfRhrVKKn0b+h4ep68S6CCEjj2Af+ETuxfows+QHWooJ12sD1biClBLUZv8o+HkTp9AngPEfoYWsEvITKP+8/3Oefmsip2GHoKi85ZmDqa0MJqqOB7Cb7bBRpAJXivlej1IyJafHYnUouvQqbHTf7vq0mlrCXNtNssMhhx30Cq8i+Bo3ZdLJrQyA5XO3kNk4gA/45ibk+im2Bokc+0GuGiEV7YhHTo2QxyvJxGQf7D6HfsQ7/DcqlHfTLILGnwfy5ICqEGgQshbC112r6XQMqGfcBQYYA5m0qk7WcuR06+dchbfz0KuV2GSLuB9NqF562TTe/GUEjwaZSMcZh0UDbQuMazKskblnv5/y0UcwjZwDOI0PehGwTaE0rKQ14WmF3kQRSv3IzU/fuQ+nwBEfo4qdNr1r82ih+f4ZybIJVEc6RF3+VAUtd1Qy1mJy+Wr+2vxbwk9TFYO54ESdXtiJibkPPpOkTS3aQL2UCwHzvudmpMebBjGEOq8lP+cSjwgjuqzYHobV4CeSdnDqlVf0bEtVm/D6CQUruRzdbK2uDmGQ/fP+wfu5DDa4Z0KPOnSM22cTCfIQ/nDPqto8HznAu6gOATRoLjCPNx7X/n1ACwFkyK2sM+X0HEW48WofVIcq5BUvYa/3uuRmTdghx6w1SPGJl3RpJP2E7YuZY99ToSCr8C9mccp1VJNzQQu1+V5M2ubBnv6ziq/LFh3RPAlxGB25XMkUWeBMm7di7z+gBpQsKV+BCTf5+NhhlFUvoU+r3Hg/fNoEXCZh6bdK74bbPBtjmq1fLwOIaRGjuCCDnoj2vQv38YSdURRMztpG2FdvjfbvOAav3mrNc4L5upXTBCnkPRgZ+j9Mc/W7lhaLLMH2CD3TVXJXlrIHSWzDrnDiM18xxKlngUqabrO3N4dSF7g4bSyFICDWuRpLNul6Z5XEIL1hjSPIzIFaoJalLbRnfOBc+hVO4jVe+NxENIuq5HJN7ot1Wp0Cy0UbPOtLzf3Clkj+0skrTPozK/jwjGcwbvW7ZfIZI3B169K6N46m+QyvkZqja5l+pWst2M7LQIqHZGmRPHCAYLs43q0TSWugHz9lEv6UJ1t1Oaz1LIRiWsoP4plMl33HqZeem6QOouB5G8GVirT//c55M5DiJJcxjFWB8lDfZ32imyFGqRZkHct8731fMdjbyeR/ysdFoJsOSL48i+/SUqNjmJvMpVIapsGGw5iOT1yCQy2NhOK5QvowbunyKP9AkkhW9F9pmtvCt5WHmnSFLre2tJ2E4c52JOMFu8L6JQ0LOo/e9h4Jz3Kvchc2x+nhVNqswQyVuFwJE17/3z22btAiDb5Z+RI+IxVJ97Hak92Y1q3UpEp8/hYtcxm+r4CTKvnkEhoVMoYuEAksxExEYdU7UQyVs/zEs76R+n0UV7G/XFuhfFHovszhHRWWRjxdn/L6G+4C8hG/cdgnlVmTyCwhHJuwRM+garpXUWnEOq0WmkUj+Ihk7di5w+2QsesbKwmMo+gTLZfoNU5APIlBr3r7ely0kk7yIIK1qCvy07awa5/meQCn0UrcKPoiKCG1H2TzbjJ2LlILxmFSRVjyHV+NdonM6HKGRmRfTzhRSLZZYVgUjeOhGoPiGJEx8COI3CSp8iKfwaSux4EGU6bSY9152qaIloHKF6fAwt0n9A1UAHkASeJi14sHh4y1TlEJG8daDGyllVQufTCadRmd5ZZA+/iKTwXSjN7yqqa0mjNO4uZPPHL6H4/j7UougD//dnBAkpzYZ8lotI3oLgCVz24SUrNfwQkfl11HrlNhQfvpFquxgikTuJUBuqIIfkYSRp3/LPB5F/Yzx4b/jZtiOStwAENnHJqc3sjFerp9BFP+KfX0M5xveiErbPoWytfiJx2wmTlBYZsHM/huL4h5Fq/DYqVDlBMCPXX9uOj2yN5C0AgVpdCbbZ31OoZc04spsOoBvjWmQT34Ck8TUo13eIhfW7EcUhDPeYlD2LNKT3UXODfSieP4p6KFecc31WNRW0D+qYygyRvIUgDCeZo8K2WVE5adeOCaR+nUSr+gakRt+PispvRC1bBsOvyHxlPbnGkfQpsvnRoEX1Y5TuaurxQVQLfQG4GPTMLmUTLSggQ6pZRPIWgLz+T5nnMBG97L1b51HF0hrkqd6HCs9vQW1cbkCZW1uprgYyWB1tJ7tDdBL1ZEBlywVDKXsQSdl30UJ6El0Ph7qMhNev6pr6v6PavBqRVI8zmUU30yfI1noTkfVGROJrULjpCv88hKRyWDLXUQnQIdRyGIXSNUERgIvIefgH0oXyA+RNHvPPLevT1SpE8nYINSSyNZBbg0j9R0TQW5Cnerd/GJk3k9/l32X+7iUVOqtx5P22SeQVPoRMkyP+73cQkS/559mg+KTkO97N95XqdjJH8nYBcnoUzyRJcsI5N4i6R7yDJEUJNV+7FsWMtyDJfJPfvom066VJ9lrVMFl0C8FrESaUpkZcayRQQerwGUTSgyhh5jxpFZgROsw9doFvIpS8Hbdn60E7yFv0Sej6k7oY8lb1MAQRJLNb/nQ5SZJxv60f3XwfIZKuQZ7qHcjxtYe0IdtOFJba5t+3FKHnD7HOn7LYolDPzZ9NiGCJYzNNpYJIeBJ574+jpIlPkAr8GUpVPe33NYacU4mXqv1Bu9X5VMawe2Y32LP1oHDyJtVDsOy5iFU9u78qz99KOeGLqWJJOmtnwW+xumLfHGDSby4hz6hDdvAWUvJuQdlc1oh8J2n3xcuQum0N3KyTRrPx5kaL6MNr6kizlsrBYwxJ0NNIgn7mH5N++0kkcc/4z1p7ntnED+2ynsh+cZzvX509z0WV6rULrZS8VsQ+i050Xlf4vFhmdptDN1cF3awTfp+hvWhDxFbMiW8UOb/Nzs/F4P8xVEtqhExQj6hNiNDrUCx5BEnqzaQN6rb57VuRU2zAP+zcJ8H/BrueYew06+mt9Qxp76xpf+ynSYl6zj+OI8k5ibSO8/43TqP7wGzgCf+3S6qTKbL2f8+gcPIGJJpCJ/5N//cgCy9yNv5Wa5slfPehC/oR6cWC9ObqqYtTC0n1jCFTw62j45S9z9+8FxEZDpJK1wFE0I1IOm9EJDbJa7NrR0hHYg4FD/u83T92rUKJGTaqmyK9jiZhbfs4uqamTZgzybzApxHB8Z+b8d81Fy5oYQy2qE4V3Y7CnRSBA6CEWsRci9S0sG1nSNSs6pTdZjeF/T+JyHsMEXh+AHUvS95ayP7uIAQFQNhi1NvRoHNsBLTzbqTrJ+2ZbG1ajbD2t4Wq8tRk21eo/s4G2x3V7WKnSDtV2rGGDqnpwCOcbVdEdlstQofvzW5bqWgJeaHqhA5SrVqF3xueyFpxu7ADYiiFbTVeMfZuq1HL4RJ25of5OUD9aOGrZN4HCx1b4fWz+LIRkeA9VV+b+Uw4SjPUrkqkPaENVbnDYV11+HqekymjkSwgai+R9/8DaQFCRcoaNRgAAAAASUVORK5CYII=" alt="IG"><span>Assessoria</span></span>
+    <span class="passo-atual" id="passo-atual"></span>
+  </div>
+  <div class="barra" aria-hidden="true"><i id="barra"></i></div>
+</header>
+
+<main id="main">
+  <div class="wrap estado" id="carregando"><div class="carrega" aria-hidden="true"></div><p class="lead">Abrindo o seu contrato...</p></div>
+
+  <div class="wrap estado" id="indisponivel" hidden>
+    <span class="rotulo">Contrato</span>
+    <h1>Este link não está disponível</h1>
+    <p class="lead">O contrato pode ter sido atualizado ou cancelado. Fale com a IG Assessoria para receber o link certo.</p>
+    <a class="cta" id="zap-ig" href="https://wa.me/558396243847" target="_blank" rel="noopener">Falar no WhatsApp</a>
+  </div>
+
+  <div id="contrato" hidden>
+    <div class="wrap">
+      <section class="abre" data-passo="Resumo">
+        <span class="rotulo">Contrato de prestação de serviços</span>
+        <h1 id="c-titulo"></h1>
+        <p class="lead" id="c-intro"></p>
+        <div style="margin-top:26px" id="c-quadro"></div>
+      </section>
+
+      <section data-passo="O que está incluído">
+        <span class="rotulo">01 · Escopo</span>
+        <h2>O que está incluído</h2>
+        <div class="blocos" id="c-escopo"></div>
+      </section>
+
+      <section data-passo="Etapas">
+        <span class="rotulo">02 · Etapas</span>
+        <h2>Etapas e prazo</h2>
+        <p class="lead" id="c-prazo"></p>
+        <table class="etapas" id="c-etapas"></table>
+      </section>
+
+      <section data-passo="Cláusulas">
+        <span class="rotulo">03 · Cláusulas</span>
+        <h2>As condições do contrato</h2>
+        <div class="partes" id="c-partes"></div>
+        <details class="todas" id="c-todas">
+          <summary id="c-todas-r">Ler todas as cláusulas</summary>
+          <div class="clausulas" id="c-clausulas"></div>
+        </details>
+      </section>
+
+      <section data-passo="Assinatura" id="sec-assinar">
+        <span class="rotulo">04 · Assinatura</span>
+        <h2>Seus dados e sua assinatura</h2>
+        <form id="form" novalidate>
+          <div class="campo"><label for="f-nome">Nome completo</label><input id="f-nome" autocomplete="name" required></div>
+          <div class="duas">
+            <div class="campo"><label for="f-doc">CPF ou CNPJ</label><input id="f-doc" inputmode="numeric" autocomplete="off" required></div>
+            <div class="campo"><label for="f-zap">WhatsApp</label><input id="f-zap" inputmode="tel" autocomplete="tel"></div>
+          </div>
+          <div class="campo"><label for="f-email">E-mail</label><input id="f-email" type="email" inputmode="email" autocomplete="email"></div>
+          <div class="campo"><label for="f-end">Endereço</label><input id="f-end" autocomplete="street-address" placeholder="Rua, número e bairro"></div>
+          <div class="campo"><label for="f-cid">Cidade e estado</label><input id="f-cid" autocomplete="address-level2" placeholder="ex.: Patos, PB"></div>
+
+          <label class="aceite"><input type="checkbox" id="f-aceite"><span>Li o contrato, entendi o que está incluído e o que não está, e concordo com os valores, os prazos e as condições.</span></label>
+
+          <div class="campo"><label for="f-assin">Digite seu nome como assinatura</label><input id="f-assin" autocomplete="off" required></div>
+          <div class="campo" style="margin-bottom:6px"><label id="r-papel">Assine com o dedo ou com o mouse</label></div>
+          <div class="papel"><canvas id="canvas" aria-labelledby="r-papel" role="img"></canvas><div class="guia"></div><div class="dica">Assine acima da linha</div></div>
+          <div class="papel-acoes"><button type="button" class="link-btn" id="limpar">Apagar e refazer</button></div>
+
+          <p class="erro" id="erro" role="alert"></p>
+          <button type="submit" class="cta" id="assinar">Assinar contrato</button>
+          <p class="miudo">Ao assinar, ficam registrados a data, a hora, um protocolo e um código de verificação calculado a partir do texto do contrato. Seus dados são usados só para executar este contrato, conforme a LGPD.</p>
+        </form>
+      </section>
+    </div>
+  </div>
+
+  <div class="wrap estado" id="assinado" hidden>
+    <span class="rotulo">Contrato assinado</span>
+    <h1 id="a-titulo">Tudo certo</h1>
+    <p class="lead" id="a-texto"></p>
+    <div class="selo" id="a-selo"></div>
+    <button type="button" class="cta" id="baixar">Baixar minha via em PDF</button>
+    <a class="cta fantasma" id="a-zap" href="https://wa.me/558396243847" target="_blank" rel="noopener">Voltar ao WhatsApp da IG</a>
+    <p class="miudo" id="a-dica">No celular, toque em Baixar e escolha "Salvar como PDF" ou "Imprimir".</p>
+  </div>
+</main>
+<footer><div class="wrap">IG Assessoria · marca, sites e sistemas · CNPJ 62.231.198/0001-71 · Emas, PB</div></footer>
+
+<script>
+/* ================= IG CONTRATO: motor e impressão =================
+   Usado no CRM (monta o texto) e na página pública (mostra e imprime).
+   Mesmo arquivo nos dois lugares: o texto que o cliente assina é o que o CRM gerou. */
+(function (raiz) {
+  'use strict';
+
+  var CONTRATADA = {
+    nome: 'IG Assessoria',
+    titular: 'Igor Rufino Figueiredo',
+    tipo: 'microempreendedor individual (MEI)',
+    cnpj: '62.231.198/0001-71',
+    cidade: 'Emas, PB',
+    email: 'igorrufinofigueiredo@gmail.com',
+    whatsapp: '(83) 9624-3847',
+    foro: 'Piancó, PB'
+  };
+
+  /* ---------- catálogo: o que o CRM oferece marcar em cada serviço ---------- */
+  var CATALOGO = {
+    marca: {
+      nome: 'Criação de marca',
+      planos: {
+        essencial: { nome: 'Essencial', valor: 300, rodadas: 1, dias: 10, itens: [
+          'Duas propostas de logotipo para escolha',
+          'Logotipo final na versão escolhida',
+          'Versões em cor, preto e branco',
+          'Arquivos finais em SVG, PNG e PDF',
+          'Avatar para redes sociais'
+        ] },
+        identidade: { nome: 'Identidade', valor: 800, rodadas: 2, dias: 15, itens: [
+          'Estratégia curta da marca (posicionamento e personalidade)',
+          'Duas propostas de logotipo para escolha',
+          'Símbolo e versão reduzida',
+          'Assinaturas horizontal e vertical',
+          'Paleta de cores e tipografia',
+          'Arquivos finais em SVG, PNG e PDF, favicon e avatar',
+          'Guia rápido de uso da marca em PDF'
+        ] },
+        completo: { nome: 'Sistema Completo', valor: 1000, rodadas: 3, dias: 20, itens: [
+          'Estratégia curta da marca (posicionamento e personalidade)',
+          'Duas propostas de logotipo para escolha',
+          'Símbolo, versão reduzida e assinaturas',
+          'Paleta de cores, tipografia e grafismo de apoio',
+          'Manual de marca completo em PDF',
+          'Papelaria: cartão de visita, papel timbrado e assinatura de e-mail',
+          'Mockups de apresentação da marca',
+          'Arquivos finais em SVG, PNG e PDF, favicon e avatar'
+        ] }
+      },
+      fora: [
+        'Pedido de registro da marca no INPI e as taxas do INPI',
+        'Impressão e produção gráfica de qualquer peça',
+        'Fotografia e produção de vídeo',
+        'Criação de site ou de peças para redes sociais, salvo se contratadas neste mesmo contrato'
+      ]
+    },
+    site: {
+      nome: 'Site e página',
+      tipos: { landing: 'Landing page (página única)', site: 'Site institucional' },
+      pacotes: {
+        essencial: { nome: 'Essencial', rodadas: 1, dias: 7 },
+        profissional: { nome: 'Profissional', rodadas: 2, dias: 12 },
+        premium: { nome: 'Premium', rodadas: 3, dias: 20 }
+      },
+      itensBase: {
+        landing: [
+          'Página única com até {dobras} seções',
+          'Versão para celular, tablet e computador',
+          'Botão de WhatsApp em todas as seções',
+          'Textos da página escritos pela IG a partir do briefing',
+          'Configuração do domínio e publicação',
+          'SEO básico: título, descrição e imagem de compartilhamento'
+        ],
+        site: [
+          'Site com até {paginas} páginas',
+          'Versão para celular, tablet e computador',
+          'Botão de WhatsApp e página de contato',
+          'Textos das páginas escritos pela IG a partir do briefing',
+          'Configuração do domínio e publicação',
+          'SEO básico: título, descrição e imagem de compartilhamento em cada página'
+        ]
+      },
+      itensExtras: [
+        'Formulário de contato com envio para o e-mail',
+        'Instalação de pixel e rastreio (Meta e Google)',
+        'Animações de entrada e rolagem',
+        'Integração com agenda ou sistema externo',
+        'Segunda língua',
+        'Tratamento de imagens'
+      ],
+      fora: [
+        'Custos de registro de domínio e de hospedagem, que são do CONTRATANTE',
+        'Fotografia, produção de vídeo e compra de imagens pagas',
+        'Gestão de anúncios pagos e de redes sociais',
+        'Manutenção depois do período de garantia, salvo se contratado um plano mensal',
+        'Funcionalidades e integrações que não estejam listadas no escopo'
+      ]
+    },
+    sistema: {
+      nome: 'Sistema',
+      modalidades: { projeto: 'Projeto sob medida', assinatura: 'Assinatura mensal' },
+      itensBase: [
+        'Acesso com login e senha por usuário',
+        'Painel de administração',
+        'Banco de dados e hospedagem configurados',
+        'Versão para celular e computador',
+        'Treinamento de uso para a equipe do CONTRATANTE'
+      ],
+      mensalBase: [
+        'Hospedagem e banco de dados',
+        'Cópia de segurança (backup) diária',
+        'Correção de defeitos',
+        'Atualizações de segurança',
+        'Suporte por WhatsApp e e-mail em dias úteis, em horário comercial'
+      ],
+      fora: [
+        'Funcionalidades que não estejam listadas no escopo',
+        'Custos de serviços de terceiros, como envio de SMS, API oficial do WhatsApp, gateway de pagamento e certificado digital',
+        'Migração de dados de sistemas antigos, salvo se listada no escopo',
+        'Equipamentos, internet e computadores do CONTRATANTE'
+      ]
+    },
+    manutencao: {
+      basica: { nome: 'Manutenção Básica', itens: ['Acompanhamento do site no ar e do certificado de segurança', 'Cópia de segurança mensal', '1 ajuste simples de texto ou imagem por mês'] },
+      intermediaria: { nome: 'Manutenção Intermediária', itens: ['Acompanhamento do site no ar e do certificado de segurança', 'Cópia de segurança mensal', 'Até 3 ajustes simples de texto ou imagem por mês', 'Relatório mensal de acessos'] },
+      completa: { nome: 'Manutenção Completa', itens: ['Acompanhamento do site no ar e do certificado de segurança', 'Cópia de segurança semanal', 'Até 6 ajustes simples de texto ou imagem por mês', 'Relatório mensal de acessos', 'Prioridade no atendimento'] }
+    }
+  };
+
+  var ETAPAS_PADRAO = {
+    marca: [['Briefing e estratégia', 2], ['Duas propostas de logotipo', 5], ['Ajustes na proposta escolhida', 2], ['Entrega dos arquivos finais', 1]],
+    site: [['Briefing e conteúdo', 2], ['Estrutura e textos', 2], ['Design e desenvolvimento', 5], ['Revisões', 2], ['Publicação', 1]],
+    sistema: [['Levantamento do que o sistema precisa fazer', 5], ['Protótipo das telas', 5], ['Desenvolvimento', 20], ['Testes e homologação pelo CONTRATANTE', 5], ['Implantação e treinamento', 2]]
+  };
+
+  /* ---------- utilidades ---------- */
+  function num(v) { var n = Number(String(v == null ? '' : v).replace(/\./g, '').replace(',', '.')); return isFinite(n) ? n : 0; }
+  function dinheiro(v) { return 'R$ ' + (Math.round(num2(v) * 100) / 100).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
+  function num2(v) { return typeof v === 'number' ? v : num(v); }
+  function data(iso) { if (!iso) return ''; var p = String(iso).slice(0, 10).split('-'); return p.length === 3 ? p[2] + '/' + p[1] + '/' + p[0] : iso; }
+  function somaMeses(iso, n) { var d = new Date(String(iso).slice(0, 10) + 'T12:00:00'); var dia = d.getDate(); d.setMonth(d.getMonth() + n); if (d.getDate() < dia) d.setDate(0); return d.toISOString().slice(0, 10); }
+  function esc(t) { return String(t == null ? '' : t).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function listaHumana(a) { a = a.filter(Boolean); return a.length <= 1 ? (a[0] || '') : a.slice(0, -1).join(', ') + ' e ' + a[a.length - 1]; }
+  function plural(n, um, varios) { return n + ' ' + (n === 1 ? um : varios); }
+  function minusc(t) { return /^[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç]/.test(t) ? t.charAt(0).toLowerCase() + t.slice(1) : t; }
+  function itensMarcados(lista) { return (lista || []).filter(function (i) { return i && i.on !== false && String(i.t || '').trim(); }).map(function (i) { return String(i.t).trim(); }); }
+
+  /* ---------- cálculo do pagamento ---------- */
+  function calcular(cfg) {
+    var m = cfg.modulos || {}, p = cfg.pagamento || {};
+    var linhas = [];
+    if (m.marca && m.marca.ativo) linhas.push(['Criação de marca', num2(m.marca.valor)]);
+    if (m.site && m.site.ativo) linhas.push([CATALOGO.site.tipos[m.site.tipo] || 'Site', num2(m.site.valor)]);
+    if (m.sistema && m.sistema.ativo && m.sistema.modalidade === 'projeto') linhas.push(['Desenvolvimento do sistema', num2(m.sistema.valor)]);
+    var soma = linhas.reduce(function (s, l) { return s + l[1]; }, 0);
+    var desconto = Math.max(0, Math.min(soma, num2(p.desconto)));
+    var total = Math.round((soma - desconto) * 100) / 100;
+    var pct = Math.max(0, Math.min(100, num2(p.entrada_pct)));
+    var entrada = total ? Math.round(total * pct) / 100 : 0;
+    var saldo = Math.round((total - entrada) * 100) / 100;
+    var n = Math.max(0, Math.min(24, parseInt(p.parcelas, 10) || 0));
+    var parcelas = [];
+    if (saldo > 0) {
+      if (p.saldo_forma === 'mensal' && n > 0) {
+        var base = Math.floor((saldo / n) * 100) / 100, resto = Math.round((saldo - base * n) * 100) / 100;
+        for (var i = 0; i < n; i++) parcelas.push({ n: i + 1, valor: Math.round((base + (i === n - 1 ? resto : 0)) * 100) / 100, venc: p.primeira_data ? somaMeses(p.primeira_data, i) : '' });
+      } else parcelas.push({ n: 1, valor: saldo, venc: '', naEntrega: true });
+    }
+    var mensais = [];
+    if (m.site && m.site.ativo && m.site.manutencao && m.site.manutencao.plano && num2(m.site.manutencao.valor) > 0) {
+      mensais.push({ desc: (CATALOGO.manutencao[m.site.manutencao.plano] || {}).nome || 'Manutenção do site', valor: num2(m.site.manutencao.valor) });
+    }
+    if (m.sistema && m.sistema.ativo && num2(m.sistema.mensal) > 0) {
+      mensais.push({ desc: m.sistema.modalidade === 'assinatura' ? 'Assinatura do sistema' + (m.sistema.plano ? ' (' + m.sistema.plano + ')' : '') : 'Hospedagem, suporte e evolução do sistema', valor: num2(m.sistema.mensal) });
+    }
+    return { linhas: linhas, soma: soma, desconto: desconto, total: total, pct: pct, entrada: entrada, saldo: saldo, parcelas: parcelas, mensais: mensais,
+      mensalTotal: mensais.reduce(function (s, x) { return s + x.valor; }, 0) };
+  }
+
+  /* ---------- texto do contrato ---------- */
+  function gerar(cfg) {
+    cfg = JSON.parse(JSON.stringify(cfg || {}));
+    var m = cfg.modulos || {}, cli = cfg.cliente || {}, p = cfg.pagamento || {};
+    var temMarca = !!(m.marca && m.marca.ativo), temSite = !!(m.site && m.site.ativo), temSis = !!(m.sistema && m.sistema.ativo);
+    var assinatura = temSis && m.sistema.modalidade === 'assinatura';
+    var calc = calcular(cfg);
+    var etapas = (cfg.etapas || []).filter(function (e) { return e && String(e.nome || '').trim(); });
+    var diasTotal = etapas.reduce(function (s, e) { return s + (parseInt(e.dias, 10) || 0); }, 0);
+    var servicos = [];
+    if (temMarca) servicos.push('marca');
+    if (temSite) servicos.push(m.site.tipo === 'landing' ? 'landing page' : 'site');
+    if (temSis) servicos.push(assinatura ? 'sistema por assinatura' : 'sistema');
+    var meio = p.meio || 'Pix';
+    var meioTxt = meio === 'Cartão de crédito' ? 'cartão de crédito, com as taxas da operadora por conta do CONTRATANTE' : meio;
+
+    var secoes = [], nCl = 0;
+    function cl(titulo, paragrafos, extra) { nCl++; var s = { n: nCl, titulo: titulo, p: paragrafos.filter(Boolean) }; if (extra) for (var k in extra) s[k] = extra[k]; secoes.push(s); return nCl; }
+    function sub(n, i) { return n + '.' + i + '. '; }
+
+    /* 1. Objeto */
+    var objeto = [];
+    if (temMarca) objeto.push('criação de marca no plano ' + (m.marca.plano === 'personalizado' ? 'personalizado' : (CATALOGO.marca.planos[m.marca.plano] || {}).nome || ''));
+    if (temSite) objeto.push((m.site.tipo === 'landing' ? 'criação de landing page' : 'criação de site institucional') + (m.site.pacote && CATALOGO.site.pacotes[m.site.pacote] ? ' no pacote ' + CATALOGO.site.pacotes[m.site.pacote].nome : ''));
+    if (temSis) objeto.push(assinatura ? 'disponibilização de sistema na modalidade de assinatura mensal' : 'desenvolvimento de sistema sob medida' + (m.sistema.nome_sistema ? ' (' + m.sistema.nome_sistema + ')' : ''));
+    var c1 = cl('Do objeto', [
+      sub(1, 1) + 'Este contrato tem por objeto a prestação, pela CONTRATADA ao CONTRATANTE, dos seguintes serviços: ' + listaHumana(objeto) + (cli.negocio ? ', para ' + cli.negocio : '') + '.',
+      sub(1, 2) + 'O que está incluído em cada serviço está descrito item a item na cláusula 2. Qualquer coisa que não esteja listada ali não faz parte deste contrato e, se pedida, será orçada à parte.'
+    ]);
+
+    /* 2. Escopo */
+    var escopo = [], blocos = [];
+    if (temMarca) blocos.push({ titulo: 'Criação de marca' + (m.marca.plano && m.marca.plano !== 'personalizado' && CATALOGO.marca.planos[m.marca.plano] ? ', plano ' + CATALOGO.marca.planos[m.marca.plano].nome : ''), itens: itensMarcados(m.marca.itens), fora: itensMarcados(m.marca.fora) });
+    if (temSite) {
+      var ts = (CATALOGO.site.tipos[m.site.tipo] || 'Site') + (m.site.pacote && CATALOGO.site.pacotes[m.site.pacote] ? ', pacote ' + CATALOGO.site.pacotes[m.site.pacote].nome : '');
+      blocos.push({ titulo: ts, itens: itensMarcados(m.site.itens), fora: itensMarcados(m.site.fora) });
+    }
+    if (temSis) blocos.push({ titulo: (assinatura ? 'Sistema por assinatura' : 'Sistema sob medida') + (m.sistema.nome_sistema ? ': ' + m.sistema.nome_sistema : ''), itens: itensMarcados(m.sistema.itens), fora: itensMarcados(m.sistema.fora) });
+    escopo.push(sub(2, 1) + 'A CONTRATADA entregará exatamente o que está listado abaixo, para cada serviço contratado.');
+    escopo.push(sub(2, 2) + 'Os itens marcados como não incluídos ficam fora deste contrato, mesmo que sejam comuns nesse tipo de projeto.');
+    var c2 = cl('Do escopo', escopo, { blocos: blocos });
+
+    /* 3. Etapas e prazos */
+    var pz = [
+      sub(3, 1) + 'O trabalho segue as etapas abaixo, com prazo estimado total de ' + plural(diasTotal, 'dia útil', 'dias úteis') + '.',
+      sub(3, 2) + 'O prazo começa a contar no dia útil seguinte ao que ocorrer por último: a confirmação do pagamento da entrada ou o recebimento dos materiais pedidos no briefing (textos, fotos, logotipo, acessos e informações do negócio).',
+      sub(3, 3) + 'O prazo fica suspenso enquanto a CONTRATADA aguarda resposta, aprovação ou material do CONTRATANTE, e volta a correr quando o retorno chega.',
+      sub(3, 4) + 'Se o projeto ficar parado por mais de 30 dias corridos por falta de retorno do CONTRATANTE, a CONTRATADA poderá dar a etapa em andamento por concluída, cobrar as parcelas correspondentes e retomar o projeto em nova data, conforme a sua agenda.'
+    ];
+    var c3 = cl('Das etapas e dos prazos', pz, { etapas: etapas.map(function (e) { return [String(e.nome).trim(), parseInt(e.dias, 10) || 0]; }) });
+
+    /* 4. Revisões e aprovação */
+    var rev = [], i4 = 1;
+    rev.push(sub(4, i4++) + 'Uma rodada de revisão é um conjunto de ajustes pedidos de uma só vez, por escrito, sobre a versão apresentada. Ajustes enviados aos poucos, em mensagens separadas depois de uma rodada fechada, contam como nova rodada.');
+    if (temMarca) rev.push(sub(4, i4++) + 'Na marca, estão incluídas ' + plural(parseInt(m.marca.rodadas, 10) || 0, 'rodada', 'rodadas') + ' de ajuste sobre a proposta escolhida. Trocar de proposta depois da escolha, ou pedir um conceito novo, é tratado como novo trabalho e orçado à parte.');
+    if (temSite) rev.push(sub(4, i4++) + (m.site.tipo === 'landing' ? 'Na landing page' : 'No site') + ', estão incluídas ' + plural(parseInt(m.site.rodadas, 10) || 0, 'rodada', 'rodadas') + ' de revisão antes da publicação.');
+    if (temSis) rev.push(sub(4, i4++) + 'No sistema, o CONTRATANTE terá ' + plural(parseInt(m.sistema.homologacao, 10) || 5, 'dia útil', 'dias úteis') + ' para testar cada entrega e apontar defeitos. Estão incluídas ' + plural(parseInt(m.sistema.rodadas, 10) || 0, 'rodada', 'rodadas') + ' de ajuste na homologação. Sem manifestação dentro desse prazo, a entrega é considerada aprovada. Pedidos de funcionalidades novas não são ajuste: viram orçamento à parte.');
+    rev.push(sub(4, i4++) + 'Rodadas extras, quando pedidas, serão orçadas antes e só executadas com o aceite do CONTRATANTE.');
+    rev.push(sub(4, i4++) + 'Valem como aprovação as respostas por escrito no WhatsApp ou no e-mail informados neste contrato.');
+    var c4 = cl('Das revisões e da aprovação', rev);
+
+    /* 5. Investimento e pagamento */
+    var pg = [], i5 = 1;
+    if (calc.total > 0) {
+      pg.push(sub(5, i5++) + 'Pelos serviços deste contrato, o CONTRATANTE pagará o total de ' + dinheiro(calc.total) + (calc.desconto ? ', já com desconto de ' + dinheiro(calc.desconto) : '') + ', assim distribuído entre os serviços: ' + calc.linhas.map(function (l) { return l[0] + ', ' + dinheiro(l[1]); }).join('; ') + '.');
+      if (calc.entrada > 0) pg.push(sub(5, i5++) + 'Entrada de ' + dinheiro(calc.entrada) + ' (' + calc.pct + '% do total), paga na assinatura deste contrato. O trabalho começa depois da confirmação desse pagamento.');
+      if (calc.parcelas.length) {
+        if (calc.parcelas[0].naEntrega) pg.push(sub(5, i5++) + 'Saldo de ' + dinheiro(calc.saldo) + ', pago na entrega final, antes da publicação ou do envio dos arquivos finais.');
+        else pg.push(sub(5, i5++) + 'Saldo de ' + dinheiro(calc.saldo) + ' em ' + plural(calc.parcelas.length, 'parcela mensal', 'parcelas mensais') + ': ' + calc.parcelas.map(function (x) { return x.n + 'ª de ' + dinheiro(x.valor) + (x.venc ? ' em ' + data(x.venc) : ''); }).join('; ') + '.');
+      }
+    }
+    if (calc.mensais.length) pg.push(sub(5, i5++) + 'Valores mensais: ' + calc.mensais.map(function (x) { return x.desc + ', ' + dinheiro(x.valor) + ' por mês'; }).join('; ') + ', conforme a cláusula ' + (nCl + 2) + '.');
+    pg.push(sub(5, i5++) + 'Os pagamentos serão feitos por ' + meioTxt + ', com os dados enviados pela CONTRATADA. Cada pagamento recebido tem comprovante.');
+    pg.push(sub(5, i5++) + 'Pagamento em atraso terá multa de 2% e juros de 1% ao mês, proporcionais aos dias de atraso. Com mais de 10 dias de atraso, a CONTRATADA pode pausar o trabalho até a regularização, e o prazo fica suspenso nesse período.');
+    pg.push(sub(5, i5++) + 'Os arquivos finais, a publicação e a transferência de direitos acontecem depois da quitação do valor do projeto.');
+    var c5 = cl('Do investimento e do pagamento', pg);
+
+    /* 6. Serviços mensais */
+    if (calc.mensais.length) {
+      var ms = [], i6 = 1, cn = nCl + 1;
+      if (temSite && m.site.manutencao && m.site.manutencao.plano && num2(m.site.manutencao.valor) > 0) {
+        var it = itensMarcados(m.site.manutencao.itens);
+        ms.push(sub(cn, i6++) + 'Manutenção do site (' + ((CATALOGO.manutencao[m.site.manutencao.plano] || {}).nome || 'plano mensal') + '), por ' + dinheiro(m.site.manutencao.valor) + ' por mês, começando ' + (m.site.manutencao.inicio ? 'em ' + data(m.site.manutencao.inicio) : 'no mês seguinte à publicação') + '. Inclui: ' + (it.length ? it.map(minusc).join('; ') : 'o que for combinado por escrito') + '. Ajustes não usados no mês não acumulam.');
+      }
+      if (temSis && num2(m.sistema.mensal) > 0) {
+        var im = itensMarcados(m.sistema.mensal_itens);
+        if (assinatura) {
+          ms.push(sub(cn, i6++) + 'Assinatura do sistema' + (m.sistema.plano ? ', plano ' + m.sistema.plano : '') + ', por ' + dinheiro(m.sistema.mensal) + ' por mês, com vencimento todo dia ' + (parseInt(m.sistema.dia_venc, 10) || 10) + (m.sistema.inicio ? ', a partir de ' + data(m.sistema.inicio) : ', a partir da liberação do acesso') + '. Inclui: ' + (im.length ? im.map(minusc).join('; ') : 'o uso do sistema e o suporte combinado') + '.');
+          ms.push(sub(cn, i6++) + 'A assinatura vale por prazo indeterminado' + (parseInt(m.sistema.fidelidade, 10) > 0 ? ', com permanência mínima de ' + plural(parseInt(m.sistema.fidelidade, 10), 'mês', 'meses') + '. Se o CONTRATANTE cancelar antes desse prazo, pagará 30% das mensalidades que faltarem para completá-lo' : '') + '. Qualquer parte pode cancelar com aviso por escrito de 30 dias.');
+        } else {
+          ms.push(sub(cn, i6++) + 'Depois da implantação, o CONTRATANTE pagará ' + dinheiro(m.sistema.mensal) + ' por mês, com vencimento todo dia ' + (parseInt(m.sistema.dia_venc, 10) || 10) + ', para manter o sistema no ar. Inclui: ' + (im.length ? im.map(minusc).join('; ') : 'hospedagem e suporte') + '. Esse serviço pode ser cancelado por qualquer parte com aviso por escrito de 30 dias.');
+        }
+        ms.push(sub(cn, i6++) + 'Com mais de 15 dias de atraso no valor mensal, o acesso ao sistema pode ser suspenso até a regularização. Com mais de 60 dias, a CONTRATADA pode encerrar o serviço, e os dados ficam disponíveis para exportação por mais 30 dias.');
+      }
+      ms.push(sub(cn, i6++) + 'Os valores mensais são reajustados uma vez por ano, na data de aniversário do contrato, pela variação do IPCA dos últimos 12 meses.');
+      cl('Dos serviços mensais', ms);
+    }
+
+    /* Obrigações */
+    var obC = [
+      'Executar os serviços com qualidade profissional, dentro do escopo e das etapas deste contrato.',
+      'Manter o CONTRATANTE informado do andamento e avisar com antecedência qualquer imprevisto que afete o prazo.',
+      'Usar as informações e os materiais do CONTRATANTE só para executar este contrato.'
+    ];
+    if (temMarca) obC.push('Entregar a marca em arquivos vetoriais desenhados, nunca em imagem de inteligência artificial convertida, e usar só fontes de licença livre para uso comercial ou compradas pelo CONTRATANTE.');
+    var nObC = cl('Das obrigações da CONTRATADA', obC.map(function (t, i) { return sub(nCl + 1, i + 1) + t; }));
+    var obT = [
+      'Pagar os valores nas datas combinadas.',
+      'Enviar os materiais, os acessos e as informações pedidos no briefing, e responder às aprovações dentro de prazos razoáveis.',
+      'Garantir que tem o direito de usar todo o conteúdo que fornecer (textos, fotos, logotipos, depoimentos e dados), e responder por ele.',
+      'Conferir se o conteúdo publicado respeita as regras do seu conselho ou órgão de classe, quando houver (como CFM, CFO, CFP, CFN, COFFITO ou OAB).'
+    ];
+    cl('Das obrigações do CONTRATANTE', obT.map(function (t, i) { return sub(nCl + 1, i + 1) + t; }));
+
+    /* Propriedade intelectual */
+    var pi = [], ipi = 1, cpi = nCl + 1;
+    if (temMarca) pi.push(sub(cpi, ipi++) + 'Marca: depois da quitação integral, a CONTRATADA cede ao CONTRATANTE, de forma definitiva, os direitos patrimoniais sobre a marca na versão final aprovada, nos termos da Lei nº 9.610/1998. As propostas não escolhidas continuam com a CONTRATADA.');
+    if (temSite) pi.push(sub(cpi, ipi++) + 'Site: depois da quitação integral, o site entregue e o seu conteúdo passam a pertencer ao CONTRATANTE. Componentes de código de uso geral da CONTRATADA e de terceiros, usados na construção, seguem disponíveis para o CONTRATANTE dentro do site, sob as respectivas licenças.');
+    if (temSis) {
+      if (m.sistema.propriedade === 'codigo' && !assinatura) pi.push(sub(cpi, ipi++) + 'Sistema: depois da quitação integral do valor de desenvolvimento, a CONTRATADA entrega o código-fonte desenvolvido especificamente para o CONTRATANTE e cede os direitos patrimoniais sobre ele, nos termos da Lei nº 9.609/1998. Bibliotecas e serviços de terceiros seguem as suas próprias licenças. A CONTRATADA pode reutilizar conhecimentos, métodos e componentes genéricos que não identifiquem o CONTRATANTE.');
+      else pi.push(sub(cpi, ipi++) + 'Sistema: o CONTRATANTE recebe uma licença de uso, não exclusiva e intransferível, válida enquanto este contrato estiver em vigor e os pagamentos em dia. O código-fonte, a estrutura e o banco de dados do sistema são da CONTRATADA, nos termos da Lei nº 9.609/1998. Os dados inseridos pelo CONTRATANTE são sempre dele.');
+    }
+    pi.push(sub(cpi, ipi++) + 'Antes da quitação, todo o material entregue é de uso provisório, só para aprovação.');
+    cl('Da propriedade intelectual', pi);
+
+    /* Registro da marca */
+    if (temMarca) {
+      var cr = nCl + 1;
+      cl('Do registro da marca', [
+        sub(cr, 1) + 'A CONTRATADA fará uma busca prévia de marcas parecidas na base pública do INPI, como orientação. Essa busca não garante que o registro será concedido.',
+        sub(cr, 2) + 'O pedido de registro no INPI, o acompanhamento do processo e as taxas oficiais são de responsabilidade do CONTRATANTE e não fazem parte deste contrato.',
+        sub(cr, 3) + 'É recomendável que o CONTRATANTE faça o pedido de registro antes de produzir fachada, impressos e materiais em quantidade.'
+      ]);
+    }
+
+    /* Terceiros */
+    if (temSite || temSis) {
+      var ct = nCl + 1;
+      cl('Do domínio, da hospedagem e dos serviços de terceiros', [
+        sub(ct, 1) + 'Domínio e hospedagem ficam em nome do CONTRATANTE sempre que possível, com os custos por conta dele. Quando ficarem em conta da CONTRATADA, isso estará dito no escopo ou nos serviços mensais.',
+        sub(ct, 2) + 'Serviços de terceiros usados no projeto (hospedagem, domínio, WhatsApp, gateways de pagamento, e-mail, mapas e similares) funcionam pelas regras e pela disponibilidade de cada fornecedor. Falhas, mudanças de preço ou de regra desses serviços não são de responsabilidade da CONTRATADA, que ajudará a contornar o problema dentro do possível.',
+        sub(ct, 3) + 'A CONTRATADA emprega os esforços razoáveis para manter no ar o que estiver sob a sua gestão, mas nenhum serviço na internet tem funcionamento garantido sem interrupção.'
+      ]);
+    }
+
+    /* Dados e LGPD */
+    var dl = nCl + 1, dados = [sub(dl, 1) + 'As partes cumprem a Lei Geral de Proteção de Dados (Lei nº 13.709/2018). Os dados pessoais trocados neste contrato são usados só para executá-lo.'];
+    if (temSis) {
+      dados.push(sub(dl, 2) + 'Nos dados que o CONTRATANTE e a sua equipe colocam no sistema, o CONTRATANTE é o controlador e a CONTRATADA é a operadora, tratando esses dados só para prestar o serviço, com medidas de segurança adequadas, e comunicando ao CONTRATANTE, em até 2 dias úteis, qualquer incidente de segurança de que tiver conhecimento.');
+      dados.push(sub(dl, 3) + 'Ao fim do contrato, a CONTRATADA entrega, se pedido em até 30 dias, uma cópia dos dados do CONTRATANTE em formato de planilha ou outro formato comum, e depois apaga os dados dos seus servidores, salvo o que a lei obrigar a guardar.');
+      dados.push(sub(dl, 4) + 'Se o sistema guardar dados de saúde ou de pacientes, o CONTRATANTE é responsável por colher o consentimento e cumprir as regras do seu conselho profissional para esses dados.');
+    } else dados.push(sub(dl, 2) + 'Formulários e ferramentas de rastreio instalados a pedido do CONTRATANTE devem ser informados aos visitantes na política de privacidade do próprio CONTRATANTE.');
+    cl(temSis ? 'Dos dados, da segurança e da LGPD' : 'Dos dados pessoais', dados);
+
+    /* Garantia */
+    var ga = [], ig = 1, cg = nCl + 1;
+    if (temSite) ga.push(sub(cg, ig++) + 'O site tem garantia técnica de 30 dias depois da publicação: erros de funcionamento causados pela CONTRATADA são corrigidos sem custo nesse período.');
+    if (temMarca) ga.push(sub(cg, ig++) + 'Na marca, problemas técnicos nos arquivos entregues (formato, cor, corte ou resolução) são corrigidos sem custo por 30 dias depois da entrega.');
+    if (temSis && !assinatura) ga.push(sub(cg, ig++) + 'O sistema tem garantia de 60 dias depois da implantação para defeitos no que foi entregue. Depois disso, as correções estão incluídas no valor mensal, quando contratado, ou são orçadas à parte.');
+    if (temSis && assinatura) ga.push(sub(cg, ig++) + 'Enquanto a assinatura estiver em dia, defeitos do sistema são corrigidos sem custo, dentro de prazo razoável para a gravidade de cada um.');
+    ga.push(sub(cg, ig++) + 'A garantia não cobre mudanças feitas por terceiros, mudanças pedidas depois da aprovação nem problemas causados por serviços de terceiros.');
+    cl('Da garantia', ga);
+
+    cl('Da confidencialidade', [sub(nCl + 1, 1) + 'As partes mantêm em sigilo as informações do negócio uma da outra a que tiverem acesso por causa deste contrato, durante a vigência e por 2 anos depois dela.']);
+
+    /* Desistência e rescisão */
+    var rs = nCl + 1;
+    cl('Da desistência e da rescisão', [
+      sub(rs, 1) + 'Como este contrato é firmado a distância, o CONTRATANTE pessoa física pode desistir em até 7 dias da assinatura, com devolução integral do que pagou, desde que não tenha pedido o início imediato do trabalho (art. 49 do Código de Defesa do Consumidor).',
+      sub(rs, 2) + 'Depois desse prazo, ou com o trabalho já iniciado a pedido do CONTRATANTE, a desistência obriga ao pagamento das etapas já executadas e da etapa em andamento. A entrada não é devolvida depois que a primeira etapa começou.',
+      sub(rs, 3) + 'Qualquer parte pode rescindir o contrato se a outra descumprir uma obrigação e não corrigir em até 10 dias depois de avisada por escrito.',
+      sub(rs, 4) + 'Na rescisão, a CONTRATADA entrega o que já estiver pronto e pago, e os direitos de propriedade seguem a cláusula de propriedade intelectual.'
+    ]);
+
+    var lr = nCl + 1;
+    cl('Das responsabilidades', [
+      sub(lr, 1) + 'A CONTRATADA entrega os serviços descritos, mas não garante resultados comerciais, como número de vendas, de clientes ou de posição no Google, que dependem de fatores fora do seu controle.',
+      sub(lr, 2) + 'A responsabilidade da CONTRATADA por eventuais danos fica limitada ao valor efetivamente pago pelo CONTRATANTE neste contrato, salvo dolo.'
+    ]);
+
+    cl('Do portfólio', [sub(nCl + 1, 1) + 'A CONTRATADA pode mostrar o trabalho feito no seu portfólio e nas suas redes depois da entrega, sem expor dados internos do CONTRATANTE. Se o CONTRATANTE não quiser, basta pedir por escrito.']);
+
+    cl('Da comunicação entre as partes', [sub(nCl + 1, 1) + 'O WhatsApp e o e-mail informados neste contrato são os canais oficiais para avisos, pedidos e aprovações. Mudança de contato deve ser avisada por escrito.']);
+
+    if (String(cfg.clausula_livre || '').trim()) {
+      var cc = nCl + 1;
+      cl('Das condições específicas', String(cfg.clausula_livre).trim().split(/\n+/).map(function (t, i) { return sub(cc, i + 1) + t.trim(); }));
+    }
+
+    var ca = nCl + 1;
+    cl('Da assinatura e do foro', [
+      sub(ca, 1) + 'Este contrato é assinado eletronicamente, nos termos da Medida Provisória nº 2.200-2/2001 (art. 10, § 2º) e da Lei nº 14.063/2020. As partes reconhecem como válida a assinatura feita pela página do contrato, registrada com data, hora, protocolo e código de verificação. A assinatura também pode ser feita no documento impresso ou pelo assinador do gov.br.',
+      sub(ca, 2) + 'Fica eleito o foro da Comarca de ' + CONTRATADA.foro + ', ressalvado o direito do CONTRATANTE consumidor de usar o foro do seu domicílio (art. 101, I, do Código de Defesa do Consumidor).'
+    ]);
+
+    /* quadro e resumo */
+    var prazoTxt = diasTotal ? plural(diasTotal, 'dia útil', 'dias úteis') : '';
+    var revTxt = [temMarca ? 'marca ' + (parseInt(m.marca.rodadas, 10) || 0) : '', temSite ? (m.site.tipo === 'landing' ? 'página ' : 'site ') + (parseInt(m.site.rodadas, 10) || 0) : '', temSis ? 'sistema ' + (parseInt(m.sistema.rodadas, 10) || 0) : ''].filter(Boolean).join(', ');
+    var parcelasTxt = calc.parcelas.length ? (calc.parcelas[0].naEntrega ? 'Saldo de ' + dinheiro(calc.saldo) + ' na entrega' : plural(calc.parcelas.length, 'parcela', 'parcelas') + ' de ' + dinheiro(calc.parcelas[0].valor) + (calc.parcelas[0].venc ? ' a partir de ' + data(calc.parcelas[0].venc) : '')) : (calc.total ? 'Sem saldo' : '');
+    var mensalTxt = calc.mensais.map(function (x) { return x.desc + ' ' + dinheiro(x.valor) + '/mês'; }).join(' + ');
+    var servTxt = servicos.map(function (s) { return s.charAt(0).toUpperCase() + s.slice(1); }).join(' + ');
+    var quadro = [
+      ['Contratante', [cli.nome, cli.negocio && cli.negocio !== cli.nome ? cli.negocio : ''].filter(Boolean).join(', ')],
+      ['Serviços', servTxt],
+      ['Prazo estimado', prazoTxt],
+      ['Rodadas de revisão', revTxt],
+      ['Entrada', calc.entrada ? dinheiro(calc.entrada) + ' na assinatura' : ''],
+      ['Saldo', parcelasTxt],
+      ['Mensal', mensalTxt],
+      ['Pagamento', meio]
+    ].filter(function (l) { return l[1]; });
+    if (calc.total) quadro.push(['Total do projeto', dinheiro(calc.total), 'total']);
+
+    var titulos = [];
+    if (temMarca) titulos.push('criação de marca');
+    if (temSite) titulos.push(m.site.tipo === 'landing' ? 'landing page' : 'site');
+    if (temSis) titulos.push('sistema');
+
+    cfg.contratada = CONTRATADA;
+    cfg.versao = 2;
+    cfg.resumo = {
+      servicos: servTxt, total: calc.total, total_txt: calc.total ? dinheiro(calc.total) : '', entrada_txt: calc.entrada ? dinheiro(calc.entrada) : '',
+      parcelas_txt: parcelasTxt, meio: meio, prazo_txt: prazoTxt, revisoes_txt: revTxt, mensal_txt: mensalTxt, mensal_total: calc.mensalTotal
+    };
+    cfg.documento = {
+      titulo: 'Contrato de prestação de serviços de ' + listaHumana(titulos),
+      quadro: quadro,
+      partes: [
+        'CONTRATADA: ' + CONTRATADA.nome + ', nome fantasia de ' + CONTRATADA.titular + ', ' + CONTRATADA.tipo + ', CNPJ nº ' + CONTRATADA.cnpj + ', com sede em ' + CONTRATADA.cidade + ', e-mail ' + CONTRATADA.email + ', WhatsApp ' + CONTRATADA.whatsapp + '.',
+        'CONTRATANTE: a pessoa ou empresa identificada no quadro de dados e na assinatura deste contrato, com o documento, o endereço e os contatos informados no ato da assinatura.',
+        'As partes acima têm entre si justo e contratado o seguinte.'
+      ],
+      secoes: secoes
+    };
+    return cfg;
+  }
+
+  /* ---------- HTML do contrato (tela e impressão) ---------- */
+  function corpoHtml(conteudo) {
+    var d = conteudo.documento || {};
+    var h = '';
+    (d.secoes || []).forEach(function (s) {
+      h += '<section class="cl"><span class="n">' + String(s.n).padStart(2, '0') + '</span><h3>' + esc(s.titulo) + '</h3>';
+      (s.p || []).forEach(function (t) { h += '<p>' + esc(t) + '</p>'; });
+      if (s.blocos) s.blocos.forEach(function (b) {
+        h += '<div class="bloco"><h4>' + esc(b.titulo) + '</h4><ul class="inc">' + b.itens.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>';
+        if (b.fora && b.fora.length) h += '<div class="fora-r">Não incluído</div><ul class="fora">' + b.fora.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>';
+        h += '</div>';
+      });
+      if (s.etapas && s.etapas.length) h += '<table class="etapas">' + s.etapas.map(function (e, i) { return '<tr><td>' + (i + 1) + '</td><th>' + esc(e[0]) + '</th><td>' + plural(e[1], 'dia útil', 'dias úteis') + '</td></tr>'; }).join('') + '</table>';
+      h += '</section>';
+    });
+    return h;
+  }
+
+  function quadroHtml(conteudo, extra) {
+    var q = ((conteudo.documento || {}).quadro || []).slice();
+    var linhas = q.filter(function (l) { return l[2] !== 'total'; }).concat(extra || []).concat(q.filter(function (l) { return l[2] === 'total'; }));
+    return '<table class="quadro">' + linhas.map(function (l) { return '<tr' + (l[2] === 'total' ? ' class="total"' : '') + '><th>' + esc(l[0]) + '</th><td>' + esc(l[1]) + '</td></tr>'; }).join('') + '</table>';
+  }
+
+  var CSS_IMPRESSAO = '@page{size:A4;margin:15mm 0 14mm}'
+    + '*{box-sizing:border-box;margin:0;padding:0}'
+    + 'body{font:9.6pt/1.5 Arial,Helvetica,sans-serif;color:#000;padding:0 14mm}'
+    + '.topo{display:flex;align-items:center;gap:9px;margin-bottom:10pt}'
+    + '.topo img{height:24px}'
+    + '.topo .m{font-size:9pt;letter-spacing:.3em;text-transform:uppercase}'
+    + '.topo .s{font-size:7pt;color:#555}'
+    + '.cabec{border-top:1.2pt solid #000;border-bottom:.5pt solid #999;padding:9pt 0;margin-bottom:12pt}'
+    + 'h1{font-size:14pt;font-weight:600;margin:0 0 4pt}'
+    + '.cabec p{font-size:8pt;color:#555}'
+    + 'table.quadro{width:100%;border-collapse:collapse;border:.8pt solid #bbb;margin-bottom:12pt}'
+    + '.quadro th,.quadro td{padding:5pt 8pt;border-bottom:.5pt solid #ddd;text-align:left;vertical-align:top}'
+    + '.quadro th{font-size:7pt;letter-spacing:.1em;text-transform:uppercase;color:#666;font-weight:400;width:30%}'
+    + '.quadro td{font-size:9pt;text-align:right}'
+    + '.quadro tr:last-child th,.quadro tr:last-child td{border-bottom:none}'
+    + '.quadro tr.total th{color:#000;border-top:1pt solid #000}.quadro tr.total td{font-size:12pt;border-top:1pt solid #000}'
+    + '.partes p{font-size:9pt;margin-bottom:5pt}'
+    + '.cl{padding:8pt 0;border-top:.5pt solid #ddd}'
+    + '.cl .n{font-size:7.5pt;color:#777;font-family:ui-monospace,Menlo,Consolas,monospace}'
+    + '.cl h3{font-size:10.5pt;font-weight:600;margin:2pt 0 4pt;page-break-after:avoid;break-after:avoid}'
+    + '.cl p{orphans:3;widows:3}.cl p+p{margin-top:4pt}'
+    + '.bloco{border:.6pt solid #ccc;padding:7pt 9pt;margin-top:7pt;page-break-inside:avoid;break-inside:avoid}'
+    + '.bloco h4{font-size:9.5pt;font-weight:600;margin-bottom:4pt}'
+    + 'ul{padding-left:13pt}li{margin:1.5pt 0}'
+    + '.fora-r{font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:#666;margin:6pt 0 2pt}'
+    + 'ul.fora li{color:#444}'
+    + 'table.etapas{width:100%;border-collapse:collapse;margin-top:7pt}'
+    + '.etapas td,.etapas th{border-bottom:.5pt solid #ddd;padding:4pt 6pt;text-align:left;font-weight:400}'
+    + '.etapas td:first-child{width:18pt;color:#777;font-family:ui-monospace,Menlo,monospace}.etapas td:last-child{text-align:right;white-space:nowrap}'
+    + '.assin{display:flex;gap:14pt;margin-top:14pt;page-break-inside:avoid;break-inside:avoid}'
+    + '.assin>div{flex:1;border:.8pt solid #999;padding:10pt}'
+    + '.assin .r{font-size:7pt;letter-spacing:.14em;text-transform:uppercase;color:#666;margin-bottom:5pt}'
+    + '.assin img{max-width:170pt;max-height:52pt;display:block;margin:2pt 0 3pt}'
+    + '.assin .linha{height:40pt}.assin .emit{font-size:7.5pt;color:#555;display:flex;align-items:flex-end;padding-bottom:4pt}'
+    + '.assin .nome{border-top:.7pt solid #000;padding-top:3pt;font-size:8.5pt}'
+    + '.selo{margin-top:10pt;border:.8pt solid #999;padding:9pt;font-size:7.6pt;color:#444;line-height:1.55;page-break-inside:avoid;break-inside:avoid}'
+    + '.selo b{color:#000;font-family:ui-monospace,Menlo,monospace;word-break:break-all}'
+    + '.via{margin-top:8pt;font-size:7pt;color:#888;text-align:right}';
+
+  /* assinatura: null (para assinar por fora) ou {protocolo,codigo,assinado_em,nome,documento,email,whatsapp,endereco,cidade,assinatura_digitada,assinatura_imagem,fuso} */
+  function htmlImpressao(conteudo, assinatura, op) {
+    op = op || {};
+    var d = conteudo.documento || {}, C = conteudo.contratada || CONTRATADA, a = assinatura;
+    var extra = [];
+    if (a) {
+      extra.push(['CPF/CNPJ do contratante', a.documento || '']);
+      if (a.endereco || a.cidade) extra.push(['Endereço', [a.endereco, a.cidade].filter(Boolean).join(', ')]);
+      if (a.email || a.whatsapp) extra.push(['Contato', [a.email, a.whatsapp].filter(Boolean).join(' · ')]);
+    } else {
+      extra.push(['CPF/CNPJ do contratante', '______________________________']);
+      extra.push(['Endereço', '______________________________________________']);
+    }
+    var dt = a && a.assinado_em ? new Date(a.assinado_em) : null;
+    var assinaturas = '<div class="assin"><div><div class="r">Contratante</div>'
+      + (a && a.assinatura_imagem ? '<img src="' + a.assinatura_imagem + '" alt="Assinatura">' : '<div class="linha"></div>')
+      + '<div class="nome">' + esc(a ? (a.assinatura_digitada || a.nome) : (conteudo.cliente && conteudo.cliente.nome) || '') + (a && a.documento ? '<br>CPF/CNPJ ' + esc(a.documento) : '') + '</div></div>'
+      + '<div><div class="r">Contratada</div>' + (a ? '<div class="linha emit">Contrato emitido e enviado para assinatura pela CONTRATADA, que concorda com os seus termos.</div>' : '<div class="linha"></div>') + '<div class="nome">' + esc(C.titular) + '<br>' + esc(C.nome) + ', CNPJ ' + esc(C.cnpj) + '</div></div></div>';
+    var selo = a ? '<div class="selo">Assinado eletronicamente pelo CONTRATANTE em ' + dt.toLocaleString('pt-BR') + (a.fuso ? ' (' + esc(a.fuso) + ')' : '') + '.<br>Protocolo <b>' + esc(a.protocolo) + '</b><br>Código de verificação <b>' + esc(a.codigo) + '</b><br>O código é calculado a partir do texto deste contrato e dos dados da assinatura. Qualquer alteração posterior faz o código deixar de corresponder ao registro guardado pela CONTRATADA.</div>'
+      : '<div class="selo">Local e data: ______________________________, ____ / ____ / ________<br>Este documento também pode ser assinado pelo assinador gratuito do gov.br.</div>';
+    return '<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><title>' + esc((a ? 'Contrato ' + a.protocolo : 'Contrato') + ' ' + ((conteudo.cliente || {}).nome || '')) + '</title><style>' + CSS_IMPRESSAO + '</style></head><body>'
+      + '<div class="topo">' + (op.logo ? '<img src="' + op.logo + '" alt=""' + (op.inverter ? ' style="filter:invert(1)"' : '') + '>' : '') + '<div><div class="m">Assessoria</div><div class="s">marca, sites e sistemas</div></div></div>'
+      + '<div class="cabec"><h1>' + esc(d.titulo || 'Contrato de prestação de serviços') + '</h1><p>' + (a ? 'Firmado eletronicamente entre as partes identificadas abaixo.' : 'Via para assinatura das partes.') + '</p></div>'
+      + quadroHtml(conteudo, extra)
+      + '<div class="partes">' + (d.partes || []).map(function (t) { return '<p>' + esc(t) + '</p>'; }).join('') + '</div>'
+      + corpoHtml(conteudo)
+      + assinaturas + selo
+      + (op.via ? '<div class="via">' + esc(op.via) + ' · emitida em ' + new Date().toLocaleString('pt-BR') + '</div>' : '')
+      + '</body></html>';
+  }
+
+  /* Imprime num quadro invisível (vira PDF em "Salvar como PDF"). Devolve false se o navegador bloquear. */
+  function imprimir(html) {
+    try {
+      var f = document.createElement('iframe');
+      f.setAttribute('aria-hidden', 'true');
+      f.style.cssText = 'position:fixed;right:0;bottom:0;width:0;height:0;border:0;opacity:0;';
+      document.body.appendChild(f);
+      f.onload = function () {
+        try { f.contentWindow.focus(); f.contentWindow.print(); } catch (e) {}
+        setTimeout(function () { if (f.parentNode) f.parentNode.removeChild(f); }, 60000);
+      };
+      f.srcdoc = html;
+      return true;
+    } catch (e) { return false; }
+  }
+
+  raiz.IGContrato = { CONTRATADA: CONTRATADA, CATALOGO: CATALOGO, ETAPAS_PADRAO: ETAPAS_PADRAO, calcular: calcular, gerar: gerar,
+    corpoHtml: corpoHtml, quadroHtml: quadroHtml, htmlImpressao: htmlImpressao, imprimir: imprimir, dinheiro: dinheiro, data: data, esc: esc, somaMeses: somaMeses };
+})(typeof window !== 'undefined' ? window : globalThis);
+
+</script>
+<script>
+(function(){
+  'use strict';
+  var SUPA = 'https://mkgmvupvmadvrtoqrycz.supabase.co';
+  var CHAVE = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1rZ212dXB2bWFkdnJ0b3FyeWN6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg3MjAzMDMsImV4cCI6MjEwNDI5NjMwM30.Ovrq1BNABhIJFa19Mu2n8-qyzIxL7zIaIKJJdbUF8AU';
+  var LOGO = document.querySelector('.marca img').src;
+  var $ = function(id){ return document.getElementById(id); };
+  var token = new URLSearchParams(location.search).get('c') || '';
+  var dados = null;
+
+  function rpc(nome, corpo){
+    return fetch(SUPA + '/rest/v1/rpc/' + nome, { method:'POST', headers:{ 'Content-Type':'application/json', apikey:CHAVE, Authorization:'Bearer ' + CHAVE }, body: JSON.stringify(corpo) })
+      .then(function(r){ return r.text().then(function(t){ var j = null; try{ j = t ? JSON.parse(t) : null; }catch(e){} if(!r.ok){ var e = new Error((j && (j.message || j.hint)) || ('erro ' + r.status)); e.status = r.status; throw e; } return j; }); });
+  }
+  function mostrar(id){ ['carregando','indisponivel','contrato','assinado'].forEach(function(x){ $(x).hidden = x !== id; }); window.scrollTo(0,0); }
+
+  /* ---------- montar a tela ---------- */
+  function montar(){
+    var c = dados.conteudo, d = c.documento || {}, cli = c.cliente || {};
+    var esc = IGContrato.esc;
+    document.title = 'Contrato ' + (cli.nome ? 'de ' + cli.nome + ' ' : '') + '| IG Assessoria';
+    var sv = String((c.resumo && c.resumo.servicos) || '').split(' + ').filter(Boolean).map(function(t,i){ return i ? t.charAt(0).toLowerCase() + t.slice(1) : t; });
+    $('c-titulo').textContent = sv.length ? (sv.length > 1 ? sv.slice(0,-1).join(', ') + ' e ' + sv[sv.length-1] : sv[0]) : 'Seu contrato';
+    var primeiro = String(cli.nome || '').trim().split(/\s+/)[0];
+    $('c-intro').textContent = (primeiro ? primeiro + ', aqui' : 'Aqui') + ' está tudo o que combinamos: o que entra no projeto, as etapas, os valores e as condições. Leia com calma e assine no fim da página.';
+    $('c-quadro').innerHTML = IGContrato.quadroHtml(c);
+    var sec = d.secoes || [];
+    var esc2 = sec.filter(function(s){ return s.blocos; })[0];
+    $('c-escopo').innerHTML = esc2 ? esc2.blocos.map(function(b){
+      return '<div class="bloco"><h4>' + esc(b.titulo) + '</h4><ul class="inc">' + b.itens.map(function(t){ return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>'
+        + (b.fora && b.fora.length ? '<div class="fora-r">Não incluído</div><ul class="fora">' + b.fora.map(function(t){ return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>' : '') + '</div>';
+    }).join('') : '';
+    var et = sec.filter(function(s){ return s.etapas; })[0];
+    var total = et ? et.etapas.reduce(function(s,e){ return s + (e[1]||0); }, 0) : 0;
+    $('c-prazo').textContent = total ? 'Prazo estimado de ' + total + ' dias úteis, contados depois da entrada e do envio dos materiais.' : '';
+    $('c-etapas').innerHTML = et ? et.etapas.map(function(e,i){ return '<tr><td>' + String(i+1).padStart(2,'0') + '</td><th>' + esc(e[0]) + '</th><td>' + e[1] + (e[1] === 1 ? ' dia útil' : ' dias úteis') + '</td></tr>'; }).join('') : '';
+    $('c-partes').innerHTML = (d.partes || []).map(function(t){ return '<p>' + esc(t) + '</p>'; }).join('');
+    $('c-clausulas').innerHTML = IGContrato.corpoHtml(c);
+    $('c-todas-r').textContent = 'Ler as ' + sec.length + ' cláusulas';
+    $('f-nome').value = cli.nome || '';
+    $('f-assin').value = '';
+    $('f-zap').value = cli.whatsapp || '';
+    $('f-email').value = cli.email || '';
+    mostrar('contrato');
+    iniciarCanvas();
+    acompanharRolagem();
+  }
+
+  /* ---------- progresso ---------- */
+  function acompanharRolagem(){
+    var secs = Array.prototype.slice.call(document.querySelectorAll('#contrato section[data-passo]'));
+    function atualizar(){
+      if(dados && dados.status === 'assinado') return;
+      var y = window.scrollY + window.innerHeight * 0.35, atual = 0;
+      secs.forEach(function(s,i){ if(s.offsetTop <= y) atual = i; });
+      $('passo-atual').textContent = (atual + 1) + ' de ' + secs.length + ' · ' + secs[atual].dataset.passo;
+      var max = document.documentElement.scrollHeight - window.innerHeight;
+      $('barra').style.width = Math.min(100, Math.max(4, (window.scrollY / (max || 1)) * 100)) + '%';
+    }
+    window.addEventListener('scroll', atualizar, { passive:true });
+    window.addEventListener('resize', atualizar);
+    atualizar();
+  }
+
+  /* ---------- assinatura desenhada ---------- */
+  var cv, ctx, desenhou = false, tracos = [];
+  function iniciarCanvas(){
+    cv = $('canvas'); ctx = cv.getContext('2d');
+    function ajustar(){
+      var r = cv.getBoundingClientRect(), dpr = Math.max(1, window.devicePixelRatio || 1);
+      cv.width = Math.round(r.width * dpr); cv.height = Math.round(r.height * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.strokeStyle = '#111'; ctx.lineWidth = 2.4;
+      redesenhar();
+    }
+    function ponto(e){ var r = cv.getBoundingClientRect(); return [e.clientX - r.left, e.clientY - r.top]; }
+    var ativo = null;
+    cv.addEventListener('pointerdown', function(e){ e.preventDefault(); if($('erro').classList.contains('on')) erro(''); cv.setPointerCapture(e.pointerId); ativo = [ponto(e)]; tracos.push(ativo); });
+    cv.addEventListener('pointermove', function(e){ if(!ativo) return; e.preventDefault(); var p = ponto(e), u = ativo[ativo.length-1]; ativo.push(p);
+      ctx.beginPath(); ctx.moveTo(u[0], u[1]); ctx.lineTo(p[0], p[1]); ctx.stroke(); desenhou = desenhou || ativo.length > 3; });
+    ['pointerup','pointercancel','pointerleave'].forEach(function(ev){ cv.addEventListener(ev, function(){ ativo = null; }); });
+    $('limpar').addEventListener('click', function(){ tracos = []; desenhou = false; redesenhar(); });
+    window.addEventListener('resize', ajustar);
+    ajustar();
+  }
+  function redesenhar(){
+    ctx.clearRect(0, 0, cv.width, cv.height);
+    tracos.forEach(function(t){ for(var i=1;i<t.length;i++){ ctx.beginPath(); ctx.moveTo(t[i-1][0], t[i-1][1]); ctx.lineTo(t[i][0], t[i][1]); ctx.stroke(); } });
+  }
+  function imagemAssinatura(){
+    var pts = [].concat.apply([], tracos); if(!pts.length) return '';
+    var xs = pts.map(function(p){ return p[0]; }), ys = pts.map(function(p){ return p[1]; });
+    var pad = 8, x0 = Math.max(0, Math.min.apply(null, xs) - pad), y0 = Math.max(0, Math.min.apply(null, ys) - pad);
+    var x1 = Math.max.apply(null, xs) + pad, y1 = Math.max.apply(null, ys) + pad;
+    var esc = 2, out = document.createElement('canvas');
+    out.width = Math.max(1, Math.round((x1 - x0) * esc)); out.height = Math.max(1, Math.round((y1 - y0) * esc));
+    var o = out.getContext('2d'); o.setTransform(esc, 0, 0, esc, -x0 * esc, -y0 * esc);
+    o.lineCap = 'round'; o.lineJoin = 'round'; o.strokeStyle = '#111'; o.lineWidth = 2.4;
+    tracos.forEach(function(t){ for(var i=1;i<t.length;i++){ o.beginPath(); o.moveTo(t[i-1][0], t[i-1][1]); o.lineTo(t[i][0], t[i][1]); o.stroke(); } });
+    return out.toDataURL('image/png');
+  }
+
+  /* ---------- validações ---------- */
+  function soDig(v){ return String(v || '').replace(/\D/g, ''); }
+  function cpfOk(c){ if(c.length !== 11 || /^(\d)\1+$/.test(c)) return false; for(var t=9;t<11;t++){ var s=0; for(var i=0;i<t;i++) s += +c[i]*(t+1-i); if(((s*10)%11)%10 !== +c[t]) return false; } return true; }
+  function cnpjOk(c){ if(c.length !== 14 || /^(\d)\1+$/.test(c)) return false; var p=[6,5,4,3,2,9,8,7,6,5,4,3,2];
+    for(var t=12;t<14;t++){ var s=0; for(var i=0;i<t;i++) s += +c[i]*p[i+13-t]; var d = s%11 < 2 ? 0 : 11 - s%11; if(d !== +c[t]) return false; } return true; }
+  function mascaraDoc(v){ var d = soDig(v).slice(0,14);
+    if(d.length <= 11) return d.replace(/(\d{3})(\d)/,'$1.$2').replace(/(\d{3})(\d)/,'$1.$2').replace(/(\d{3})(\d{1,2})$/,'$1-$2');
+    return d.replace(/^(\d{2})(\d)/,'$1.$2').replace(/^(\d{2})\.(\d{3})(\d)/,'$1.$2.$3').replace(/\.(\d{3})(\d)/,'.$1/$2').replace(/(\d{4})(\d)/,'$1-$2'); }
+  function erro(t, campo){
+    var e = $('erro'); e.textContent = t; e.classList.toggle('on', !!t);
+    document.querySelectorAll('#form [aria-invalid]').forEach(function(x){ x.removeAttribute('aria-invalid'); });
+    if(campo){ campo.setAttribute('aria-invalid','true'); campo.focus({preventScroll:false}); }
+  }
+
+  $('f-doc').addEventListener('input', function(e){ e.target.value = mascaraDoc(e.target.value); });
+
+  $('form').addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var nome = $('f-nome').value.trim(), doc = soDig($('f-doc').value), assin = $('f-assin').value.trim();
+    if(nome.split(/\s+/).length < 2) return erro('Escreva o nome completo.', $('f-nome'));
+    if(!(doc.length === 11 ? cpfOk(doc) : cnpjOk(doc))) return erro('Confira o CPF ou o CNPJ. O número digitado não é válido.', $('f-doc'));
+    var email = $('f-email').value.trim();
+    if(email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return erro('Confira o e-mail.', $('f-email'));
+    if(!$('f-aceite').checked) return erro('Marque a caixa dizendo que leu e concorda com o contrato.', $('f-aceite'));
+    if(assin.length < 5) return erro('Digite o seu nome no campo de assinatura.', $('f-assin'));
+    if(!desenhou) return erro('Desenhe a sua assinatura no espaço branco.', null);
+    erro('');
+    var bt = $('assinar'); bt.disabled = true; bt.textContent = 'Assinando...';
+    var pedido = { nome: nome, documento: mascaraDoc(doc), assinatura_digitada: assin, assinatura_imagem: imagemAssinatura(), email: email,
+      whatsapp: $('f-zap').value.trim(), endereco: $('f-end').value.trim(), cidade: $('f-cid').value.trim(),
+      navegador: navigator.userAgent.slice(0,300), fuso: (Intl.DateTimeFormat().resolvedOptions().timeZone || '') };
+    rpc('contrato_assinar', { p_token: token, p_dados: pedido }).then(function(r){
+      dados.status = 'assinado';
+      dados.assinatura = { protocolo: r.protocolo, codigo: r.codigo, assinado_em: r.assinado_em, nome: pedido.nome, documento: pedido.documento, email: pedido.email,
+        whatsapp: pedido.whatsapp, endereco: pedido.endereco, cidade: pedido.cidade, assinatura_digitada: pedido.assinatura_digitada, assinatura_imagem: pedido.assinatura_imagem, fuso: pedido.fuso };
+      telaAssinado(true);
+    }).catch(function(e){
+      bt.disabled = false; bt.textContent = 'Assinar contrato';
+      if(/indisponivel/.test(e.message)) erro('Este contrato não está mais disponível para assinatura. Fale com a IG Assessoria.');
+      else if(/incompletos|invalida/.test(e.message)) erro('Confira os dados e a assinatura e tente de novo.');
+      else erro('Não foi possível enviar agora. Confira a internet e tente de novo; nada foi assinado ainda.');
+    });
+  });
+
+  /* ---------- assinado ---------- */
+  function telaAssinado(agora){
+    var a = dados.assinatura || {}, cli = dados.conteudo.cliente || {};
+    var primeiro = String(a.nome || cli.nome || '').trim().split(/\s+/)[0];
+    $('a-titulo').textContent = agora ? 'Tudo certo' + (primeiro ? ', ' + primeiro : '') : 'Contrato já assinado';
+    $('a-texto').textContent = agora ? 'Recebi seu contrato assinado. Agora é só baixar a sua via. Já vou te chamar no WhatsApp com os dados para o pagamento da entrada.'
+      : 'Este contrato foi assinado em ' + new Date(a.assinado_em).toLocaleString('pt-BR') + '. Você pode baixar a sua via quando quiser.';
+    $('a-selo').innerHTML = '<div>Protocolo<b>' + IGContrato.esc(a.protocolo) + '</b></div><div>Assinado em<b>' + new Date(a.assinado_em).toLocaleString('pt-BR') + '</b></div><div>Código de verificação<b>' + IGContrato.esc(a.codigo) + '</b></div>';
+    var msg = 'Oi, Igor! Acabei de assinar o contrato. Protocolo ' + a.protocolo + '.';
+    $('a-zap').href = 'https://wa.me/558396243847?text=' + encodeURIComponent(msg);
+    $('passo-atual').textContent = 'Assinado';
+    $('barra').style.width = '100%';
+    mostrar('assinado');
+  }
+  $('baixar').addEventListener('click', function(){
+    var ok = IGContrato.imprimir(IGContrato.htmlImpressao(dados.conteudo, dados.assinatura, { logo: LOGO, inverter: true, via: 'Via do CONTRATANTE' }));
+    if(!ok) $('a-dica').textContent = 'O navegador bloqueou a impressão. Abra o link no Chrome ou no Safari e tente de novo.';
+  });
+
+  /* ---------- início ---------- */
+  if(token.length < 20){ mostrar('indisponivel'); return; }
+  rpc('contrato_publico', { p_token: token }).then(function(r){
+    if(!r || !r.conteudo){ mostrar('indisponivel'); return; }
+    dados = r;
+    if(r.status === 'assinado' && r.assinatura) telaAssinado(false); else montar();
+  }).catch(function(){
+    mostrar('indisponivel');
+    document.querySelector('#indisponivel h1').textContent = 'Não consegui abrir o contrato agora';
+    document.querySelector('#indisponivel .lead').textContent = 'Confira a internet e abra o link de novo. Se continuar, fale com a IG Assessoria.';
+  });
+})();
+</script>
+</body>
+</html>
