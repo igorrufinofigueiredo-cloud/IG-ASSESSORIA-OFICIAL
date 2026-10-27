@@ -3,6 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src data: blob:; connect-src https://mkgmvupvmadvrtoqrycz.supabase.co; frame-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; upgrade-insecure-requests">
+<style id="ig-antiquadro">html{display:none!important}</style>
+<noscript><style>html{display:block!important}</style></noscript>
+<script>(function(){var ok=window.self===window.top;if(!ok){try{var a=window.location.ancestorOrigins,p=["https://ig-assessoria-crm.netlify.app"];if(a&&a.length&&p.length){ok=true;for(var i=0;i<a.length;i++){if(p.indexOf(a[i])<0){ok=false;break;}}}}catch(e){}}if(ok){var q=document.getElementById('ig-antiquadro');if(q)q.parentNode.removeChild(q);}else{try{window.top.location=window.self.location.href;}catch(e){}}})();</script>
 <meta name="robots" content="noindex, nofollow">
 <meta name="referrer" content="no-referrer">
 <meta name="theme-color" content="#000000">
@@ -713,7 +717,7 @@ footer{padding:30px 0 60px;color:var(--cinza2);font-size:12px}
     }
     var dt = a && a.assinado_em ? new Date(a.assinado_em) : null;
     var assinaturas = '<div class="assin"><div><div class="r">Contratante</div>'
-      + (a && a.assinatura_imagem ? '<img src="' + a.assinatura_imagem + '" alt="Assinatura">' : '<div class="linha"></div>')
+      + (a && /^data:image\/(png|jpeg);base64,[A-Za-z0-9+\/=]+$/.test(String(a.assinatura_imagem || '')) ? '<img src="' + esc(a.assinatura_imagem) + '" alt="Assinatura">' : '<div class="linha"></div>')
       + '<div class="nome">' + esc(a ? (a.assinatura_digitada || a.nome) : (conteudo.cliente && conteudo.cliente.nome) || '') + (a && a.documento ? '<br>CPF/CNPJ ' + esc(a.documento) : '') + '</div></div>'
       + '<div><div class="r">Contratada</div>' + (a ? '<div class="linha emit">Contrato emitido e enviado para assinatura pela CONTRATADA, que concorda com os seus termos.</div>' : '<div class="linha"></div>') + '<div class="nome">' + esc(C.titular) + '<br>' + esc(C.nome) + ', CNPJ ' + esc(C.cnpj) + '</div></div></div>';
     var selo = a ? '<div class="selo">Assinado eletronicamente pelo CONTRATANTE em ' + dt.toLocaleString('pt-BR') + (a.fuso ? ' (' + esc(a.fuso) + ')' : '') + '.<br>Protocolo <b>' + esc(a.protocolo) + '</b><br>Código de verificação <b>' + esc(a.codigo) + '</b><br>O código é calculado a partir do texto deste contrato e dos dados da assinatura. Qualquer alteração posterior faz o código deixar de corresponder ao registro guardado pela CONTRATADA.</div>'
