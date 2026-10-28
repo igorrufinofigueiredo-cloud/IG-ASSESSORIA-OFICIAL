@@ -1,540 +1,144 @@
 {
- "magalu": [
+ "weg2": [
   {
    "arquivo": "00.jpg",
-   "titulo": "File:Loja Magazine Luiza Telêmaco Borba.jpg",
-   "largura": 2731,
-   "altura": 3490,
-   "autor": "Simplus Menegati",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "Loja filial da rede Magazine Luiza em Telêmaco Borba, no Paraná.",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Loja_Magazine_Luiza_Tel%C3%AAmaco_Borba.jpg"
+   "titulo": "File:WEG II, Asa leste.jpg",
+   "largura": 4895,
+   "altura": 3257,
+   "autor": "Nat fa",
+   "licenca": "CC BY-SA 3.0",
+   "descricao": "Front view of \"WEG II, Asa Leste\", a unit of WEG Industries in Jaraguá do Sul, Santa Catarina state, Brazil.",
+   "pagina": "https://commons.wikimedia.org/wiki/File:WEG_II,_Asa_leste.jpg"
   },
   {
    "arquivo": "01.jpg",
-   "titulo": "File:Magalu - novo logo.png",
-   "largura": 603,
-   "altura": 236,
-   "autor": "Magazine Luiza",
-   "licenca": "Public domain",
-   "descricao": "Novo logotipo  do magazine luiza",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Magalu_-_novo_logo.png"
+   "titulo": "File:Pörtschach Hans-Pruscha-Weg S-Ansicht 03032022 2246.jpg",
+   "largura": 7360,
+   "altura": 4912,
+   "autor": "Johann Jaritz",
+   "licenca": "CC BY-SA 4.0",
+   "descricao": "Hibernal promenade on Hans-Pruscha-Weg, municipality Pörtschach am Wörther See, district Klagenfurt Land, Carinthia, Austria, EU",
+   "pagina": "https://commons.wikimedia.org/wiki/File:P%C3%B6rtschach_Hans-Pruscha-Weg_S-Ansicht_03032022_2246.jpg"
   },
   {
    "arquivo": "02.jpg",
-   "titulo": "File:Magazine Luiza Douglas Matricardi (51387344149).jpg",
-   "largura": 5504,
-   "altura": 8256,
-   "autor": "Magazine Luiza - Magalu",
-   "licenca": "CC BY 2.0",
-   "descricao": "Diretor-executivo de Operação de Lojas\nMagazine Luiza\n\nFoto: Germano Lüders\n\n18/05/2021",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Magazine_Luiza_Douglas_Matricardi_(51387344149).jpg"
+   "titulo": "File:Müggelheim Weg S.JPG",
+   "largura": 2448,
+   "altura": 3264,
+   "autor": "Fridolin freudenfett",
+   "licenca": "CC BY-SA 4.0",
+   "descricao": "Berlin-Müggelheim Weg S",
+   "pagina": "https://commons.wikimedia.org/wiki/File:M%C3%BCggelheim_Weg_S.JPG"
   },
   {
    "arquivo": "03.jpg",
-   "titulo": "File:Magalu - LF - Loja Centro de SP.jpg",
-   "largura": 1600,
-   "altura": 1200,
-   "autor": "Magazine Luiza - Magalu",
-   "licenca": "CC BY 2.0",
-   "descricao": "Loja Centro de SP",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Magalu_-_LF_-_Loja_Centro_de_SP.jpg"
+   "titulo": "File:Overzicht rij huisjes, vanaf de weg - 's-Graveland - 20084596 - RCE.jpg",
+   "largura": 3564,
+   "altura": 2372,
+   "autor": "A. J. van der Wal",
+   "licenca": "CC BY-SA 4.0",
+   "descricao": "Overzicht rij huisjes, vanaf de weg (opmerking: Neg. in 2003 direct in aanraking met Glucol)",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Overzicht_rij_huisjes,_vanaf_de_weg_-_%27s-Graveland_-_20084596_-_RCE.jpg"
   },
   {
    "arquivo": "04.jpg",
-   "titulo": "File:Magalu - LF - Loja Franco da Rocha - SP.jpg",
-   "largura": 900,
-   "altura": 1600,
-   "autor": "Magazine Luiza - Magalu",
-   "licenca": "CC BY 2.0",
-   "descricao": "Loja Franco da Rocha - SP",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Magalu_-_LF_-_Loja_Franco_da_Rocha_-_SP.jpg"
+   "titulo": "File:Transformador WEG.jpg",
+   "largura": 3024,
+   "altura": 4032,
+   "autor": "Guigag1",
+   "licenca": "CC BY-SA 4.0",
+   "descricao": "Transformador WEG",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Transformador_WEG.jpg"
   },
   {
    "arquivo": "05.jpg",
-   "titulo": "File:Magazine Luiza Avare REFON.jpg",
-   "largura": 1600,
-   "altura": 1200,
-   "autor": "",
-   "licenca": "CC BY 2.5",
-   "descricao": "",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Magazine_Luiza_Avare_REFON.jpg"
+   "titulo": "File:Overzicht voorzijde van de stoomwasserij, gezien vanaf de weg - 's-Graveland - 20407959 - RCE.jpg",
+   "largura": 3060,
+   "altura": 3060,
+   "autor": "IJsbrand Heins",
+   "licenca": "CC BY-SA 4.0",
+   "descricao": "Wasserij Gooi en Eemland: Overzicht voorzijde van de stoomwasserij, gezien vanaf de weg (opmerking: Gefotografeerd voor Monumenten In Nederland Noord-Holland)",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Overzicht_voorzijde_van_de_stoomwasserij,_gezien_vanaf_de_weg_-_%27s-Graveland_-_20407959_-_RCE.jpg"
   },
   {
    "arquivo": "06.jpg",
-   "titulo": "File:Magazine Luiza Arena Magalu - São Paulo (51386298657).jpg",
-   "largura": 8256,
-   "altura": 5504,
-   "autor": "Magazine Luiza - Magalu",
-   "licenca": "CC BY 2.0",
-   "descricao": "Magazine Luiza\nFoto: Germano Lüders\n\n22/06/2021",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Magazine_Luiza_Arena_Magalu_-_S%C3%A3o_Paulo_(51386298657).jpg"
+   "titulo": "File:20231222 xl 0851-Weg S-Bahnhof Hegermühle.jpg",
+   "largura": 4080,
+   "altura": 3072,
+   "autor": "Molgreen",
+   "licenca": "CC BY-SA 4.0",
+   "descricao": "Fußweg von der Garzauer Straße zum S-Bahnhof Hegermühle,  Strausberg",
+   "pagina": "https://commons.wikimedia.org/wiki/File:20231222_xl_0851-Weg_S-Bahnhof_Hegerm%C3%BChle.jpg"
   },
   {
    "arquivo": "07.jpg",
-   "titulo": "File:Magazine Luiza Arena Magalu - São Paulo (51388066945).jpg",
-   "largura": 8256,
-   "altura": 5504,
-   "autor": "Magazine Luiza - Magalu",
-   "licenca": "CC BY 2.0",
-   "descricao": "Magazine Luiza\nFoto: Germano Lüders\n\n22/06/2021",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Magazine_Luiza_Arena_Magalu_-_S%C3%A3o_Paulo_(51388066945).jpg"
+   "titulo": "File:Overzicht, toegang tot het erf vanaf de openbare weg - 's-Heer Arendskerke - 20332760 - RCE.jpg",
+   "largura": 3014,
+   "altura": 3044,
+   "autor": "Gerard Dukker",
+   "licenca": "CC BY-SA 4.0",
+   "descricao": "Overzicht, toegang tot het erf vanaf de openbare weg",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Overzicht,_toegang_tot_het_erf_vanaf_de_openbare_weg_-_%27s-Heer_Arendskerke_-_20332760_-_RCE.jpg"
   },
   {
    "arquivo": "08.jpg",
-   "titulo": "File:Magazine Luiza Arena Magalu - São Paulo (51387059806).jpg",
-   "largura": 8256,
-   "altura": 5504,
-   "autor": "Magazine Luiza - Magalu",
-   "licenca": "CC BY 2.0",
-   "descricao": "Magazine Luiza\nFoto: Germano Lüders\n\n22/06/2021",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Magazine_Luiza_Arena_Magalu_-_S%C3%A3o_Paulo_(51387059806).jpg"
-  },
-  {
-   "arquivo": "09.jpg",
-   "titulo": "File:Magazine Luiza Arena Magalu - São Paulo (51386298117).jpg",
-   "largura": 8256,
-   "altura": 5504,
-   "autor": "Magazine Luiza - Magalu",
-   "licenca": "CC BY 2.0",
-   "descricao": "Magazine Luiza\nFoto: Germano Lüders\n\n22/06/2021",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Magazine_Luiza_Arena_Magalu_-_S%C3%A3o_Paulo_(51386298117).jpg"
-  },
-  {
-   "arquivo": "10.jpg",
-   "titulo": "File:Magazine Luiza Arena Magalu - São Paulo (51386298372).jpg",
-   "largura": 8256,
-   "altura": 5504,
-   "autor": "Magazine Luiza - Magalu",
-   "licenca": "CC BY 2.0",
-   "descricao": "Magazine Luiza\nFoto: Germano Lüders\n\n22/06/2021",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Magazine_Luiza_Arena_Magalu_-_S%C3%A3o_Paulo_(51386298372).jpg"
-  },
-  {
-   "arquivo": "11.jpg",
-   "titulo": "File:Magazine Luiza Arena Magalu - São Paulo (51387057111).jpg",
-   "largura": 8256,
-   "altura": 5504,
-   "autor": "Magazine Luiza - Magalu",
-   "licenca": "CC BY 2.0",
-   "descricao": "Magazine Luiza\nFoto: Germano Lüders\n\n22/06/2021",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Magazine_Luiza_Arena_Magalu_-_S%C3%A3o_Paulo_(51387057111).jpg"
-  },
-  {
-   "arquivo": "12.jpg",
-   "titulo": "File:Magazine Luiza Arena Magalu - São Paulo (51386297712).jpg",
-   "largura": 8256,
-   "altura": 5504,
-   "autor": "Magazine Luiza - Magalu",
-   "licenca": "CC BY 2.0",
-   "descricao": "Magazine Luiza\nFoto: Germano Lüders\n\n22/06/2021",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Magazine_Luiza_Arena_Magalu_-_S%C3%A3o_Paulo_(51386297712).jpg"
-  },
-  {
-   "arquivo": "13.jpg",
-   "titulo": "File:Magazine Luiza Arena Magalu - São Paulo (51386300112).jpg",
-   "largura": 8256,
-   "altura": 5504,
-   "autor": "Magazine Luiza - Magalu",
-   "licenca": "CC BY 2.0",
-   "descricao": "Magazine Luiza\nFoto: Germano Lüders\n\n22/06/2021",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Magazine_Luiza_Arena_Magalu_-_S%C3%A3o_Paulo_(51386300112).jpg"
-  }
- ],
- "cacaushow": [
-  {
-   "arquivo": "00.jpg",
-   "titulo": "File:Cacau-show-logo-16-1080x272.png",
-   "largura": 1080,
-   "altura": 272,
-   "autor": "Segirosunined21122",
-   "licenca": "CC0",
-   "descricao": "Cacau Show Logo",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Cacau-show-logo-16-1080x272.png"
-  },
-  {
-   "arquivo": "01.jpg",
-   "titulo": "File:Cacau Show - Galeria Condor.JPG",
-   "largura": 1024,
-   "altura": 768,
-   "autor": "Eduardo P",
-   "licenca": "CC BY-SA 3.0",
-   "descricao": "Filial da Cacau Show na Galeria Condor, Largo do Machado, Rio de Janeiro, Brasil.",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Cacau_Show_-_Galeria_Condor.JPG"
-  },
-  {
-   "arquivo": "02.jpg",
-   "titulo": "File:2021-10-01 21 12 55 An individual hazelnut mille-feuille Caixa Bombons Dreams Mini Torta in Lower Makefield Township, Bucks County, Pennsylvania.jpg",
-   "largura": 3024,
-   "altura": 4032,
-   "autor": "Famartin",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "An individual hazelnut mille-feuille Caixa Bombons Dreams Mini Torta in Lower Makefield Township, Bucks County, Pennsylvania",
-   "pagina": "https://commons.wikimedia.org/wiki/File:2021-10-01_21_12_55_An_individual_hazelnut_mille-feuille_Caixa_Bombons_Dreams_Mini_Torta_in_Lower_Makefield_Township,_Bucks_County,_Pennsylvania.jpg"
-  },
-  {
-   "arquivo": "03.jpg",
-   "titulo": "File:Cacau Show - Juiz de Fora.jpg",
-   "largura": 4608,
-   "altura": 3456,
-   "autor": "Eduardo P",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "Cacau Show, na Galeria Tenente Belfort Arantes, Juiz de Fora, Minas Gerais, Brasil.",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Cacau_Show_-_Juiz_de_Fora.jpg"
-  },
-  {
-   "arquivo": "04.jpg",
-   "titulo": "File:2021-10-01 21 12 57 An individual strawberry meringue Caixa Bombons Dreams Mini Torta in Lower Makefield Township, Bucks County, Pennsylvania.jpg",
-   "largura": 3024,
-   "altura": 4032,
-   "autor": "Famartin",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "An individual strawberry meringue Caixa Bombons Dreams Mini Torta in Lower Makefield Township, Bucks County, Pennsylvania",
-   "pagina": "https://commons.wikimedia.org/wiki/File:2021-10-01_21_12_57_An_individual_strawberry_meringue_Caixa_Bombons_Dreams_Mini_Torta_in_Lower_Makefield_Township,_Bucks_County,_Pennsylvania.jpg"
-  },
-  {
-   "arquivo": "05.jpg",
-   "titulo": "File:2021-10-01 21 12 04 A box of Caixa Bombons Dreams Mini Tortas in Lower Makefield Township, Bucks County, Pennsylvania.jpg",
-   "largura": 4032,
-   "altura": 3024,
-   "autor": "Famartin",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "A box of Caixa Bombons Dreams Mini Tortas in Lower Makefield Township, Bucks County, Pennsylvania",
-   "pagina": "https://commons.wikimedia.org/wiki/File:2021-10-01_21_12_04_A_box_of_Caixa_Bombons_Dreams_Mini_Tortas_in_Lower_Makefield_Township,_Bucks_County,_Pennsylvania.jpg"
-  },
-  {
-   "arquivo": "06.jpg",
-   "titulo": "File:Cacau Show - Barra Shopping.jpg",
-   "largura": 3240,
-   "altura": 4320,
-   "autor": "Eduardo P",
-   "licenca": "CC BY-SA 3.0",
-   "descricao": "Cacau Show do BarraShopping, Barra da Tijuca, Zona Oeste do Rio de Janeiro, Brasil.",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Cacau_Show_-_Barra_Shopping.jpg"
-  },
-  {
-   "arquivo": "07.jpg",
-   "titulo": "File:Cacau Show - Botafogo Praia Shopping.JPG",
-   "largura": 1024,
-   "altura": 768,
-   "autor": "Eduardo P",
-   "licenca": "CC BY-SA 3.0",
-   "descricao": "Cacau Show, situada no Botafogo Praia Shopping, Botafogo, Rio de Janeiro, Brasil.",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Cacau_Show_-_Botafogo_Praia_Shopping.JPG"
-  },
-  {
-   "arquivo": "08.jpg",
-   "titulo": "File:2021-10-01 21 13 02 An individual passion fruit pie Caixa Bombons Dreams Mini Torta in Lower Makefield Township, Bucks County, Pennsylvania.jpg",
-   "largura": 3024,
-   "altura": 4032,
-   "autor": "Famartin",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "An individual passion fruit pie Caixa Bombons Dreams Mini Torta in Lower Makefield Township, Bucks County, Pennsylvania",
-   "pagina": "https://commons.wikimedia.org/wiki/File:2021-10-01_21_13_02_An_individual_passion_fruit_pie_Caixa_Bombons_Dreams_Mini_Torta_in_Lower_Makefield_Township,_Bucks_County,_Pennsylvania.jpg"
-  },
-  {
-   "arquivo": "09.jpg",
-   "titulo": "File:2021-10-01 21 12 50 An individual traditional mille-feuille Caixa Bombons Dreams Mini Torta in Lower Makefield Township, Bucks County, Pennsylvania.jpg",
-   "largura": 3024,
-   "altura": 4032,
-   "autor": "Famartin",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "An individual traditional mille-feuille Caixa Bombons Dreams Mini Torta in Lower Makefield Township, Bucks County, Pennsylvania",
-   "pagina": "https://commons.wikimedia.org/wiki/File:2021-10-01_21_12_50_An_individual_traditional_mille-feuille_Caixa_Bombons_Dreams_Mini_Torta_in_Lower_Makefield_Township,_Bucks_County,_Pennsylvania.jpg"
-  },
-  {
-   "arquivo": "10.jpg",
-   "titulo": "File:Logo-Cacau-Show 1285.jpg",
-   "largura": 800,
-   "altura": 270,
-   "autor": "Kauan2404",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "iiiiiii",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Logo-Cacau-Show_1285.jpg"
-  },
-  {
-   "arquivo": "11.jpg",
-   "titulo": "File:Cacau Show - Downtown.JPG",
-   "largura": 1024,
-   "altura": 768,
-   "autor": "Eduardo P",
-   "licenca": "CC BY-SA 3.0",
-   "descricao": "Cacau Show, situado no Shopping Downtown, Barra da Tijuca, Rio de Janeiro, Brasil.",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Cacau_Show_-_Downtown.JPG"
-  },
-  {
-   "arquivo": "12.jpg",
-   "titulo": "File:24- Cacau Show Méier 18-10-2010.JPG",
-   "largura": 501,
-   "altura": 692,
-   "autor": "Quintinense",
-   "licenca": "Public domain",
-   "descricao": "Cacau Show do Méier, na Rua Dias da Cruz, próximo à Block Buster.",
-   "pagina": "https://commons.wikimedia.org/wiki/File:24-_Cacau_Show_M%C3%A9ier_18-10-2010.JPG"
-  },
-  {
-   "arquivo": "13.jpg",
-   "titulo": "File:Logo Cacau Show.png",
-   "largura": 330,
-   "altura": 212,
-   "autor": "Cacau Show",
-   "licenca": "Public domain",
-   "descricao": "Logotipo da empresa Cacau Show",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Logo_Cacau_Show.png"
-  }
- ],
- "weg": [
-  {
-   "arquivo": "00.jpg",
-   "titulo": "File:Autopista Taylor, Chicken, Alaska, Estados Unidos, 2017-08-28, DD 102.jpg",
-   "largura": 7993,
-   "altura": 5329,
-   "autor": "Diego Delso",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "Never-ending Taylor Highway, Chicken, Alaska, United States.",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Autopista_Taylor,_Chicken,_Alaska,_Estados_Unidos,_2017-08-28,_DD_102.jpg"
-  },
-  {
-   "arquivo": "01.jpg",
-   "titulo": "File:Sterpenich, dálnice A4.jpg",
-   "largura": 4770,
-   "altura": 3178,
-   "autor": "I would appreciate being notified if you use my work outside Wikimedia.\nMore of my work can be found in my personal gallery.",
-   "licenca": "CC BY 3.0",
-   "descricao": "A4 Highway near the town of Sterpenich, Belgium",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Sterpenich,_d%C3%A1lnice_A4.jpg"
-  },
-  {
-   "arquivo": "02.jpg",
-   "titulo": "File:Snowy road Sosonka 2013 G1.jpg",
-   "largura": 5184,
-   "altura": 3456,
-   "autor": "George Chernilevsky",
-   "licenca": "Public domain",
-   "descricao": "The snow-covered road from Sosonka village to the highway M21 Vinnytsia–Kyiv.",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Snowy_road_Sosonka_2013_G1.jpg"
-  },
-  {
-   "arquivo": "03.jpg",
-   "titulo": "File:Japanese car accident.jpg",
-   "largura": 4224,
-   "altura": 2376,
-   "autor": "Shuets Udono",
-   "licenca": "CC BY-SA 2.0",
-   "descricao": "A car accident in Tokyo, Japan.",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Japanese_car_accident.jpg"
-  },
-  {
-   "arquivo": "04.jpg",
-   "titulo": "File:Highway 4.jpg",
-   "largura": 1152,
-   "altura": 532,
-   "autor": "Nancy Anburaj",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "Highway ",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Highway_4.jpg"
-  },
-  {
-   "arquivo": "05.jpg",
-   "titulo": "File:Seremban–Bandar Baru Enstek Highway, Seremban 2, Seremban.jpg",
-   "largura": 4624,
-   "altura": 3472,
-   "autor": "AyyanD",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "A section of Malaysia Federal Route 195 (Seremban–Bandar Baru Enstek Highway/KLIA Linkage) near Seremban 2.",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Seremban%E2%80%93Bandar_Baru_Enstek_Highway,_Seremban_2,_Seremban.jpg"
-  },
-  {
-   "arquivo": "06.jpg",
-   "titulo": "File:West Yellowstone (MT, USA), Targhee Pass Highway -- 2022 -- 2391.jpg",
-   "largura": 6720,
-   "altura": 4480,
-   "autor": "Dietmar Rabich",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "View of Targhee Pass Highway in West Yellowstone, Montana, USA",
-   "pagina": "https://commons.wikimedia.org/wiki/File:West_Yellowstone_(MT,_USA),_Targhee_Pass_Highway_--_2022_--_2391.jpg"
-  },
-  {
-   "arquivo": "07.jpg",
-   "titulo": "File:Seremban–Bandar Baru Enstek Highway, Bandar Sri Sendayan, Seremban.jpg",
-   "largura": 3280,
-   "altura": 2464,
-   "autor": "AyyanD",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "The Bandar Sri Sendayan section of Malaysia Federal Route 195 (Seremban–Bandar Baru Enstek Highway/KLIA Linkage), eastbound towards the city centre.",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Seremban%E2%80%93Bandar_Baru_Enstek_Highway,_Bandar_Sri_Sendayan,_Seremban.jpg"
-  },
-  {
-   "arquivo": "08.jpg",
-   "titulo": "File:West Yellowstone (MT, USA), Targhee Pass Highway, Haus -- 2022 -- 2396.jpg",
-   "largura": 6720,
-   "altura": 4480,
-   "autor": "Dietmar Rabich",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "House at Targhee Pass Highway in West Yellowstone, Montana, USA",
-   "pagina": "https://commons.wikimedia.org/wiki/File:West_Yellowstone_(MT,_USA),_Targhee_Pass_Highway,_Haus_--_2022_--_2396.jpg"
-  },
-  {
-   "arquivo": "09.jpg",
-   "titulo": "File:West Yellowstone (MT, USA), Targhee Pass Highway, Laterne -- 2022 -- 2395.jpg",
-   "largura": 6720,
-   "altura": 4480,
-   "autor": "Dietmar Rabich",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "Street light on Targhee Pass Highway in West Yellowstone, Montana, USA",
-   "pagina": "https://commons.wikimedia.org/wiki/File:West_Yellowstone_(MT,_USA),_Targhee_Pass_Highway,_Laterne_--_2022_--_2395.jpg"
-  },
-  {
-   "arquivo": "10.jpg",
-   "titulo": "File:Pont weg motor uit! sign, Kinderdijk (2021) 02.jpg",
-   "largura": 2340,
-   "altura": 4160,
-   "autor": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Original publication 📤: --Donald Trung 『徵國單』 (No Fake News 💬) (WikiProject Numismatics 💴) (Articles 📚) 08:32, 24 January 2021 (UTC)",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "A local sign telling drivers to turn off their engines while waiting for the ferry to take them to Krimpen aan de Lek, that is located in the Molenlander village of Kinderdijk, South Holland.",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Pont_weg_motor_uit!_sign,_Kinderdijk_(2021)_02.jpg"
-  },
-  {
-   "arquivo": "11.jpg",
-   "titulo": "File:Pont weg motor uit! sign, Kinderdijk (2021) 01.jpg",
-   "largura": 4160,
-   "altura": 2340,
-   "autor": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Original publication 📤: --Donald Trung 『徵國單』 (No Fake News 💬) (WikiProject Numismatics 💴) (Articles 📚) 08:32, 24 January 2021 (UTC)",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "A local sign telling drivers to turn off their engines while waiting for the ferry to take them to Krimpen aan de Lek, that is located in the Molenlander village of Kinderdijk, South Holland.",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Pont_weg_motor_uit!_sign,_Kinderdijk_(2021)_01.jpg"
-  },
-  {
-   "arquivo": "12.jpg",
-   "titulo": "File:Driving on the highway.jpg",
-   "largura": 5984,
-   "altura": 3366,
-   "autor": "GalacticCuriosity",
+   "titulo": "File:Kopaczów Oldřichov Oberullersdorf Oberdorf Weg S 2012.jpg",
+   "largura": 3264,
+   "altura": 2448,
+   "autor": "Hoover5555",
    "licenca": "CC BY 4.0",
-   "descricao": "Driving 99 kilometers per hour on the highway",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Driving_on_the_highway.jpg"
-  },
-  {
-   "arquivo": "13.jpg",
-   "titulo": "File:Jubilee Highway.jpg",
-   "largura": 4032,
-   "altura": 3024,
-   "autor": "Gillespk",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "Jubilee Highway, Nova Scotia Highway 106",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Jubilee_Highway.jpg"
-  }
- ],
- "ifood": [
-  {
-   "arquivo": "00.jpg",
-   "titulo": "File:Mundo de entrega - NicoleLeslie2 - Entregador de app.jpg",
-   "largura": 5624,
-   "altura": 4579,
-   "autor": "NicoleLeslie2",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "Mesmo com lockdown, os entregadores de aplicativo não pararam. Nessa fotografia, um entregador de aplicativo foi retratado pedalando de chinelos, com uma mão no guidão e outra segurando o celular, cai",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Mundo_de_entrega_-_NicoleLeslie2_-_Entregador_de_app.jpg"
-  },
-  {
-   "arquivo": "01.jpg",
-   "titulo": "File:Entregador de aplicativo - BrunaRoberti - Vista do carro.jpg",
-   "largura": 2696,
-   "altura": 3595,
-   "autor": "BrunaRoberti",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "A fotografia foi tirada quando estava chegando no condomínio que irei morar, esse qual sempre há entregadores de aplicativo em todas as horas do dia. Neste caso ainda estava cedo, era perto das 11h da",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Entregador_de_aplicativo_-_BrunaRoberti_-_Vista_do_carro.jpg"
-  },
-  {
-   "arquivo": "02.jpg",
-   "titulo": "File:Mundo de entrega - Giulia Lozano - Entregador de Ifood.jpg",
-   "largura": 2520,
-   "altura": 1972,
-   "autor": "Giulia Lozano",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "Foto que retrata a desigualdade social em meio à pandemia, onde é exigido que as pessoas fiquem em casa para evitar o contágio, mas alguns seguem se arriscando pois precisam ganhar dinheiro para suste",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Mundo_de_entrega_-_Giulia_Lozano_-_Entregador_de_Ifood.jpg"
-  },
-  {
-   "arquivo": "03.jpg",
-   "titulo": "File:Mundo de Entrega- Gabriella Capuano- Entregador de aplicativo em São Paulo.jpg",
-   "largura": 3479,
-   "altura": 2256,
-   "autor": "Gabriella Capuano",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "Na região central de São Paulo, no bairro da Consolação, um entregador de aplicativo, pedalando uma bicicleta, confere no celular a rota para seu destino. Os comércios estão fechados por decreto emerg",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Mundo_de_Entrega-_Gabriella_Capuano-_Entregador_de_aplicativo_em_S%C3%A3o_Paulo.jpg"
-  },
-  {
-   "arquivo": "04.jpg",
-   "titulo": "File:Mundo de entrega - Mariaclarav.f - o entregador parado em frente do meu prédio.jpg",
-   "largura": 4608,
-   "altura": 3456,
-   "autor": "Mariaclarav.f",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "Um homem de bermuda  que trabalha como entregador de comida com uma uma mala vermelha escrita \"Ifood\" , estaciona sua moto em uma descida íngreme para conferir o pedido no celular antes de entregar ao",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Mundo_de_entrega_-_Mariaclarav.f_-_o_entregador_parado_em_frente_do_meu_pr%C3%A9dio.jpg"
-  },
-  {
-   "arquivo": "05.jpg",
-   "titulo": "File:Mundo da entrega - Larissa Mariano - Entregador de aplicativo sozinho em minha rua.jpg",
-   "largura": 3024,
-   "altura": 2618,
-   "autor": "Larissa Mariano",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "Durante a pandemia de Covid-19, tornou-se amplamente comum a alta circulação de pedidos por aplicativo, especialmente em relação a alimentos e empresas de fast-food. Com um maior número de pessoas em ",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Mundo_da_entrega_-_Larissa_Mariano_-_Entregador_de_aplicativo_sozinho_em_minha_rua.jpg"
-  },
-  {
-   "arquivo": "06.jpg",
-   "titulo": "File:Peão invisível - Vinícius Soares Pereira - vista do trânsito de Campo Grande - MS.jpg",
-   "largura": 4920,
-   "altura": 3280,
-   "autor": "Vinícius Soares Pereira",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "Fotografia de um entregador de delivery saindo de um posto de gasolina e se preparando para encarar o trânsito de uma avenida na cidade de Campo Grande - MS. Fotografia realizada no contexto de um pro",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Pe%C3%A3o_invis%C3%ADvel_-_Vin%C3%ADcius_Soares_Pereira_-_vista_do_tr%C3%A2nsito_de_Campo_Grande_-_MS.jpg"
-  },
-  {
-   "arquivo": "07.jpg",
-   "titulo": "File:Mundo de Entrega - AbelhaVermelha - Parece fácil de dentro do carro.jpg",
-   "largura": 2048,
-   "altura": 1308,
-   "autor": "AbelhaVermelha",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "num cruzamento um entregador do ifood espera num sinal vermelho. na parte de baixo da imagem tem o texto \"parece fácil de dentro do carro, né?\"",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Mundo_de_Entrega_-_AbelhaVermelha_-_Parece_f%C3%A1cil_de_dentro_do_carro.jpg"
-  },
-  {
-   "arquivo": "08.jpg",
-   "titulo": "File:Mundo de Entrega - AbelhaVermelha - de dentro do carro.jpg",
-   "largura": 2048,
-   "altura": 1308,
-   "autor": "Ariel Giagio",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "Num cruzamento em São Paulo, um entregador de moto com uma mochila do IFood com os dizeres \"Viver é hmmm-ma delícia\" espera o semáforo abrir. É possível ver o retrovisor e um pouco do painel de uma ca",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Mundo_de_Entrega_-_AbelhaVermelha_-_de_dentro_do_carro.jpg"
+   "descricao": "Border",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Kopacz%C3%B3w_Old%C5%99ichov_Oberullersdorf_Oberdorf_Weg_S_2012.jpg"
   },
   {
    "arquivo": "09.jpg",
-   "titulo": "File:Mundo da entrega - Laura.MonteiroF - A dura realidade dos motoristas de aplicativo.jpg",
-   "largura": 1920,
-   "altura": 1673,
-   "autor": "Laura Monteiro Fernandes",
-   "licenca": "CC BY-SA 4.0",
-   "descricao": "Um entregador de Ifood sobre uma bicicleta pedalando na calçada no Largo da Batata, em São Paulo. Fotografia realizada no contexto de um projeto educacional na Faculdade Cásper Líbero, em 2021",
-   "pagina": "https://commons.wikimedia.org/wiki/File:Mundo_da_entrega_-_Laura.MonteiroF_-_A_dura_realidade_dos_motoristas_de_aplicativo.jpg"
+   "titulo": "File:Kopaczów Oldřichov Oberullersdorf Oberdorf Weg S 2009.jpg",
+   "largura": 3648,
+   "altura": 2736,
+   "autor": "Hoover5555",
+   "licenca": "CC BY 4.0",
+   "descricao": "Border",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Kopacz%C3%B3w_Old%C5%99ichov_Oberullersdorf_Oberdorf_Weg_S_2009.jpg"
   },
   {
    "arquivo": "10.jpg",
-   "titulo": "File:O mundo da entrega - Gabrielle Lopes Fernandes - vista da minha vizinhança.jpg",
-   "largura": 1280,
-   "altura": 958,
-   "autor": "Gabrielle Lopes Fernandes",
+   "titulo": "File:Overzicht vanaf de weg - 's-Graveland - 20407903 - RCE.jpg",
+   "largura": 3060,
+   "altura": 3060,
+   "autor": "IJsbrand Heins",
    "licenca": "CC BY-SA 4.0",
-   "descricao": "A imagem apresentada mostra um entregador do IFOOD aplicativo realizando o trajeto para sua entrega. A fotografia foi registrada na Avenida Engenheiro Caetano Álvares, em abril de 8 de 2021, em um amb",
-   "pagina": "https://commons.wikimedia.org/wiki/File:O_mundo_da_entrega_-_Gabrielle_Lopes_Fernandes_-_vista_da_minha_vizinhan%C3%A7a.jpg"
+   "descricao": "Trompenburg: Overzicht vanaf de weg (opmerking: Gefotografeerd voor Monumenten In Nederland Noord-Holland)",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Overzicht_vanaf_de_weg_-_%27s-Graveland_-_20407903_-_RCE.jpg"
+  },
+  {
+   "arquivo": "11.jpg",
+   "titulo": "File:Overzicht vanaf de weg - 's-Graveland - 20407898 - RCE.jpg",
+   "largura": 3060,
+   "altura": 3060,
+   "autor": "IJsbrand Heins",
+   "licenca": "CC BY-SA 4.0",
+   "descricao": "Trompenburg: Overzicht vanaf de weg (opmerking: Gefotografeerd voor Monumenten In Nederland Noord-Holland)",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Overzicht_vanaf_de_weg_-_%27s-Graveland_-_20407898_-_RCE.jpg"
+  },
+  {
+   "arquivo": "12.jpg",
+   "titulo": "File:Aanzicht vanaf de openbare weg - 's-Gravenhage - 20421143 - RCE.jpg",
+   "largura": 3100,
+   "altura": 2480,
+   "autor": "Kris Roderburg",
+   "licenca": "CC BY-SA 4.0",
+   "descricao": "This is an image of rijksmonumentcomplex number",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Aanzicht_vanaf_de_openbare_weg_-_%27s-Gravenhage_-_20421143_-_RCE.jpg"
+  },
+  {
+   "arquivo": "13.jpg",
+   "titulo": "File:Overzicht van de achtergevel gezien vanaf de openbare weg - 's-Gravenhage - 20420940 - RCE.jpg",
+   "largura": 3100,
+   "altura": 2480,
+   "autor": "Kris Roderburg",
+   "licenca": "CC BY-SA 4.0",
+   "descricao": "Caltex gebouw: Overzicht van de achtergevel gezien vanaf de openbare weg (opmerking: Gefotografeerd voor Monumenten van Herrezen Nederland)",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Overzicht_van_de_achtergevel_gezien_vanaf_de_openbare_weg_-_%27s-Gravenhage_-_20420940_-_RCE.jpg"
   }
  ]
 }
