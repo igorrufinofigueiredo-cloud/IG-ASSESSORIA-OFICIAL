@@ -1,0 +1,21 @@
+name: fotos-carrossel
+on:
+  push:
+    branches: [carrossel-fotos]
+    paths: [".github/workflows/fotos.yml", "tools/fotos.py"]
+permissions:
+  contents: write
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: carrossel-fotos
+      - run: python3 tools/fotos.py
+      - run: |
+          git config user.name "ig-bot"
+          git config user.email "ig-bot@users.noreply.github.com"
+          git add fotos
+          git commit -m "fotos do carrossel" || echo "nada novo"
+          git push
