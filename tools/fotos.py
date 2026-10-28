@@ -3,10 +3,7 @@ import json, os, re, urllib.parse, urllib.request
 UA = {"User-Agent": "IG-Assessoria-carrossel/1.0 (igorrufinofigueiredo@gmail.com)"}
 API = "https://commons.wikimedia.org/w/api.php"
 BUSCAS = {
-    "magalu": ["Magazine Luiza loja", "Magazine Luiza", "Magalu"],
-    "cacaushow": ["Cacau Show loja", "Cacau Show"],
-    "weg": ["WEG Jaraguá do Sul", "WEG motor", "WEG S.A."],
-    "ifood": ["iFood entregador", "iFood", "entregador bag iFood"],
+    "weg2": ["WEG Equipamentos Elétricos", "Jaraguá do Sul WEG", "WEG electric motor", "motor elétrico WEG", "WEG fábrica", "WEG Linha Verde"],
 }
 
 
@@ -25,7 +22,7 @@ for chave, termos in BUSCAS.items():
                  "srnamespace": 6, "srlimit": 20})
         for hit in r.get("query", {}).get("search", []):
             t = hit["title"]
-            if t in vistos or not re.search(r"\.(jpe?g|png|webp)$", t, re.I):
+            if t in vistos or "weg" not in t.lower() or not re.search(r"\.(jpe?g|png|webp)$", t, re.I):
                 continue
             vistos.add(t)
             info = get({"action": "query", "titles": t, "prop": "imageinfo",
