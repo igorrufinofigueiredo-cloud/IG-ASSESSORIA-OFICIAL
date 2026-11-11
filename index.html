@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
 <script>document.documentElement.classList.add("js");</script>
+<script>/* efeitos sempre ativos, mesmo com "reduzir movimento" no aparelho */(function(){var m=window.matchMedia;if(!m)return;window.matchMedia=function(q){return m.call(window,/prefers-reduced-motion:\s*reduce/.test(String(q))?"not all":q);};})();</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style id="ig-antiquadro">html{display:none!important}</style>
@@ -1331,7 +1332,7 @@ img { display: block; max-width: 100%; }
   .quote-tab__name { font-size: .8rem; letter-spacing: .1em; }
   .quote-tab__hint { display: none; }
 }
-@media (prefers-reduced-motion: reduce) { .quote-form:not([hidden]) { animation: none; } }
+@media print and (prefers-reduced-motion: reduce) { .quote-form:not([hidden]) { animation: none; } }
 
 /* ============ SECTION 8: DOBRA FINAL: CONFIANÇA ============ */
 .trust-block { padding: 0 48px 132px; }
@@ -1513,7 +1514,7 @@ img { display: block; max-width: 100%; }
   .about-block__caption-name { font-size: 1.35rem; }
   .about-block__caption-role { font-size: .82rem; }
 }
-@media (prefers-reduced-motion: reduce) {
+@media print and (prefers-reduced-motion: reduce) {
   .about-block__caption { opacity: 1; transform: none; transition: none; }
 }
 
@@ -1641,7 +1642,7 @@ img { display: block; max-width: 100%; }
   transform: none;
   filter: blur(0);
 }
-@media (prefers-reduced-motion: reduce) {
+@media print and (prefers-reduced-motion: reduce) {
   .about-block__caption > span { opacity: 1; transform: none; filter: none; transition: none; }
 }
 
@@ -2114,7 +2115,7 @@ body { font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
   .button { --flutuar-altura: -2px; }
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media print and (prefers-reduced-motion: reduce) {
   .button,
   .svc2-card,
   .comparison-card,
@@ -2162,7 +2163,7 @@ body { font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
   .flow2-step p { max-width: none; }
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media print and (prefers-reduced-motion: reduce) {
   .svc2-card::before,
   .cmp2-list--negative .cmp2-strike { background-size: 100% 1px; }
   .flow2-step__icon path { stroke-dashoffset: 0; }
@@ -2183,7 +2184,7 @@ body { font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
 </noscript>
 
 <style>
-@media (prefers-reduced-motion: reduce) {
+@media print and (prefers-reduced-motion: reduce) {
   .reveal-media, .reveal-side, .reveal-up, .reveal-mark, .reveal-word {
     opacity: 1 !important;
     transform: none !important;
@@ -2395,7 +2396,7 @@ html.lenis { scroll-behavior: auto !important; }
   .frente__palco { padding: 6px; border-radius: 18px; }
   .frente__janela { border-radius: 13px; }
 }
-@media (prefers-reduced-motion: reduce) { .quadro { transition: none; } }
+@media print and (prefers-reduced-motion: reduce) { .quadro { transition: none; } }
 
 /* ============ CASES: FAIXA CONTÍNUA, PASSANDO SOZINHA ============ */
 .cases-marquee {
@@ -2421,7 +2422,7 @@ html.lenis { scroll-behavior: auto !important; }
   .cases-marquee { margin-top: 28px; }
   .cases-marquee__item { width: 80vw; padding-right: 16px; }
 }
-@media (prefers-reduced-motion: reduce) {
+@media print and (prefers-reduced-motion: reduce) {
   .cases-marquee { overflow-x: auto; }
   .cases-marquee__track { animation: none; }
 }
@@ -2533,7 +2534,7 @@ html.lenis { scroll-behavior: auto !important; }
   .frente--sistema .frente__palco { width: min(100%, calc((100vh - 120px) * 1.3)); margin-inline: auto; }
 }
 .mb--plano .mb__pg { position: relative; top: auto; }
-@media (prefers-reduced-motion: reduce) { .gm-tile__mais { transition: none; } .gm-tile img { transform: none; } }
+@media print and (prefers-reduced-motion: reduce) { .gm-tile__mais { transition: none; } .gm-tile img { transform: none; } }
 .gm-trilho, .gm-prog { position: relative; z-index: 1; }
 .gm-prog { position: absolute; }
 .gm-fundos { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
