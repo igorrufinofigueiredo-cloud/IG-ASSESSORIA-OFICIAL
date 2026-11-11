@@ -1,7 +1,7 @@
 # IG Assessoria — site oficial
 
 Site institucional da IG Assessoria, publicado pelo GitHub Pages em
-https://igorrufinofigueiredo-cloud.github.io/IG-ASSESSORIA-OFICIAL/
+https://igassessoria.com.br/
 
 ## Arquivos do repositório
 
