@@ -8,7 +8,7 @@
 <style id="ig-antiquadro">html{display:none!important}</style>
 <noscript><style>html{display:block!important}</style></noscript>
 <script>(function(){var ok=window.self===window.top;if(!ok){try{var a=window.location.ancestorOrigins,p=[];if(a&&a.length&&p.length){ok=true;for(var i=0;i<a.length;i++){if(p.indexOf(a[i])<0){ok=false;break;}}}}catch(e){}}if(ok){var q=document.getElementById('ig-antiquadro');if(q)q.parentNode.removeChild(q);}else{try{window.top.location=window.self.location.href;}catch(e){}}})();</script>
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self' data: blob:; font-src data:; media-src 'self' data: blob:; connect-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; frame-src 'none'; worker-src 'none'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self' data: blob:; font-src data:; media-src 'self' data: blob:; connect-src 'self' https://mkgmvupvmadvrtoqrycz.supabase.co; manifest-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; frame-src 'none'; worker-src 'none'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <script>
 /* impede que o site seja exibido dentro de outra página (golpe) */
@@ -4151,5 +4151,7 @@ window.__igGaleria = function () {
   });
 })();
 </script>
+<!-- Contador de visitas da IG (métricas do CRM) -->
+<script>(function(){var P="ig-assessoria-site",U="https://mkgmvupvmadvrtoqrycz.supabase.co/rest/v1/metricas_eventos",K="sb_publishable_hlqLSgv8iO0Uw-uUYuObtg_9Gc11s2a",s="x";try{s=sessionStorage.getItem("igm_s")||Math.random().toString(36).slice(2,12);sessionStorage.setItem("igm_s",s)}catch(e){}var a=navigator.userAgent,d=/iPad|Tablet/i.test(a)?"tablet":/Mobi|Android/i.test(a)?"celular":"computador";function m(t,c){try{var o="direto";try{if(document.referrer)o=new URL(document.referrer).hostname}catch(e){}fetch(U,{method:"POST",keepalive:true,headers:{apikey:K,"Content-Type":"application/json",Prefer:"return=minimal"},body:JSON.stringify({projeto:P,tipo:t,caminho:String(c||location.pathname).slice(0,200),origem:o.slice(0,120),sessao:s,dispositivo:d})})}catch(e){}}m("visita");document.addEventListener("click",function(e){var x=e.target.closest&&e.target.closest("a,button");if(!x)return;var h=x.getAttribute("href")||"";if(/wa\.me|whatsapp/i.test(h))m("whatsapp",h);else if(x.hasAttribute("data-cta"))m("cta")},true);document.addEventListener("submit",function(){m("formulario")},true)})();</script>
 </body>
 </html>
