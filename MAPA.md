@@ -4,39 +4,39 @@ Gerado por mapa.py. Ler este mapa antes de abrir qualquer arquivo e abrir so as 
 
 ## index.html
 
-- 4158 linhas. 2537 KB. cerca de 649.612 tokens se lido inteiro
+- 4303 linhas. 2546 KB. cerca de 651.931 tokens se lido inteiro
 - 28 linhas pesadas somam 2379 KB: NUNCA ler essas linhas
-- assinatura do arquivo: 6be5b2cd34 (se mudar, rodar o mapa de novo)
+- assinatura do arquivo: 452999b7ba (se mudar, rodar o mapa de novo)
 
 ### Linhas proibidas (pular na leitura)
 - L237: arquivo embutido (font/woff2), 62 KB
-- L2597: arquivo embutido (image/jpeg), 222 KB
-- L2604: codigo minificado, 255 KB
-- L2642: arquivo embutido (image/png), 380 KB
-- L2851: arquivo embutido (image/jpeg), 42 KB
-- L2856: arquivo embutido (image/jpeg), 65 KB
-- L2861: arquivo embutido (image/jpeg), 56 KB
-- L2866: arquivo embutido (image/jpeg), 49 KB
-- L2891: codigo minificado, 2 KB
-- L2901: codigo minificado, 2 KB
-- L2914: arquivo embutido (image/webp), 89 KB
-- L2915: arquivo embutido (image/webp), 86 KB
-- L2916: arquivo embutido (image/webp), 61 KB
-- L2917: arquivo embutido (image/webp), 34 KB
-- L2918: arquivo embutido (image/webp), 49 KB
-- L2946: arquivo embutido (image/webp), 87 KB
-- L2950: arquivo embutido (image/webp), 18 KB
+- L2601: arquivo embutido (image/jpeg), 222 KB
+- L2608: codigo minificado, 255 KB
+- L2646: arquivo embutido (image/png), 380 KB
+- L2855: arquivo embutido (image/jpeg), 42 KB
+- L2860: arquivo embutido (image/jpeg), 65 KB
+- L2865: arquivo embutido (image/jpeg), 56 KB
+- L2870: arquivo embutido (image/jpeg), 49 KB
+- L2895: codigo minificado, 2 KB
+- L2905: codigo minificado, 2 KB
+- L2918: arquivo embutido (image/webp), 89 KB
+- L2919: arquivo embutido (image/webp), 86 KB
+- L2920: arquivo embutido (image/webp), 61 KB
+- L2921: arquivo embutido (image/webp), 34 KB
+- L2922: arquivo embutido (image/webp), 49 KB
+- L2950: arquivo embutido (image/webp), 87 KB
 - L2954: arquivo embutido (image/webp), 18 KB
-- L2958: arquivo embutido (image/webp), 35 KB
-- L2962: arquivo embutido (image/webp), 23 KB
-- L2966: arquivo embutido (image/webp), 47 KB
-- L2970: arquivo embutido (image/webp), 39 KB
-- L2974: arquivo embutido (image/webp), 22 KB
-- L3221: arquivo embutido (image/jpeg), 20 KB
-- L3225: codigo minificado, 472 KB
-- L3892: biblioteca de terceiros minificada, 71 KB
-- L3906: biblioteca de terceiros minificada, 43 KB
-- L3911: codigo minificado, 18 KB
+- L2958: arquivo embutido (image/webp), 18 KB
+- L2962: arquivo embutido (image/webp), 35 KB
+- L2966: arquivo embutido (image/webp), 23 KB
+- L2970: arquivo embutido (image/webp), 47 KB
+- L2974: arquivo embutido (image/webp), 39 KB
+- L2978: arquivo embutido (image/webp), 22 KB
+- L3225: arquivo embutido (image/jpeg), 20 KB
+- L3229: codigo minificado, 472 KB
+- L3896: biblioteca de terceiros minificada, 71 KB
+- L3910: biblioteca de terceiros minificada, 43 KB
+- L3915: codigo minificado, 18 KB
 
 ### Blocos de estilo e script
 - L4-4: <script>
@@ -48,105 +48,107 @@ Gerado por mapa.py. Ler este mapa antes de abrir qualquer arquivo e abrir so as 
 - L51-228: <script type="application/ld+json">
 - L230-2173: <style> (tem linha pesada, ver lista acima)
 - L2176-2183: <style>
-- L2186-2463: <style>
-- L2464-2562: <style id="galeria-marcas">
-- L2604-2604: <script id="hero-video-data" type="application/octet-stream"> (tem linha pesada, ver lista acima)
-- L2605-2619: <script>
-- L3225-3225: <script id="video-cta-data" type="application/octet-stream"> (tem linha pesada, ver lista acima)
-- L3349-3786: <script>
-- L3787-3829: <script>
-- L3831-3843: <script>
-- L3844-3880: <script>
-- L3882-3895: <script> (tem linha pesada, ver lista acima)
-- L3896-3909: <script> (tem linha pesada, ver lista acima)
-- L3910-3913: <script> (tem linha pesada, ver lista acima)
-- L3914-4085: <script>
-- L4086-4153: <script>
-- L4155-4155: <script>
+- L2186-2467: <style>
+- L2468-2566: <style id="galeria-marcas">
+- L2608-2608: <script id="hero-video-data" type="application/octet-stream"> (tem linha pesada, ver lista acima)
+- L2609-2623: <script>
+- L3229-3229: <script id="video-cta-data" type="application/octet-stream"> (tem linha pesada, ver lista acima)
+- L3353-3790: <script>
+- L3791-3833: <script>
+- L3835-3847: <script>
+- L3848-3884: <script>
+- L3886-3899: <script> (tem linha pesada, ver lista acima)
+- L3900-3913: <script> (tem linha pesada, ver lista acima)
+- L3914-3917: <script> (tem linha pesada, ver lista acima)
+- L3918-4089: <script>
+- L4090-4157: <script>
+- L4160-4186: <style id="ig-consentimento-css">
+- L4187-4299: <script id="ig-consentimento" data-projeto="ig-assessoria-site">
+- L4300-4300: <script id="ig-contador">
 
 ### Secoes do HTML
 - L35-43: -- Open Graph / redes sociais
 - L44-49: -- Twitter Card
 - L50: -- Dados estruturados para o Google (Schema.org)
-- L2567: -- SECTION 1: HERO (logo IG sendo desenhada)
-- L2568: <section> hero
-- L2569-2603: <nav> hero__nav
-- L2638: -- SECTION 2: ABOUT / CHAOS BLOCK
-- L2639-2665: <section> section-dark about-block
-- L2666: -- SECTION 3: O QUE VOCÊ RECEBE (v2)
-- L2667: <section> section-dark services-block svc2
-- L2668-2669: <header> svc2__head
-- L2670-2673: H2: UMA SÓ CABEÇA, DO CONCEITO AO CÓDIGO.
-- L2674-2683: <article> svc2-card reveal-up
-- L2684-2693: <article> svc2-card reveal-up
-- L2694-2706: <article> svc2-card reveal-up
-- L2707: -- SECTION 4: COMPARATIVO (v2)
-- L2708: <section> section-dark comparison-block cmp2
-- L2709-2710: <header> comparison-block__header
-- L2711-2756: H2: TUDO COMEÇA ANTES DO LAYOUT
-- L2757: -- SECTION 5: MANIFESTO (v2)
-- L2758-2764: <section> section-dark quote-block
-- L2765: -- SECTION 6: COMO FUNCIONA (v2)
-- L2766: <section> como-funciona
-- L2767-2834: <header> flow2__head
-- L2835: -- SECTION 6B: CASES (carousel)
-- L2836: <section> cases
-- L2837: <header> cases-block__header
-- L2838-2848: H2: O CONCEITO, APLICADO.
-- L2849-2853: <article> case-card
-- L2854-2858: <article> case-card
-- L2859-2863: <article> case-card
-- L2864-2874: <article> case-card
-- L2875: -- GALERIA DE MARCAS: MANUAIS EM TELA CHEIA
-- L2876-2877: <section> manuais
-- L2878-2879: <header> gm-intro
-- L2880-2882: H2: DO SÍMBOLO À FACHADA.
-- L2883-2892: <article> gm-cap
-- L2893-2906: <article> gm-cap
-- L2907: -- CASE DE MARCA: VIRTUDES & DIREÇÃO
-- L2908-2922: <section> frente-marca
-- L2923-2924: <header> frente__cabeca
-- L2925-2928: H2: VIRTUDES &amp; DIREÇÃO
-- L2929: <article> passo ativo
-- L2930: <article> passo
-- L2931: <article> passo
-- L2932: <article> passo
-- L2933-2981: <article> passo
-- L2982: -- CASE DE SISTEMA: PAUTA
-- L2983-3000: <section> frente-sistema
-- L3001-3002: <header> frente__cabeca
-- L3003-3006: H2: PAUTA
-- L3007: <article> passo ativo
-- L3008: <article> passo
-- L3009: <article> passo
-- L3010: <article> passo
-- L3011: <article> passo
+- L2571: -- SECTION 1: HERO (logo IG sendo desenhada)
+- L2572: <section> hero
+- L2573-2607: <nav> hero__nav
+- L2642: -- SECTION 2: ABOUT / CHAOS BLOCK
+- L2643-2669: <section> section-dark about-block
+- L2670: -- SECTION 3: O QUE VOCÊ RECEBE (v2)
+- L2671: <section> section-dark services-block svc2
+- L2672-2673: <header> svc2__head
+- L2674-2677: H2: UMA SÓ CABEÇA, DO CONCEITO AO CÓDIGO.
+- L2678-2687: <article> svc2-card reveal-up
+- L2688-2697: <article> svc2-card reveal-up
+- L2698-2710: <article> svc2-card reveal-up
+- L2711: -- SECTION 4: COMPARATIVO (v2)
+- L2712: <section> section-dark comparison-block cmp2
+- L2713-2714: <header> comparison-block__header
+- L2715-2760: H2: TUDO COMEÇA ANTES DO LAYOUT
+- L2761: -- SECTION 5: MANIFESTO (v2)
+- L2762-2768: <section> section-dark quote-block
+- L2769: -- SECTION 6: COMO FUNCIONA (v2)
+- L2770: <section> como-funciona
+- L2771-2838: <header> flow2__head
+- L2839: -- SECTION 6B: CASES (carousel)
+- L2840: <section> cases
+- L2841: <header> cases-block__header
+- L2842-2852: H2: O CONCEITO, APLICADO.
+- L2853-2857: <article> case-card
+- L2858-2862: <article> case-card
+- L2863-2867: <article> case-card
+- L2868-2878: <article> case-card
+- L2879: -- GALERIA DE MARCAS: MANUAIS EM TELA CHEIA
+- L2880-2881: <section> manuais
+- L2882-2883: <header> gm-intro
+- L2884-2886: H2: DO SÍMBOLO À FACHADA.
+- L2887-2896: <article> gm-cap
+- L2897-2910: <article> gm-cap
+- L2911: -- CASE DE MARCA: VIRTUDES & DIREÇÃO
+- L2912-2926: <section> frente-marca
+- L2927-2928: <header> frente__cabeca
+- L2929-2932: H2: VIRTUDES &amp; DIREÇÃO
+- L2933: <article> passo ativo
+- L2934: <article> passo
+- L2935: <article> passo
+- L2936: <article> passo
+- L2937-2985: <article> passo
+- L2986: -- CASE DE SISTEMA: PAUTA
+- L2987-3004: <section> frente-sistema
+- L3005-3006: <header> frente__cabeca
+- L3007-3010: H2: PAUTA
+- L3011: <article> passo ativo
 - L3012: <article> passo
-- L3013-3021: <article> passo
-- L3022: -- SECTION 7: OFFER
-- L3023-3025: <section> section-dark offer-block
-- L3026-3037: H2: NA MEDIDA DO QUE VOCÊ JÁ É.
-- L3038: -- SECTION 7B: FORMULÁRIO DE ORÇAMENTO (dobra visível, não modal)
-- L3039-3041: <section> orcamento
-- L3042-3059: H2: ESCOLHA O QUE VOCÊ PRECISA
-- L3060: -- ABA MARCA
-- L3061-3099: <form> form-marca
-- L3100: -- ABA SITE
-- L3101-3161: <form> form-site
-- L3162: -- ABA SISTEMA
-- L3163-3217: <form> form-sistema
-- L3218: -- SECTION 7C: VÍDEO + WHATSAPP (seção branca)
-- L3219-3224: <section> video
-- L3228: -- SECTION 8: DOBRA FINAL: RESPEITO E PROFISSIONALISMO
-- L3229-3231: <section> section-dark trust-block
-- L3232-3258: H2: VOCÊ SABE O QUE ESTÁ CONTRATANDO
-- L3259: -- SECTION 9: FAQ
-- L3260: <section> section-dark faq-block
-- L3261-3262: <header> faq-block__header
-- L3263-3313: H2: PERGUNTAS FREQUENTES
-- L3314: -- SECTION 10: MINIMAL FOOTER
-- L3315-3348: <footer> contato
-- L4154: -- Contador de visitas da IG (métricas do CRM)
+- L3013: <article> passo
+- L3014: <article> passo
+- L3015: <article> passo
+- L3016: <article> passo
+- L3017-3025: <article> passo
+- L3026: -- SECTION 7: OFFER
+- L3027-3029: <section> section-dark offer-block
+- L3030-3041: H2: NA MEDIDA DO QUE VOCÊ JÁ É.
+- L3042: -- SECTION 7B: FORMULÁRIO DE ORÇAMENTO (dobra visível, não modal)
+- L3043-3045: <section> orcamento
+- L3046-3063: H2: ESCOLHA O QUE VOCÊ PRECISA
+- L3064: -- ABA MARCA
+- L3065-3103: <form> form-marca
+- L3104: -- ABA SITE
+- L3105-3165: <form> form-site
+- L3166: -- ABA SISTEMA
+- L3167-3221: <form> form-sistema
+- L3222: -- SECTION 7C: VÍDEO + WHATSAPP (seção branca)
+- L3223-3228: <section> video
+- L3232: -- SECTION 8: DOBRA FINAL: RESPEITO E PROFISSIONALISMO
+- L3233-3235: <section> section-dark trust-block
+- L3236-3262: H2: VOCÊ SABE O QUE ESTÁ CONTRATANDO
+- L3263: -- SECTION 9: FAQ
+- L3264: <section> section-dark faq-block
+- L3265-3266: <header> faq-block__header
+- L3267-3317: H2: PERGUNTAS FREQUENTES
+- L3318: -- SECTION 10: MINIMAL FOOTER
+- L3319-3352: <footer> contato
+- L4158-4159: -- Contador de visitas da IG (métricas do CRM)
 
 ### Partes do CSS
 - L231-239: Fonte Inter embutida no próprio arquivo: nada é carregado do Google
@@ -194,102 +196,114 @@ Gerado por mapa.py. Ler este mapa antes de abrir qualquer arquivo e abrir so as 
 - L2208-2219: o fundo branco do video some sobre o grid do hero
 - L2220-2239: tablet e celular: texto em cima, desenho embaixo, sem sobreposicao
 - L2240-2263: CASES: SÓ AS HEROS, EM CARROSSEL
-- L2264-2292: RODAPÉ ORGANIZADO
-- L2293-2343: CASES: MARCA E SISTEMA COM SCROLL NARRATIVO
-- L2344-2353: modo com pin (o GSAP liga no desktop)
-- L2354-2368: galeria com todas as aplicações da marca
-- L2369-2400: frente clara
-- L2401-2429: CASES: FAIXA CONTÍNUA, PASSANDO SOZINHA
-- L2430-2431: SEÇÃO BRANCA: VÍDEO + WHATSAPP
-- L2432-2450: mesma cor do fundo do vídeo: a borda do vídeo some
-- L2451-2463: bordas do vídeo se dissolvem no fundo da seção
-- L2465-2562: GALERIA DE MARCAS + MANUAL EM TELA CHEIA
+- L2264-2296: RODAPÉ ORGANIZADO
+- L2297-2347: CASES: MARCA E SISTEMA COM SCROLL NARRATIVO
+- L2348-2357: modo com pin (o GSAP liga no desktop)
+- L2358-2372: galeria com todas as aplicações da marca
+- L2373-2404: frente clara
+- L2405-2433: CASES: FAIXA CONTÍNUA, PASSANDO SOZINHA
+- L2434-2435: SEÇÃO BRANCA: VÍDEO + WHATSAPP
+- L2436-2454: mesma cor do fundo do vídeo: a borda do vídeo some
+- L2455-2467: bordas do vídeo se dissolvem no fundo da seção
+- L2469-2566: GALERIA DE MARCAS + MANUAL EM TELA CHEIA
 
 ### Funcoes e eventos do JS
-- L3356-3358: wrapWords()
-- L3359-3399: walk()
-- L3400-3450: revealElement()
-- L3451-3454: evento loadedmetadata
-- L3455-3471: tryPlay()
-- L3472: evento loadeddata
-- L3473-3474: evento pause
-- L3475-3477: evento visibilitychange
-- L3478: evento pageshow
-- L3479: evento focus
-- L3480: evento touchstart
-- L3481: evento touchend
-- L3482-3498: evento click
-- L3499-3508: redesenhar()
-- L3509-3515: evento ended
-- L3516-3527: evento visibilitychange
-- L3528-3540: encaixar()
-- L3541: evento resize
-- L3542-3552: evento load
-- L3553-3578: evento click
-- L3579-3590: ativar()
-- L3591: evento click
-- L3592-3602: evento keydown
-- L3603-3629: evento submit
-- L3630: tocar()
-- L3631: evento loadeddata
-- L3632: evento pause
-- L3633: evento ended
-- L3634: evento visibilitychange
-- L3635-3650: evento pageshow
-- L3651-3655: ajustar()
-- L3656: evento load
-- L3657-3658: evento resize
-- L3659: evento touchstart
-- L3660: evento touchend
-- L3661-3679: evento touchcancel
-- L3680-3684: evento click
-- L3685-3688: slideWidth()
-- L3689-3695: currentIndex()
-- L3696-3701: setActive()
-- L3702-3708: goTo()
-- L3709-3713: evento scroll
-- L3714: evento click
-- L3715-3717: evento click
-- L3718-3727: evento resize
-- L3728-3736: evento mousedown
-- L3737-3743: evento mousemove
-- L3744-3749: endDrag()
-- L3750: evento mouseup
-- L3751-3753: evento mouseleave
-- L3754-3760: evento click
-- L3761: proximo()
-- L3762: iniciar()
-- L3763-3764: parar()
-- L3765: evento mouseenter
-- L3766: evento mouseleave
-- L3767: evento touchstart
-- L3768-3777: evento focusin
-- L3778-3786: evento keydown
-- L3797-3817: update()
-- L3818-3824: onScroll()
-- L3825: evento scroll
-- L3826-3829: evento resize
-- L3912-3913: -- sourceMappingURL=lenis.min.js.map
-- L3920-3950: dist()
-- L3951-3961: monta()
-- L3962: evento click
-- L3963: evento scroll
-- L3964: evento resize
-- L3965-3967: evento keydown
-- L3968-3982: pagina()
-- L3983-3996: mede()
-- L3997: agenda()
-- L3998-4016: desenha()
-- L4017-4030: abre()
-- L4031-4045: evento click
-- L4046-4061: voa()
-- L4062: pedeFechar()
-- L4063-4064: fecha()
-- L4065-4078: fim()
-- L4079: evento popstate
-- L4080-4085: evento click
-- L4103-4109: evento click
-- L4110-4153: evento load
+- L3360-3362: wrapWords()
+- L3363-3403: walk()
+- L3404-3454: revealElement()
+- L3455-3458: evento loadedmetadata
+- L3459-3475: tryPlay()
+- L3476: evento loadeddata
+- L3477-3478: evento pause
+- L3479-3481: evento visibilitychange
+- L3482: evento pageshow
+- L3483: evento focus
+- L3484: evento touchstart
+- L3485: evento touchend
+- L3486-3502: evento click
+- L3503-3512: redesenhar()
+- L3513-3519: evento ended
+- L3520-3531: evento visibilitychange
+- L3532-3544: encaixar()
+- L3545: evento resize
+- L3546-3556: evento load
+- L3557-3582: evento click
+- L3583-3594: ativar()
+- L3595: evento click
+- L3596-3606: evento keydown
+- L3607-3633: evento submit
+- L3634: tocar()
+- L3635: evento loadeddata
+- L3636: evento pause
+- L3637: evento ended
+- L3638: evento visibilitychange
+- L3639-3654: evento pageshow
+- L3655-3659: ajustar()
+- L3660: evento load
+- L3661-3662: evento resize
+- L3663: evento touchstart
+- L3664: evento touchend
+- L3665-3683: evento touchcancel
+- L3684-3688: evento click
+- L3689-3692: slideWidth()
+- L3693-3699: currentIndex()
+- L3700-3705: setActive()
+- L3706-3712: goTo()
+- L3713-3717: evento scroll
+- L3718: evento click
+- L3719-3721: evento click
+- L3722-3731: evento resize
+- L3732-3740: evento mousedown
+- L3741-3747: evento mousemove
+- L3748-3753: endDrag()
+- L3754: evento mouseup
+- L3755-3757: evento mouseleave
+- L3758-3764: evento click
+- L3765: proximo()
+- L3766: iniciar()
+- L3767-3768: parar()
+- L3769: evento mouseenter
+- L3770: evento mouseleave
+- L3771: evento touchstart
+- L3772-3781: evento focusin
+- L3782-3790: evento keydown
+- L3801-3821: update()
+- L3822-3828: onScroll()
+- L3829: evento scroll
+- L3830-3833: evento resize
+- L3916-3917: -- sourceMappingURL=lenis.min.js.map
+- L3924-3954: dist()
+- L3955-3965: monta()
+- L3966: evento click
+- L3967: evento scroll
+- L3968: evento resize
+- L3969-3971: evento keydown
+- L3972-3986: pagina()
+- L3987-4000: mede()
+- L4001: agenda()
+- L4002-4020: desenha()
+- L4021-4034: abre()
+- L4035-4049: evento click
+- L4050-4065: voa()
+- L4066: pedeFechar()
+- L4067-4068: fecha()
+- L4069-4082: fim()
+- L4083: evento popstate
+- L4084-4089: evento click
+- L4107-4113: evento click
+- L4114-4157: evento load
+- L4202-4208: ler()
+- L4209-4212: id()
+- L4213-4219: registrar()
+- L4220-4230: salvar()
+- L4231: el()
+- L4232-4233: botao()
+- L4232-4233: evento click
+- L4234-4278: montar()
+- L4279-4289: fechar()
+- L4290-4291: iniciar()
+- L4292-4296: evento click
+- L4297-4299: evento DOMContentLoaded
 
 ## contrato/index.html
 
