@@ -147,7 +147,7 @@ footer{padding:30px 0 60px;color:var(--cinza2);font-size:12px}
     <span class="rotulo">Contrato</span>
     <h1>Este link não está disponível</h1>
     <p class="lead">O contrato pode ter sido atualizado ou cancelado. Fale com a IG Assessoria para receber o link certo.</p>
-    <a class="cta" id="zap-ig" href="https://wa.me/558396243847" target="_blank" rel="noopener">Falar no WhatsApp</a>
+    <a class="cta" id="zap-ig" href="https://wa.me/558398728515" target="_blank" rel="noopener">Falar no WhatsApp</a>
   </div>
 
   <div id="contrato" hidden>
@@ -216,7 +216,7 @@ footer{padding:30px 0 60px;color:var(--cinza2);font-size:12px}
     <p class="lead" id="a-texto"></p>
     <div class="selo" id="a-selo"></div>
     <button type="button" class="cta" id="baixar">Baixar minha via em PDF</button>
-    <a class="cta fantasma" id="a-zap" href="https://wa.me/558396243847" target="_blank" rel="noopener">Voltar ao WhatsApp da IG</a>
+    <a class="cta fantasma" id="a-zap" href="https://wa.me/558398728515" target="_blank" rel="noopener">Voltar ao WhatsApp da IG</a>
     <p class="miudo" id="a-dica">No celular, toque em Baixar e escolha "Salvar como PDF" ou "Imprimir".</p>
   </div>
 </main>
@@ -236,7 +236,7 @@ footer{padding:30px 0 60px;color:var(--cinza2);font-size:12px}
     cnpj: '62.231.198/0001-71',
     cidade: 'Emas, PB',
     email: 'igorrufinofigueiredo@gmail.com',
-    whatsapp: '(83) 9624-3847',
+    whatsapp: '(83) 9872-8515',
     foro: 'Piancó, PB'
   };
 
@@ -909,7 +909,7 @@ footer{padding:30px 0 60px;color:var(--cinza2);font-size:12px}
       : 'Este contrato foi assinado em ' + new Date(a.assinado_em).toLocaleString('pt-BR') + '. Você pode baixar a sua via quando quiser.';
     $('a-selo').innerHTML = '<div>Protocolo<b>' + IGContrato.esc(a.protocolo) + '</b></div><div>Assinado em<b>' + new Date(a.assinado_em).toLocaleString('pt-BR') + '</b></div><div>Código de verificação<b>' + IGContrato.esc(a.codigo) + '</b></div>';
     var msg = 'Oi, Igor! Acabei de assinar o contrato. Protocolo ' + a.protocolo + '.';
-    $('a-zap').href = 'https://wa.me/558396243847?text=' + encodeURIComponent(msg);
+    $('a-zap').href = 'https://wa.me/558398728515?text=' + encodeURIComponent(msg);
     $('passo-atual').textContent = 'Assinado';
     $('barra').style.width = '100%';
     mostrar('assinado');

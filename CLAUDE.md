@@ -23,7 +23,7 @@ Site institucional da IG Assessoria (marca, sites e sistemas), no ar em https://
 ## Regras do projeto
 
 - Visual editorial monocromático da IG; nada de travessão nem texto com cara de IA.
-- Todos os botões abrem o WhatsApp +55 83 9624-3847 com mensagem pronta.
+- Todos os botões abrem o WhatsApp +55 83 9872-8515 com mensagem pronta.
 - O site não carrega nada de fora (fonte, imagem, biblioteca): tudo continua embutido.
 - Editar só o trecho que muda. Não reescrever o arquivo inteiro.
 - Antes de publicar: revisar alinhamento, sobreposição e textos no celular, e conferir formulário e botões de WhatsApp.

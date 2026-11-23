@@ -6,7 +6,7 @@ Gerado por mapa.py. Ler este mapa antes de abrir qualquer arquivo e abrir so as 
 
 - 4158 linhas. 2537 KB. cerca de 649.612 tokens se lido inteiro
 - 28 linhas pesadas somam 2379 KB: NUNCA ler essas linhas
-- assinatura do arquivo: a21faab792 (se mudar, rodar o mapa de novo)
+- assinatura do arquivo: 6be5b2cd34 (se mudar, rodar o mapa de novo)
 
 ### Linhas proibidas (pular na leitura)
 - L237: arquivo embutido (font/woff2), 62 KB
@@ -295,7 +295,7 @@ Gerado por mapa.py. Ler este mapa antes de abrir qualquer arquivo e abrir so as 
 
 - 937 linhas. 91 KB. cerca de 23.530 tokens se lido inteiro
 - 1 linhas pesadas somam 23 KB: NUNCA ler essas linhas
-- assinatura do arquivo: 8de2a7e0b0 (se mudar, rodar o mapa de novo)
+- assinatura do arquivo: 52e45d8a88 (se mudar, rodar o mapa de novo)
 
 ### Linhas proibidas (pular na leitura)
 - L137: arquivo embutido (image/png), 23 KB
@@ -376,7 +376,7 @@ Gerado por mapa.py. Ler este mapa antes de abrir qualquer arquivo e abrir so as 
 
 - 98 linhas. 3 KB. cerca de 1.005 tokens se lido inteiro
 - 0 linhas pesadas somam 0 KB: NUNCA ler essas linhas
-- assinatura do arquivo: 779d583e15 (se mudar, rodar o mapa de novo)
+- assinatura do arquivo: d160d4fc43 (se mudar, rodar o mapa de novo)
 
 ### Blocos de estilo e script
 - L7-7: <style id="ig-antiquadro">
